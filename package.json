@@ -1,0 +1,40 @@
+{
+  "name": "webtechassignment",
+  "version": "1.0.0",
+  "description": "simple app for managing shutter orders",
+  "main": "app.js",
+  "scripts": {
+    "start": "",
+    "test": "mocha",
+    "dev": "concurrently \"nodemon app.js\" \"cd client && npm start\""
+  },
+  "keywords": [
+    "shutter",
+    "window",
+    "node",
+    "express",
+    "mongo",
+    "react"
+  ],
+  "author": "dombigreta",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mongodb": "^3.2.3",
+    "nodemon": "^1.19.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "morgan": "^1.9.1",
+    "sinon": "^7.3.2",
+    "chai": "^4.2.0"
+  }
+}
