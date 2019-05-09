@@ -14,3 +14,9 @@ export function getShutterTypes(){
         type:CUSTOMER_STORE_ACTIONS.GET_SHUTTER_TYPES
     })
 }
+
+export function getCustomerData(){
+    CustomerDispatcher.handleAction({
+        type:CUSTOMER_STORE_ACTIONS.GET_CUSTOMER_DATA
+    })
+}

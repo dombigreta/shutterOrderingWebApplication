@@ -1,0 +1,31 @@
+{
+    "_id":ObjectId("5cd40e54e61b4462dfbf361c"),
+    "name":"Waterproof Shutter",
+    "basePrice":10000,
+    "currency":"HUF"
+
+}
+
+{
+    "_id":ObjectId("5cd40e64e78471307617d1bb"),
+    "name":"Conservatory Shutter",
+    "basePrice":30000,
+    "currency":"HUF"
+
+}
+
+{
+    "_id":ObjectId("5cd40e6a70a76d64fa5eccdb"),
+    "name":"Bay Window Shutter",
+    "basePrice":20000,
+    "currency":"HUF"
+
+}
+
+{
+    "_id":ObjectId("5cd40e717a661d8c631792f3"),
+    "name":"Solid Shutter",
+    "basePrice":15000,
+    "currency":"HUF"
+
+}

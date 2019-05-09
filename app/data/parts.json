@@ -1,0 +1,45 @@
+{
+    "_id" : ObjectId("5cd45b88bd2c9923a0712487"),
+    "name":"Stile",
+    "price":"5000",
+    "currency":"HUF"
+}
+
+
+{
+    "_id" : ObjectId("5cd45b94ae12367da257f98f"),
+    "name":"Stile",
+    "price":"5000",
+    "currency":"HUF"
+}
+
+
+{
+    "_id" : ObjectId("5cd45b9970fe3a3daf8cc82a"),
+    "name":"Top Rail",
+    "price":"10000",
+    "currency":"HUF"
+}
+
+
+{
+    "_id" : ObjectId("5cd45b9e7a4c016ed6e4fce9"),
+    "name":"Bottom Rail",
+    "price":"5000",
+    "currency":"HUF"
+}
+
+
+{
+    "_id" : ObjectId("5cd45ba39ee9fe4647d08855"),
+    "name":"Hanging Hinge",
+    "price":"3000",
+    "currency":"HUF"
+}
+
+{
+    "_id" : ObjectId("5cd45ba80c8c6fa598c3cbba"),
+    "name":"Mid Rail",
+    "price":"8000",
+    "currency":"HUF"
+}

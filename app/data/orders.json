@@ -1,0 +1,47 @@
+{
+    "_id" : ObjectId("5cd408ea629a211e6637116c"),
+    "customerId":  ObjectId("5ccf084196f89468f458cfbf"),
+    "dueDateOfAssembling" : ISODate("2019-05-31T00:00:00.000Z"),
+    "dateOfSubmittingOrder": ISODate("2019-04-20T00:00:00.000Z"),
+    "isInProgress" : true,
+    "isDone":false,
+    "isPayed" : false,
+    "price" : 12240,
+    "currency":"HUF",
+    "window": {"height":100, "width":300},
+    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
+    "parts":[ ObjectId("5cd408ea629a211e6637116c")]
+}
+
+
+{
+    "_id" : ObjectId("5cd40ceec265336c42b11771"),
+    "customerId":  ObjectId("5ccf084196f89468f458cfbf"),
+    "dueDateOfAssembling" : ISODate("2019-05-30T00:00:00.000Z"),
+    "dateOfSubmittingOrder": ISODate("2019-04-01T00:00:00.000Z"),
+    "isInProgress" : false,
+    "isDone":true,
+    "isPayed" : true,
+    "price" : 100000,
+    "currency":"HUF",
+    "window": {"height":200, "width":200},
+    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
+    "parts":[ObjectId("5cd408ea629a211e6637116c"), ObjectId("5cd408ea629a211e6637116c")]
+}
+
+{
+    "_id" : ObjectId("5cd40d005bcbdc6d30a954cf"),
+    "customerId":  ObjectId("5ccf084196f89468f458cfbf"),
+    "dueDateOfAssembling" : ISODate("2019-06-15T00:00:00.000Z"),
+    "dateOfSubmittingOrder": ISODate("2019-05-24T00:00:00.000Z"),
+    "isInProgress" : false,
+    "isDone":false,
+    "isPayed" : false,
+    "price" : 300000,
+    "currency":"HUF",
+    "window": {"height":300, "width":400},
+    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
+    "parts":[]
+}
+
+

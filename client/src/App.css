@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size:0.9rem;
 }
 
 .App-logo {
@@ -21,6 +22,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.fancy-font-size{
+  font-size:0.9rem;
 }
 
 @keyframes App-logo-spin {

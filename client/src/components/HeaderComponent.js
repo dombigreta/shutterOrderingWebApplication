@@ -19,7 +19,7 @@ class HeaderComponent extends React.Component{
 
     render(){
         return(<nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div>
           <ul className="navbar-nav">
             {this.createHeaderLinks()}
           </ul>

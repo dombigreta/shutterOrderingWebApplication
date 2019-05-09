@@ -1,0 +1,27 @@
+{
+    "_id" : ObjectId("5ccf084196f89468f458cfbf"),
+    "firstName" : "Zsuzsanna",
+    "lastName": "Vas",
+    "email" : "vaszsuzs@gmail.com",
+    "city":"Miskolc",
+    "address" : "Kaptar u.34"
+}
+
+
+{
+    "_id" : ObjectId("5cd40776f106130dc918d6ba"),
+    "firstName" : "Foldessy",
+    "lastName": "Csanad",
+    "email" : "csani@citrommail.com",
+    "city":"Eger",
+    "address" : "Nagy Laszlo u. 34"
+}
+
+{
+    "_id" : ObjectId("5cd408dc228c3c9ab0e9a85d"),
+    "firstName" : "Berki",
+    "lastName": "Aranka",
+    "email" : "aranka21@gmail.com",
+    "city":"Alsogagy",
+    "address" : "Bem rkp. 52."
+}
