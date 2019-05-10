@@ -1,6 +1,7 @@
 const connection = require('../mongo.connection');
 const test = require('assert');
-const ObjectId =require('mongodb').ObjectID;
+const ObjectId = require('mongodb').ObjectID;
+
 
 function viewOwnOrders(customerId, callback){
     const db = connection.getDatabase();
@@ -14,10 +15,23 @@ function viewOwnOrders(customerId, callback){
 function createOrder(order,callback){
     const db = connection.getDatabase();
     const collection = db.collection('orders')
-    collection.insertOne(order, (err, data) => {
-        test.strictEqual(null, err);
-        test.strictEqual(1, data.insertedCount)
-    })
+    collection.insertOne({
+    "customerId":  ObjectId(order.customerId),
+    "dueDateOfAssembling" : order.dateOfSubmittingOrder == null ? null : new Date(order.dueDateOfAssembling),
+    "dateOfSubmittingOrder": new Date(order.dateOfSubmittingOrder),
+    "isInProgress" : order.isInProgress,
+    "isDone":order.isDone,
+    "isPayed" : order.isPayed,
+    "price" : order.price,
+    "currency":order.currency,
+    "window": {"height":order.window.height, "width":order.window.width},
+    "shutter": order.shutter,
+    "parts":[]
+    }, (err, data) => {
+         test.strictEqual(null, err);
+         test.strictEqual(1, data.insertedCount)
+         callback(true);
+     })
 }
 
 function getShutterTypes(callback){
@@ -38,6 +52,7 @@ function getCustomerDataByCustomerId(customerId, callback){
         callback(data);
     })
 }
+
 
 module.exports = {
     viewOwnOrders,

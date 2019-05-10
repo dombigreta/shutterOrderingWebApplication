@@ -13,7 +13,7 @@ CustomerService.prototype.getShutterTypes = function(callback){
 }
 
 CustomerService.prototype.createOrder = function(order,callback){
-
+    this.dao.createOrder(order,(result) => callback(result));
 }
 
 CustomerService.prototype.getCustomerDataByCustomerId = function(customerId, callback){

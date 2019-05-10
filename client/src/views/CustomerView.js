@@ -6,17 +6,12 @@ import  CreateOrderComponent from '../components/CreateOrderComponent'
 class CustomerView extends React.Component{
 
     state = {
-        ownOrders:CustomerStore._ownOrders,
-        shutterTypes:CustomerStore._shutterTypes,
-        customerData: CustomerStore._customerData
-
+        ownOrders:CustomerStore._ownOrders
     }
     
     componentDidMount(){
         CustomerStore.addChangeListener(this.onChange);
         CustomerActions.getOwnOrders();
-        CustomerActions.getShutterTypes();
-        CustomerActions.getCustomerData();
        
     }
     componentWillUnmount(){
@@ -25,7 +20,7 @@ class CustomerView extends React.Component{
 
     
     onChange = () => {
-        this.setState({ownOrders: CustomerStore._ownOrders, shutterTypes: CustomerStore._shutterTypes, customerData: CustomerStore._customerData});
+        this.setState({ownOrders: CustomerStore._ownOrders});
     }
 
     formatDate = (date) => {
