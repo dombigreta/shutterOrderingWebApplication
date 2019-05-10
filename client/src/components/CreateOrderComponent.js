@@ -101,7 +101,7 @@ class CreateOrderComponent extends React.Component{
     render(){
         if(this.state.shutterTypes.length === 0 || this.state.customerData === undefined) return <div></div>
         return(
-            <form className="p-3 mt-2 bg-light text-dark" onSubmit={this.handleSubmit}>
+            <form className="p-3 mt-2 bg-light text-dark rounded-container mb-3" onSubmit={this.handleSubmit}>
                 <h3>Create a new order</h3>
 
         {/** basic info */}

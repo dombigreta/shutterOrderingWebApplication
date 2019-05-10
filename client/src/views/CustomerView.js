@@ -49,7 +49,6 @@ class CustomerView extends React.Component{
     }
 
     render(){
-        console.log(this.state);
         return(
             <React.Fragment>
                 <div>

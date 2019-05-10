@@ -16,4 +16,4 @@ class WorkerStore extends EventEmitter{
     }
 }
 
-export default WorkerStore;
+export default new WorkerStore();

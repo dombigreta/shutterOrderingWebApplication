@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const mongoConnection  = require('./mongo.connection');
 
 const customerCtrl = require('./controllers/customerCtrl');
+const workerCtrl = require('./controllers/workerCtrl');
 
 const app = express();
 
@@ -20,6 +21,8 @@ mongoConnection.connectToServer((err) => {
 })
 
 app.use('/customer', customerCtrl);
+app.use('/worker', workerCtrl);
+
 
 app.listen(9999,() => console.log('server is running'));
 

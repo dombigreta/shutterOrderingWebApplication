@@ -1,7 +1,5 @@
 const mocha = require('mocha');
 const assert = require('chai').assert;
-const sinon = require('sinon');
-
 
 
 const CustomerService = require('../app/services/customerService');

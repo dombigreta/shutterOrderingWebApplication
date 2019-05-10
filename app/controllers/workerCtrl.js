@@ -6,6 +6,8 @@ const service = new srs();
 
 router.get('/',(req,res) => {
     service.getAllOrders((data) => {
-        res.status(200).send(data);
+        res.send(data);
     })
 });
+
+module.exports = router;

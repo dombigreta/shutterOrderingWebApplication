@@ -21,7 +21,8 @@ dispatcher.register((data) => {
 
     fetch('/worker')
     .then((response) => response.json())
-    .then((data) => console.log(data));
+    .then((data) => WorkerStore._orders = data )
+    .then(() => WorkerStore.emitChange());
 })
 
 export default dispatcher;
