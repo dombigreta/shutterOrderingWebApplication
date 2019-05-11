@@ -50,7 +50,8 @@ dispatcher.register((data) => {
                     'Content-Type': 'application/json' },
                     body:JSON.stringify({customerId: CustomerStore._customerId})})
                     .then((response) => response.json())
-                    .then((data) => CustomerStore._customerData = data);
+                    .then((data) => CustomerStore._customerData = data)
+                    .then(() => CustomerStore.emitChange());
 });
 
 

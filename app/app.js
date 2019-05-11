@@ -6,6 +6,7 @@ const mongoConnection  = require('./mongo.connection');
 
 const customerCtrl = require('./controllers/customerCtrl');
 const workerCtrl = require('./controllers/workerCtrl');
+const managerCtrl = require('./controllers/managerCtrl');
 
 const app = express();
 
@@ -22,7 +23,7 @@ mongoConnection.connectToServer((err) => {
 
 app.use('/customer', customerCtrl);
 app.use('/worker', workerCtrl);
-
+app.use('/manager', managerCtrl);
 
 app.listen(9999,() => console.log('server is running'));
 

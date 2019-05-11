@@ -79,6 +79,7 @@ class CreateOrderComponent extends React.Component{
             price: this.calculateBasePriceByWindowDetails(),
             currency:"HUF",
             window: this.state.windowDetails,
+            workerId:null,
             shutter: this.state.selectedShutterOption,
             parts:[ ]
         }

@@ -14,7 +14,7 @@ class MainContainerComponent extends React.Component{
             <div className="row">
             <div className="col-8 mx-auto mt-2">
                 <Switch>
-                    <Route path="/customer" component={CustomerView}></Route>
+                    <Route exact path="/customer" component={CustomerView}></Route>
                     <Route path="/worker" component={WorkerView}></Route>
                     <Route path="/manager" component={ManagerView}></Route>
                 </Switch>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 class HeaderComponent extends React.Component{
 
@@ -13,7 +13,7 @@ class HeaderComponent extends React.Component{
     createHeaderLinks = () => {
         return this.state.links.map((link, i) => 
         <li className="nav-item mr-2" key={i}>
-        <Link to={link.urlName}>{link.displayName}</Link>
+        <NavLink to={link.urlName}>{link.displayName}</NavLink>
         </li>)
     }
 

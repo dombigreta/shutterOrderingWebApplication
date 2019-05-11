@@ -27,6 +27,15 @@
   font-size:0.9rem;
 }
 
+.worker-container-style{
+  display: flex;
+  flex-direction: column 
+}
+.customer-container-style{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .rounded-container{
   border-radius: .25rem;
 }

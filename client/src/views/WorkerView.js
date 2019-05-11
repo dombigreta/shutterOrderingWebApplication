@@ -1,15 +1,25 @@
 import React from 'react';
 import * as WorkerActions from '../store/WorkerStore/WorkerActions';
 import WorkerStore from '../store/WorkerStore/WorkerStore';
+import {Switch, Route} from 'react-router-dom';
+import * as VIEWS from './ViewConstants';
+
+import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
+import OrderCardComponent from '../components/OrderCardComponent';
+import AddPartsComponent from '../components/AddPartsComponent';
+
 
 class WorkerView extends React.Component{
     state = {
-        orders:WorkerStore._orders
+        orders:WorkerStore._orders,
+        parts:WorkerStore._parts,
+        editingOrder:null
     }
     
     componentDidMount(){
         WorkerStore.addChangeListener(this.onChange);
         WorkerActions.getAllOrders();
+        WorkerActions.getAllParts();
        
     }
     componentWillUnmount(){
@@ -18,48 +28,33 @@ class WorkerView extends React.Component{
 
     
     onChange = () => {
-        this.setState({orders:WorkerStore._orders});
+        this.setState({orders:WorkerStore._orders, parts:WorkerStore._parts});
     }
 
-    formatDate = (date) => {
-        let options = { year: 'numeric', month: 'long', day: 'numeric' };
-        let formattedDate = new Date(date);
-        return formattedDate.toLocaleDateString('en-US', options);
-    }
-    createOrderCell = (order) => {
-        return (
-            <div key={order._id} className="card mb-2 col-12 fancy-font-size">
-                <div className="card-body">
-                   <div><label className="font-weight-bold">Date of ordering: </label> {this.formatDate(order.dateOfSubmittingOrder)}</div>
-                   <div><label className="font-weight-bold">Has been paid: </label> {order.isPaid ? 'yes' : 'no'}</div>
-                   <div><label className="font-weight-bold">State of order:</label> {order.isInProgress ? 'In progress' : (order.isDone ? 'Done': 'Not yet assembled')}</div>
-                   <div><label className="font-weight-bold">Price:</label> {order.price} {order.currency}</div>
-                   <div className="p-3 mb-2 bg-info text-white">
-                      <h6 className="font-weight-bold">Window parameters:</h6>
-                        <div className="d-flex">
-                        <div className="m-1"><label className="font-weight-bold">Height </label> {order.window.height} cm</div>
-                        <div className="m-1"><label className="font-weight-bold">Width: </label> {order.window.height} cm</div>
-                        </div>
-                   </div>
-                 </div>
-            </div>
-        )
+    handleOrderSelection = (orderId) => {
+        let order = this.state.orders.filter(order => order._id === orderId)[0];
+        this.setState({editingOrder:order});
     }
 
     render(){
         return(
-            <React.Fragment>
-                <div>
-                <h4>All orders</h4>
-                    <div className="d-flex flex-column">
-                    {
-                        this.state.orders.map((order) => {
-                                return this.createOrderCell(order)
-                        })
-                    }
-                    </div>          
-            </div>
-            </React.Fragment>)
+            <Switch>
+                 <Route exact path='/worker' render={(props) =>(
+                    <OrderCardContainerComponent 
+                        orders={this.state.orders}
+                        setEditingOrder={(orderId) => this.handleOrderSelection(orderId)} 
+                        isFullViewRequired={true}
+                        title={`All orders`}
+                        currentView={VIEWS.WORKER_VIEW}
+                        {...props} />
+
+                 )}/>
+                 <Route path='/worker/:number' render={(props) => (
+                     <OrderCardComponent order={this.state.editingOrder} {...props} >
+                     <AddPartsComponent/>
+                     </OrderCardComponent>
+                 )}/>
+            </Switch>)
     }
 }
 
