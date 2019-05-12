@@ -5,15 +5,16 @@ import {Switch, Route} from 'react-router-dom';
 import * as VIEWS from './ViewConstants';
 
 import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
-import OrderCardComponent from '../components/OrderCardComponent';
-import AddPartsComponent from '../components/AddPartsComponent';
+import WorkerOrderCardComponent from '../components/WorkerOrderCardComponent';
+import { isNullOrUndefined } from 'util';
 
 
 class WorkerView extends React.Component{
     state = {
         orders:WorkerStore._orders,
         parts:WorkerStore._parts,
-        editingOrder:null
+        editingOrder:null,
+        addtionalPrice:0
     }
     
     componentDidMount(){
@@ -36,6 +37,23 @@ class WorkerView extends React.Component{
         this.setState({editingOrder:order});
     }
 
+  
+    handleFinishingOrder = () => {
+        if(isNullOrUndefined(this.state.editingOrder)){
+            return;
+        }
+        let orderId = this.state.editingOrder._id;
+        WorkerActions.finishOrder(orderId);
+    }
+
+    handleAssemblingOrder = () => {
+        if(isNullOrUndefined(this.state.editingOrder)){
+            return;
+        }
+        let orderId = this.state.editingOrder._id;
+        WorkerActions.startAssemblingOrder(orderId);
+    }
+
     render(){
         return(
             <Switch>
@@ -49,10 +67,8 @@ class WorkerView extends React.Component{
                         {...props} />
 
                  )}/>
-                 <Route path='/worker/:number' render={(props) => (
-                     <OrderCardComponent order={this.state.editingOrder} {...props} >
-                     <AddPartsComponent/>
-                     </OrderCardComponent>
+                 <Route path='/worker/order/:number' render={(props) => (
+                  <WorkerOrderCardComponent  {...props}/>  
                  )}/>
             </Switch>)
     }

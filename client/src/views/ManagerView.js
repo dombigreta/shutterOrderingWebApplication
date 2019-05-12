@@ -5,18 +5,21 @@ import {Switch, Route} from 'react-router-dom';
 import * as VIEWS from './ViewConstants';
 
 import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
-import OrderCardComponent from '../components/OrderCardComponent';
+import ManagerOrderCardComponent from '../components/ManagerOrderCardComponent';
+
+import OrganiseInstallationComponent from '../components/OrganiseInstallationComponent';
 
 class ManagerView extends React.Component{
 
     state = {
         orders: ManagerStore._orders,
-        editingOrder:null
+        workers: ManagerStore._workers
     }
 
     componentDidMount(){
         ManagerStore.addChangeListener(this.onChange);
         ManagerActions.getAllOrders();
+        ManagerActions.getWorkersDataForInstallation();
     }
 
     componentWillUnmount(){
@@ -24,29 +27,23 @@ class ManagerView extends React.Component{
     }
 
     onChange = () => {
-        this.setState({orders:ManagerStore._orders});
-    }
-
-
-    handleOrderSelection = (orderId) => {
-        let order = this.state.orders.filter(order => order._id == orderId)[0];
-        this.setState({editingOrder:order});
+        this.setState({orders:ManagerStore._orders, workers: ManagerStore._workers});
     }
 
     render(){
+
         return(
             <Switch>
                 <Route exact path='/manager' render={(props) => (
                     <OrderCardContainerComponent
                             orders={this.state.orders}
-                            setEditingOrder={(orderId) => this.handleOrderSelection(orderId)} 
                             isFullViewRequired={true}
                             title={`Finished jobs`}
                             currentView={VIEWS.MANAGER_VIEW}
                             {...props}/>
                 )}/>
-                <Route path='/manager/:number' render={(props) => (
-                     <OrderCardComponent order={this.state.editingOrder} {...props} />
+                <Route path='/manager/order/:number' render={(props) => (
+                     <ManagerOrderCardComponent {...props}/>
                  )}/>
             </Switch>
         )

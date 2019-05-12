@@ -2,6 +2,9 @@ import EventEmitter from 'events';
 
 class ManagerStore extends EventEmitter{
     _orders = [];
+    _workers = [];
+    _customerData = null;
+    _editingOrder = null;
     
     emitChange(){
         this.emit('change');

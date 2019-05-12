@@ -11,7 +11,7 @@
     "window": {"height":100, "width":300},
     "workerId": ObjectId("5cd67c69e83d2bde68bbdc12"),
     "shutter": ObjectId("5ccf084196f89468f458cfbf"),
-    "parts":[ ObjectId("5cd408ea629a211e6637116c")]
+    "parts":[ ObjectId("5cd45b94ae12367da257f98f")]
 }
 
 
@@ -28,7 +28,7 @@
     "window": {"height":200, "width":200},
     "workerId": ObjectId("5cd67c69e83d2bde68bbdc12"),
     "shutter": ObjectId("5ccf084196f89468f458cfbf"),
-    "parts":[ObjectId("5cd408ea629a211e6637116c"), ObjectId("5cd408ea629a211e6637116c")]
+    "parts":[ObjectId("5cd45b9970fe3a3daf8cc82a"), ObjectId("5cd408ea629a211e6637116c")]
 }
 
 {
@@ -61,7 +61,7 @@
     "window": {"height":200, "width":200},
     "workerId": ObjectId("5cd67cc2d920a833fb79eb76"),
     "shutter": ObjectId("5ccf084196f89468f458cfbf"),
-    "parts":[ObjectId("5cd408ea629a211e6637116c"), ObjectId("5cd45ba80c8c6fa598c3cbba")]
+    "parts":[ObjectId("5cd45b9e7a4c016ed6e4fce9"), ObjectId("5cd45ba39ee9fe4647d08855")]
 }
 
 
@@ -79,7 +79,7 @@
     "window": {"height":200, "width":200},
     "workerId": ObjectId("5cd67cc2d920a833fb79eb76"),
     "shutter": ObjectId("5cd40e64e78471307617d1bb"),
-    "parts":[ObjectId("5cd408ea629a211e6637116c"), ObjectId("5cd45ba80c8c6fa598c3cbba")]
+    "parts":[ObjectId("5cd45ba80c8c6fa598c3cbba"), ObjectId("5cd45b9970fe3a3daf8cc82a")]
 }
 
 
@@ -96,7 +96,7 @@
     "window": {"height":200, "width":200},
     "workerId": ObjectId("5cd67c69e83d2bde68bbdc12"),
     "shutter": ObjectId("5cd40e717a661d8c631792f3"),
-    "parts":[ObjectId("5cd408ea629a211e6637116c"), ObjectId("5cd45ba80c8c6fa598c3cbba")]
+    "parts":[ObjectId("5cd45ba80c8c6fa598c3cbba"), ObjectId("5cd45b9e7a4c016ed6e4fce9")]
 }
 
 

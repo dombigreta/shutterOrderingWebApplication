@@ -25,7 +25,7 @@ function createOrder(order,callback){
     "price" : order.price,
     "currency":order.currency,
     "window": {"height":order.window.height, "width":order.window.width},
-    "shutter": order.shutter,
+    "shutter": ObjectId(order.shutter),
     "parts":[]
     }, (err, data) => {
          test.strictEqual(null, err);

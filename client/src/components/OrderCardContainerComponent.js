@@ -32,9 +32,8 @@ class OrderCardContainerComponent extends React.Component{
 
     navigateToOrder = (orderId) => {
         if(this.props.currentView === VIEWS.CUSTOMER_VIEW) return;
-        this.props.setEditingOrder(orderId);
         let baseUrl = this.props.currentView;
-        this.props.history.push(`${baseUrl}/${orderId}`);
+        this.props.history.push(`${baseUrl}/order/${orderId}`);
     } 
 
     render(){

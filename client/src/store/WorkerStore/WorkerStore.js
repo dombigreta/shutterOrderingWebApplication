@@ -3,6 +3,7 @@ import EventEmitter from 'events';
 class WorkerStore extends EventEmitter{
     _orders = [];
     _parts = [];
+    __editingOrder = null;
     _workerId = '5cd67c69e83d2bde68bbdc12'
 
     emitChange(){
