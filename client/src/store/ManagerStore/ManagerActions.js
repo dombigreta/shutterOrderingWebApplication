@@ -34,3 +34,9 @@ export function organiseInstallation(orderId, workerId){
         workerId:workerId
     })
 }
+
+export function setEditingOrderUndefined(){
+    ManagerDispatcher.handleAction({
+        type:MANAGER_STORE_ACTIONS.SET_EDITING_ORDER_UNDEFINED
+    });
+}

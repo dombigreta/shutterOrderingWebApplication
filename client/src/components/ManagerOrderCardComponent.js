@@ -8,12 +8,16 @@ import ManagerStore from '../store/ManagerStore/ManagerStore';
 class ManagerOrderCardComponent extends React.Component{
 
     state = {
-        order: ManagerStore._editingOrder
+        order: ManagerStore._editingOrder,
+        workers: ManagerStore._workers,
+        selectedWorker:null
     }
 
     componentDidMount(){
+        let orderId = this.props.match.params.number;
         ManagerStore.addChangeListener(this.handleChange);
-        ManagerActions.getOrderById('5cd40ceec265336c42b11771');        
+        ManagerActions.getOrderById(orderId);
+        ManagerActions.getWorkersDataForInstallation();      
     }
 
     componentWillUnmount(){
@@ -21,7 +25,13 @@ class ManagerOrderCardComponent extends React.Component{
     }
 
     handleChange = () => {
-        this.setState({order:ManagerStore._editingOrder});
+        this.setState({order:ManagerStore._editingOrder, workers:ManagerStore._workers}, () => {
+                if(!isNullOrUndefined(this.state.order) && (!isNullOrUndefined(this.state.workers) || this.state.workers.length > 0)){
+                    let worker = this.state.workers.filter(worker => worker._id === this.state.order.workerId)[0];
+                    this.setState({selectedWorker:worker});
+                }
+        
+            });
     }
 
     formatDate = (date) => {
@@ -32,10 +42,11 @@ class ManagerOrderCardComponent extends React.Component{
 
     backToOrders = () => {
        this.props.history.goBack();
+       ManagerActions.setEditingOrderUndefined();
     }
 
 
-    getStateOfOrder(){
+    getStateOfOrder = () => {
         if(this.state.order.isDone){
             return 'Done';
         }
@@ -62,13 +73,23 @@ class ManagerOrderCardComponent extends React.Component{
                    <div className="p-3 mb-2 bg-info text-white">
                       <h6 className="font-weight-bold">Window parameters:</h6>
                         <div className="d-flex">
-                        <div className="m-1"><label className="font-weight-bold">Height </label> {this.state.order.window.height} cm</div>
+                        <div className="m-1"><label className="font-weight-bold">Height: </label> {this.state.order.window.height} cm</div>
                         <div className="m-1"><label className="font-weight-bold">Width: </label> {this.state.order.window.height} cm</div>
                         </div>
                    </div>
+                   {!isNullOrUndefined(this.state.selectedWorker) && <div className="p-3 mb-2 bg-info text-white">
+                      <h6 className="font-weight-bold">Worker info</h6>
+
+                        <div><label className="font-weight-bold">Name: </label> {this.state.selectedWorker.lastName} {this.state.selectedWorker.firstName} </div>
+                        <div><label className="font-weight-bold">Email: </label> {this.state.selectedWorker.email}</div>
+                        <div className="d-flex">
+                            <div className="m-1"><label className="font-weight-bold">City: </label> {this.state.selectedWorker.city}</div>
+                            <div className="m-1"><label className="font-weight-bold">Address: </label> {this.state.selectedWorker.address}</div>
+                    </div>
+                   </div>}
                  </div>
             </div>
-            <OrganiseInstallationComponent/>
+            <OrganiseInstallationComponent customerId={this.state.order.customerId}/>
             </React.Fragment>
         )
     }

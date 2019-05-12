@@ -34,7 +34,7 @@ dispatcher.register((data) => {
         body:JSON.stringify({customerId: data.action.payload})})
         .then((response) => response.json())
         .then((data) => ManagerStore._customerData = data)
-        .then(() => MANAGER_STORE_ACTIONS.emitChange());
+        .then(() => ManagerStore.emitChange());
 });
 
 // --- getOrderById
@@ -67,13 +67,23 @@ dispatcher.register((data) => {
         return;
     }
 
-    fetch('/manager/getCustomerDataByCustomerId',{method:'POST', headers:{
+    fetch('/manager/organiseInstallation',{method:'POST', headers:{
         'Accept': 'application/json',
         'Content-Type': 'application/json' },
         body:JSON.stringify({orderId: data.action.orderId, workerId: data.action.workerId})})
         .then((response) => response.json())
         .then((data) => console.log(data))
-        .then(() => MANAGER_STORE_ACTIONS.emitChange());
+        .then(() => ManagerStore.emitChange());
+});
+
+
+// --- setEditingOrderUndefined
+dispatcher.register((data) => {
+    if(data.action.type !== MANAGER_STORE_ACTIONS.SET_EDITING_ORDER_UNDEFINED){
+        return;
+    }
+    ManagerStore._editingOrder = undefined;
+    ManagerStore.emitChange();
 })
 
 export default dispatcher;

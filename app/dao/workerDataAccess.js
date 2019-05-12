@@ -1,5 +1,6 @@
 const connection = require('../mongo.connection');
 const test = require('assert');
+const logger = require('../winston.config');
 const ObjectId = require('mongodb').ObjectID;
 
 
@@ -9,6 +10,7 @@ function getAllOrders(workerId,callback){
     const collection = db.collection('orders');
     collection.find({"workerId":ObjectId(workerId)}).toArray((err, data) => {
         test.strictEqual(null, err);
+        logger.info('orders are coming back for worker');
         callback(data);
     })
 }
@@ -18,6 +20,8 @@ function getOrderById(orderId, callback){
     const collection = db.collection('orders');
     collection.findOne({"_id":ObjectId(orderId)},(err, data) => {
             test.strictEqual(null,err);
+            logger.info('getting one order at a time');
+            logger.debug(data);
             callback(data);
         })   
 }
@@ -28,6 +32,7 @@ function getAllParts(callback){
     const collection = db.collection('parts');
     collection.find({}).toArray((err, data) => {
         test.strictEqual(null,err);
+        logger.info('parts are coming back for worker');
         callback(data);
     })
 }
@@ -50,8 +55,10 @@ function startAssemblingOrder(order,callback){
     "parts":order.parts.map(part => ObjectId(part))}})
     .then((data) => {
         test.notEqual(null, data);
+        logger.info('updating was successful');
+        logger.debug(data);
         callback(data);
-    }).catch((err) => console.log(err));
+    }).catch((err) => logger.debug(err));
 }
 
 function finishOrder(orderId,callback){
@@ -60,8 +67,10 @@ function finishOrder(orderId,callback){
     collection.updateOne({"_id":ObjectId(orderId)},{$set:{"isDone":true}})
     .then((data) => {
         test.notEqual(null, data);
-        callback('success');
-    }).catch((err) => console.log(err));
+        logger.info('updating was successful');
+        logger.debug(data);
+        callback(data);
+    }).catch((err) => logger.debug(err));
 }
 
 module.exports = {

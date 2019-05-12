@@ -1,5 +1,6 @@
 const connection = require('../mongo.connection');
 const test = require('assert');
+const logger = require('../winston.config');
 const ObjectId = require('mongodb').ObjectID;
 
 
@@ -8,6 +9,7 @@ function viewOwnOrders(customerId, callback){
     const collection = db.collection('orders');
     collection.find({'customerId': ObjectId(customerId)}).toArray((err, data) => {
         test.strictEqual(null, err);
+        logger.info('orders are coming back for customer');
         callback(data);
     })
 }
@@ -30,7 +32,8 @@ function createOrder(order,callback){
     }, (err, data) => {
          test.strictEqual(null, err);
          test.strictEqual(1, data.insertedCount)
-         callback(true);
+         logger.info(`{inserted count ${data.insertedCount}}`);
+         callback(data);
      })
 }
 
@@ -39,6 +42,7 @@ function getShutterTypes(callback){
     const collection = db.collection('shutters');
     collection.find({}).toArray((err, data) => {
        test.strictEqual(null,err);
+       logger.info('Shutter types came back from db');
         callback(data);
     })
 }
@@ -47,8 +51,8 @@ function getCustomerDataByCustomerId(customerId, callback){
     const db = connection.getDatabase();
     const collection = db.collection('customers');
     collection.findOne({'_id': ObjectId(customerId)},(err, data) => {
-
         test.strictEqual(null, err);
+        logger.info(`{find count ${data.insertedCount}}`);
         callback(data);
     })
 }

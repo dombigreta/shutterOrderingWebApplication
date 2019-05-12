@@ -7,8 +7,6 @@ import * as VIEWS from './ViewConstants';
 import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
 import ManagerOrderCardComponent from '../components/ManagerOrderCardComponent';
 
-import OrganiseInstallationComponent from '../components/OrganiseInstallationComponent';
-
 class ManagerView extends React.Component{
 
     state = {
@@ -38,7 +36,7 @@ class ManagerView extends React.Component{
                     <OrderCardContainerComponent
                             orders={this.state.orders}
                             isFullViewRequired={true}
-                            title={`Finished jobs`}
+                            title={`Orders to handle`}
                             currentView={VIEWS.MANAGER_VIEW}
                             {...props}/>
                 )}/>

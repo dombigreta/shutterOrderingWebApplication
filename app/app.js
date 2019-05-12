@@ -1,13 +1,12 @@
 const express = require('express');
 const expressValidator = require('express-validator');
-const logger = require('morgan');
 const bodyParser = require('body-parser');
 const mongoConnection  = require('./mongo.connection');
 
 const customerCtrl = require('./controllers/customerCtrl');
 const workerCtrl = require('./controllers/workerCtrl');
 const managerCtrl = require('./controllers/managerCtrl');
-
+const logger = require('./winston.config');
 const app = express();
 
 app.use(bodyParser.json());
@@ -15,16 +14,15 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(expressValidator());
 
 mongoConnection.connectToServer((err) => {
-    if(err) console.log(err);
+    if(err) logger.debug(err);
     else{
-        console.log('successfully connected');
+        logger.info('successfully connected');
     }
 })
-
+let port = 9999;
 app.use('/customer', customerCtrl);
 app.use('/worker', workerCtrl);
 app.use('/manager', managerCtrl);
 
-app.listen(9999,() => console.log('server is running'));
-
+app.listen(port,() => logger.info(`server is running on port ${port}`));
 module.exports = app;

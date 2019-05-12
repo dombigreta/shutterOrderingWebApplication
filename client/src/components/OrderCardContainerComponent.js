@@ -9,6 +9,18 @@ class OrderCardContainerComponent extends React.Component{
         let formattedDate = new Date(date);
         return formattedDate.toLocaleDateString('en-US', options);
     }
+
+    getStateOfOrder = (order) => {
+        if(order.isDone){
+            return 'Done';
+        }
+        else if (order.isInProgress){
+            return 'Is in progress';
+        }
+        else{
+            return 'Not yet being assembled';
+        }
+    }
     
     createOrderCell = (order) => {
         return (
@@ -16,7 +28,7 @@ class OrderCardContainerComponent extends React.Component{
                 <div className="card-body">
                    <div><label className="font-weight-bold">Date of ordering: </label> {this.formatDate(order.dateOfSubmittingOrder)}</div>
                    <div><label className="font-weight-bold">Has been paid: </label> {order.isPaid ? 'yes' : 'no'}</div>
-                   <div><label className="font-weight-bold">State of order:</label> {order.isInProgress ? 'In progress' : (order.isDone ? 'Done': 'Not yet assembled')}</div>
+                   <div><label className="font-weight-bold">State of order:</label> {this.getStateOfOrder(order)}</div>
                    <div><label className="font-weight-bold">Price:</label> {order.price} {order.currency}</div>
                    <div className="p-3 mb-2 bg-info text-white">
                       <h6 className="font-weight-bold">Window parameters:</h6>

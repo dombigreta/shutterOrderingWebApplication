@@ -1,7 +1,7 @@
 const env = process.env.NODE_ENV || 'dev';
 
 const dev = {
-    host:'mongodb://localhost',
+    host:'mongodb://172.21.0.10',
     port:'27017',
     name:'webtech'
 }

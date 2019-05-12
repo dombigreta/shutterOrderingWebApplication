@@ -87,7 +87,7 @@ class AddPartsComponent extends React.Component{
     }
 
     createAddedPartsList = (partId) => {
-        if(this.state.parts.length == 0) return <React.Fragment></React.Fragment>
+        if(this.state.parts.length === 0) return <React.Fragment></React.Fragment>
         let part = this.state.parts.filter(part => part._id === partId)[0];
         if(isNullOrUndefined(part)) return <React.Fragment></React.Fragment>
         return(
