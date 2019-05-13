@@ -51,7 +51,7 @@ class OrganiseInstallationComponent extends React.Component{
                </div>
              </div>
         </div>
-        <button className="btn btn-sm btn-danger mb-3">create invoce</button>
+        <button className="btn btn-sm btn-danger mb-3" onClick={this.handleCreatingInvocie}>create invoce</button>
                </React.Fragment>
         )
     }
@@ -65,6 +65,16 @@ class OrganiseInstallationComponent extends React.Component{
         let workerId = this.state.selectedWorker._id;
         ManagerActions.organiseInstallation(orderId,workerId);
         ManagerActions.getOrderById(orderId);
+    }
+
+    handleCreatingInvocie = () => {
+        let orderId = this.state.editingOrder._id;
+        let customerId = this.state.customerData._id;
+        let shutterId = this.state.editingOrder.shutter;
+        if(isNullOrUndefined(orderId) || isNullOrUndefined(customerId) || isNullOrUndefined(shutterId)){
+            return;
+        }
+        ManagerActions.createInvoice(orderId,customerId,shutterId);
     }
 
     renderWorkerDropDown = () =>{

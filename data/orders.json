@@ -10,7 +10,7 @@
     "currency":"HUF",
     "window": {"height":100, "width":300},
     "workerId": null,
-    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
+    "shutter": ObjectId("5cd40e54e61b4462dfbf361c"),
     "parts":[ ObjectId("5cd45b94ae12367da257f98f")]
 }
 

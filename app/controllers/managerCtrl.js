@@ -38,5 +38,15 @@ router.post('/organiseInstallation',(req,res) => {
     service.organiseInstallation(orderId, workerId, (result) => {
         res.send(result);
     })
+});
+
+
+router.post('/createInvoice',(req,res) => {
+    let orderId = req.body.orderId;
+    let customerId = req.body.customerId;
+    let shutterId = req.body.shutterId;
+    service.createInvoice(orderId,customerId,shutterId, () => {
+        res.send('valami');
+    })
 })
 module.exports = router;

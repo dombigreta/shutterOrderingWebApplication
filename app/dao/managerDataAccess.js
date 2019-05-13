@@ -61,16 +61,17 @@ function organiseInstallation(orderId, workerId, callback){
     }).catch(err => logger.debug(err));
 }
 
-function getWorkerDataById(workerId,callback){
+function getShutterDataById(shutterId,callback){
     const db = connection.getDatabase();
-    const collection = db.collection('workers');
-    collection.findOne({"_id":ObjectId(workerId)},(err, data) => {
+    const collection = db.collection('shutters');
+    collection.findOne({"_id":ObjectId(shutterId)},(err, data) => {
         test.strictEqual(null,err);
-        logger.info('getting one worker at a time');
+        logger.info('getting one shutter at a time');
         logger.debug(data);
         callback(data);
     })
 }
+
 
 module.exports = {
     getAllOrders,
@@ -78,5 +79,5 @@ module.exports = {
     getWorkersDataForInstallation,
     organiseInstallation,
     getOrderById,
-    getWorkerDataById
+    getShutterDataById
 }

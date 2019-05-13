@@ -46,3 +46,251 @@
 2019-05-12 20:50:15 [32minfo[39m: {find count undefined}
 2019-05-12 20:50:16 [32minfo[39m: Shutter types came back from db
 2019-05-12 20:50:16 [32minfo[39m: orders are coming back for customer
+2019-05-13 04:14:56 [32minfo[39m: server is running on port 9999
+2019-05-13 04:14:56 [32minfo[39m: successfully connected
+2019-05-13 04:19:12 [32minfo[39m: server is running on port 9999
+2019-05-13 04:19:12 [32minfo[39m: successfully connected
+2019-05-13 04:19:38 [32minfo[39m: server is running on port 9999
+2019-05-13 04:19:38 [32minfo[39m: successfully connected
+2019-05-13 04:19:42 [32minfo[39m: server is running on port 9999
+2019-05-13 04:19:42 [32minfo[39m: successfully connected
+2019-05-13 04:20:10 [32minfo[39m: server is running on port 9999
+2019-05-13 04:20:10 [32minfo[39m: successfully connected
+2019-05-13 04:21:24 [32minfo[39m: server is running on port 9999
+2019-05-13 04:21:24 [32minfo[39m: successfully connected
+2019-05-13 04:21:32 [32minfo[39m: server is running on port 9999
+2019-05-13 04:21:32 [32minfo[39m: successfully connected
+2019-05-13 04:21:59 [32minfo[39m: server is running on port 9999
+2019-05-13 04:21:59 [32minfo[39m: successfully connected
+2019-05-13 04:22:14 [32minfo[39m: server is running on port 9999
+2019-05-13 04:22:14 [32minfo[39m: successfully connected
+2019-05-13 04:22:16 [32minfo[39m: getting one order at a time
+2019-05-13 04:22:58 [32minfo[39m: server is running on port 9999
+2019-05-13 04:22:58 [32minfo[39m: successfully connected
+2019-05-13 04:23:04 [32minfo[39m: getting one order at a time
+2019-05-13 04:23:04 [34mdebug[39m: [object Object]
+2019-05-13 04:23:04 [32minfo[39m: getting one customer at a time
+2019-05-13 04:23:04 [34mdebug[39m: [object Object]
+2019-05-13 04:23:04 [32minfo[39m: getting one shutter at a time
+2019-05-13 04:23:04 [34mdebug[39m: [object Object]
+2019-05-13 04:34:34 [32minfo[39m: server is running on port 9999
+2019-05-13 04:34:34 [32minfo[39m: successfully connected
+2019-05-13 04:39:41 [32minfo[39m: server is running on port 9999
+2019-05-13 04:39:41 [32minfo[39m: successfully connected
+2019-05-13 04:40:55 [32minfo[39m: server is running on port 9999
+2019-05-13 04:40:55 [32minfo[39m: successfully connected
+2019-05-13 04:41:01 [32minfo[39m: getting one order at a time
+2019-05-13 04:41:01 [34mdebug[39m: [object Object]
+2019-05-13 04:41:01 [32minfo[39m: getting one customer at a time
+2019-05-13 04:41:01 [34mdebug[39m: [object Object]
+2019-05-13 04:41:39 [32minfo[39m: server is running on port 9999
+2019-05-13 04:41:39 [32minfo[39m: successfully connected
+2019-05-13 04:41:42 [32minfo[39m: getting one order at a time
+2019-05-13 04:41:42 [34mdebug[39m: [object Object]
+2019-05-13 04:41:42 [32minfo[39m: getting one customer at a time
+2019-05-13 04:41:42 [34mdebug[39m: [object Object]
+2019-05-13 04:41:42 [32minfo[39m: getting one shutter at a time
+2019-05-13 04:42:33 [32minfo[39m: server is running on port 9999
+2019-05-13 04:42:33 [32minfo[39m: successfully connected
+2019-05-13 04:42:38 [32minfo[39m: getting one order at a time
+2019-05-13 04:42:38 [34mdebug[39m: [object Object]
+2019-05-13 04:42:38 [32minfo[39m: getting one customer at a time
+2019-05-13 04:42:38 [34mdebug[39m: [object Object]
+2019-05-13 04:43:18 [32minfo[39m: server is running on port 9999
+2019-05-13 04:43:18 [32minfo[39m: successfully connected
+2019-05-13 04:43:21 [32minfo[39m: getting one order at a time
+2019-05-13 04:43:21 [34mdebug[39m: [object Object]
+2019-05-13 04:43:21 [32minfo[39m: getting one customer at a time
+2019-05-13 04:43:21 [34mdebug[39m: [object Object]
+2019-05-13 04:43:54 [32minfo[39m: server is running on port 9999
+2019-05-13 04:43:54 [32minfo[39m: successfully connected
+2019-05-13 04:44:00 [32minfo[39m: getting one order at a time
+2019-05-13 04:44:00 [34mdebug[39m: [object Object]
+2019-05-13 04:44:00 [32minfo[39m: getting one customer at a time
+2019-05-13 04:44:00 [34mdebug[39m: [object Object]
+2019-05-13 04:45:17 [32minfo[39m: server is running on port 9999
+2019-05-13 04:45:17 [32minfo[39m: successfully connected
+2019-05-13 04:45:28 [32minfo[39m: getting one order at a time
+2019-05-13 04:45:28 [34mdebug[39m: [object Object]
+2019-05-13 04:45:28 [32minfo[39m: getting one customer at a time
+2019-05-13 04:45:28 [34mdebug[39m: [object Object]
+2019-05-13 04:45:28 [32minfo[39m: getting one shutter at a time
+2019-05-13 04:48:13 [32minfo[39m: server is running on port 9999
+2019-05-13 04:48:13 [32minfo[39m: successfully connected
+2019-05-13 04:48:21 [32minfo[39m: getting one order at a time
+2019-05-13 04:48:21 [34mdebug[39m: [object Object]
+2019-05-13 04:48:21 [32minfo[39m: getting one customer at a time
+2019-05-13 04:48:21 [34mdebug[39m: [object Object]
+2019-05-13 04:52:08 [32minfo[39m: server is running on port 9999
+2019-05-13 04:52:09 [32minfo[39m: successfully connected
+2019-05-13 04:52:11 [32minfo[39m: getting one order at a time
+2019-05-13 04:52:11 [34mdebug[39m: [object Object]
+2019-05-13 04:52:11 [32minfo[39m: getting one customer at a time
+2019-05-13 04:52:11 [34mdebug[39m: [object Object]
+2019-05-13 04:52:11 [32minfo[39m: getting one shutter at a time
+2019-05-13 04:52:11 [34mdebug[39m: [object Object]
+2019-05-13 04:57:45 [32minfo[39m: server is running on port 9999
+2019-05-13 04:57:45 [32minfo[39m: successfully connected
+2019-05-13 04:58:00 [32minfo[39m: getting one order at a time
+2019-05-13 04:58:00 [34mdebug[39m: [object Object]
+2019-05-13 04:58:00 [32minfo[39m: getting one customer at a time
+2019-05-13 04:58:00 [34mdebug[39m: [object Object]
+2019-05-13 04:58:00 [32minfo[39m: getting one shutter at a time
+2019-05-13 04:58:00 [34mdebug[39m: [object Object]
+2019-05-13 05:11:09 [32minfo[39m: server is running on port 9999
+2019-05-13 05:11:09 [32minfo[39m: successfully connected
+2019-05-13 05:11:12 [32minfo[39m: getting one order at a time
+2019-05-13 05:11:12 [34mdebug[39m: [object Object]
+2019-05-13 05:11:12 [32minfo[39m: getting one customer at a time
+2019-05-13 05:11:12 [34mdebug[39m: [object Object]
+2019-05-13 05:11:12 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:11:12 [34mdebug[39m: [object Object]
+2019-05-13 05:11:56 [32minfo[39m: server is running on port 9999
+2019-05-13 05:11:56 [32minfo[39m: successfully connected
+2019-05-13 05:11:59 [32minfo[39m: getting one order at a time
+2019-05-13 05:11:59 [34mdebug[39m: [object Object]
+2019-05-13 05:11:59 [32minfo[39m: getting one customer at a time
+2019-05-13 05:11:59 [34mdebug[39m: [object Object]
+2019-05-13 05:11:59 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:11:59 [34mdebug[39m: [object Object]
+2019-05-13 05:13:05 [32minfo[39m: server is running on port 9999
+2019-05-13 05:13:05 [32minfo[39m: successfully connected
+2019-05-13 05:13:07 [32minfo[39m: getting one order at a time
+2019-05-13 05:13:07 [34mdebug[39m: [object Object]
+2019-05-13 05:13:07 [32minfo[39m: getting one customer at a time
+2019-05-13 05:13:07 [34mdebug[39m: [object Object]
+2019-05-13 05:13:07 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:13:07 [34mdebug[39m: [object Object]
+2019-05-13 05:13:41 [32minfo[39m: server is running on port 9999
+2019-05-13 05:13:41 [32minfo[39m: successfully connected
+2019-05-13 05:13:43 [32minfo[39m: getting one order at a time
+2019-05-13 05:13:43 [34mdebug[39m: [object Object]
+2019-05-13 05:13:43 [32minfo[39m: getting one customer at a time
+2019-05-13 05:13:43 [34mdebug[39m: [object Object]
+2019-05-13 05:13:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:13:43 [34mdebug[39m: [object Object]
+2019-05-13 05:14:19 [32minfo[39m: server is running on port 9999
+2019-05-13 05:14:19 [32minfo[39m: successfully connected
+2019-05-13 05:14:22 [32minfo[39m: getting one order at a time
+2019-05-13 05:14:22 [34mdebug[39m: [object Object]
+2019-05-13 05:14:22 [32minfo[39m: getting one customer at a time
+2019-05-13 05:14:22 [34mdebug[39m: [object Object]
+2019-05-13 05:14:22 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:14:22 [34mdebug[39m: [object Object]
+2019-05-13 05:18:59 [32minfo[39m: server is running on port 9999
+2019-05-13 05:18:59 [32minfo[39m: successfully connected
+2019-05-13 05:19:05 [32minfo[39m: getting one order at a time
+2019-05-13 05:19:05 [34mdebug[39m: [object Object]
+2019-05-13 05:19:05 [32minfo[39m: getting one customer at a time
+2019-05-13 05:19:05 [34mdebug[39m: [object Object]
+2019-05-13 05:19:05 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:19:05 [34mdebug[39m: [object Object]
+2019-05-13 05:20:50 [32minfo[39m: server is running on port 9999
+2019-05-13 05:20:50 [32minfo[39m: successfully connected
+2019-05-13 05:20:54 [32minfo[39m: getting one order at a time
+2019-05-13 05:20:54 [34mdebug[39m: [object Object]
+2019-05-13 05:20:54 [32minfo[39m: getting one customer at a time
+2019-05-13 05:20:54 [34mdebug[39m: [object Object]
+2019-05-13 05:20:54 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:20:54 [34mdebug[39m: [object Object]
+2019-05-13 05:24:10 [32minfo[39m: server is running on port 9999
+2019-05-13 05:24:10 [32minfo[39m: successfully connected
+2019-05-13 05:24:14 [32minfo[39m: getting one order at a time
+2019-05-13 05:24:14 [34mdebug[39m: [object Object]
+2019-05-13 05:24:14 [32minfo[39m: getting one customer at a time
+2019-05-13 05:24:14 [34mdebug[39m: [object Object]
+2019-05-13 05:24:14 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:24:14 [34mdebug[39m: [object Object]
+2019-05-13 05:25:22 [32minfo[39m: server is running on port 9999
+2019-05-13 05:25:22 [32minfo[39m: successfully connected
+2019-05-13 05:25:24 [32minfo[39m: getting one order at a time
+2019-05-13 05:25:24 [34mdebug[39m: [object Object]
+2019-05-13 05:25:24 [32minfo[39m: getting one customer at a time
+2019-05-13 05:25:24 [34mdebug[39m: [object Object]
+2019-05-13 05:25:24 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:25:24 [34mdebug[39m: [object Object]
+2019-05-13 05:26:17 [32minfo[39m: server is running on port 9999
+2019-05-13 05:26:17 [32minfo[39m: successfully connected
+2019-05-13 05:26:20 [32minfo[39m: getting one order at a time
+2019-05-13 05:26:20 [34mdebug[39m: [object Object]
+2019-05-13 05:26:20 [32minfo[39m: getting one customer at a time
+2019-05-13 05:26:20 [34mdebug[39m: [object Object]
+2019-05-13 05:26:53 [32minfo[39m: server is running on port 9999
+2019-05-13 05:26:53 [32minfo[39m: successfully connected
+2019-05-13 05:27:44 [32minfo[39m: server is running on port 9999
+2019-05-13 05:27:44 [32minfo[39m: successfully connected
+2019-05-13 05:27:47 [32minfo[39m: getting one order at a time
+2019-05-13 05:27:47 [34mdebug[39m: [object Object]
+2019-05-13 05:27:47 [32minfo[39m: getting one customer at a time
+2019-05-13 05:27:47 [34mdebug[39m: [object Object]
+2019-05-13 05:27:47 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:27:47 [34mdebug[39m: [object Object]
+2019-05-13 05:36:56 [32minfo[39m: server is running on port 9999
+2019-05-13 05:36:56 [32minfo[39m: successfully connected
+2019-05-13 05:37:56 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:37:56 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:37:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:37:59 [32minfo[39m: getting one order at a time
+2019-05-13 05:37:59 [34mdebug[39m: [object Object]
+2019-05-13 05:37:59 [32minfo[39m: getting one customer at a time
+2019-05-13 05:37:59 [34mdebug[39m: [object Object]
+2019-05-13 05:38:41 [32minfo[39m: getting one order at a time
+2019-05-13 05:38:41 [34mdebug[39m: [object Object]
+2019-05-13 05:38:41 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:38:41 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:38:41 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:38:41 [32minfo[39m: getting one customer at a time
+2019-05-13 05:38:41 [34mdebug[39m: [object Object]
+2019-05-13 05:39:26 [32minfo[39m: getting one order at a time
+2019-05-13 05:39:26 [34mdebug[39m: [object Object]
+2019-05-13 05:39:26 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:39:26 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:39:26 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:39:26 [32minfo[39m: getting one customer at a time
+2019-05-13 05:39:26 [34mdebug[39m: [object Object]
+2019-05-13 05:39:55 [32minfo[39m: getting one order at a time
+2019-05-13 05:39:55 [34mdebug[39m: [object Object]
+2019-05-13 05:39:55 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:39:55 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:39:55 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:39:55 [32minfo[39m: getting one customer at a time
+2019-05-13 05:39:55 [34mdebug[39m: [object Object]
+2019-05-13 05:39:59 [32minfo[39m: getting one order at a time
+2019-05-13 05:39:59 [34mdebug[39m: [object Object]
+2019-05-13 05:39:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:39:59 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:39:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:39:59 [32minfo[39m: getting one customer at a time
+2019-05-13 05:39:59 [34mdebug[39m: [object Object]
+2019-05-13 05:40:01 [32minfo[39m: getting one order at a time
+2019-05-13 05:40:01 [34mdebug[39m: [object Object]
+2019-05-13 05:40:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:40:01 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:40:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:40:01 [32minfo[39m: getting one customer at a time
+2019-05-13 05:40:01 [34mdebug[39m: [object Object]
+2019-05-13 05:40:05 [32minfo[39m: getting one order at a time
+2019-05-13 05:40:05 [34mdebug[39m: [object Object]
+2019-05-13 05:40:05 [32minfo[39m: getting one customer at a time
+2019-05-13 05:40:05 [34mdebug[39m: [object Object]
+2019-05-13 05:42:49 [32minfo[39m: server is running on port 9999
+2019-05-13 05:42:49 [32minfo[39m: successfully connected
+2019-05-13 05:43:24 [32minfo[39m: orders are coming back for manager
+2019-05-13 05:43:24 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:43:27 [32minfo[39m: customers are coming back for manager
+2019-05-13 05:43:27 [32minfo[39m: getting one order at a time
+2019-05-13 05:43:27 [34mdebug[39m: [object Object]
+2019-05-13 05:43:27 [32minfo[39m: getting one customer at a time
+2019-05-13 05:43:27 [34mdebug[39m: [object Object]
+2019-05-13 05:43:29 [32minfo[39m: getting one order at a time
+2019-05-13 05:43:29 [34mdebug[39m: [object Object]
+2019-05-13 05:43:29 [32minfo[39m: getting one customer at a time
+2019-05-13 05:43:29 [34mdebug[39m: [object Object]
+2019-05-13 05:43:29 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:43:29 [34mdebug[39m: [object Object]
+2019-05-13 05:43:34 [32minfo[39m: getting one order at a time
+2019-05-13 05:43:34 [34mdebug[39m: [object Object]
+2019-05-13 05:43:34 [32minfo[39m: getting one customer at a time
+2019-05-13 05:43:34 [34mdebug[39m: [object Object]
+2019-05-13 05:43:34 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:43:34 [34mdebug[39m: [object Object]

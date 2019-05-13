@@ -40,3 +40,12 @@ export function setEditingOrderUndefined(){
         type:MANAGER_STORE_ACTIONS.SET_EDITING_ORDER_UNDEFINED
     });
 }
+
+export function createInvoice(orderId, customerId, shutterId){
+    ManagerDispatcher.handleAction({
+        type:MANAGER_STORE_ACTIONS.CREATE_INVOICE,
+        orderId:orderId,
+        customerId:customerId,
+        shutterId:shutterId
+    });
+}

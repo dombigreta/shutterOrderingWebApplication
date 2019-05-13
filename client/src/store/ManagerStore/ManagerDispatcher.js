@@ -86,4 +86,25 @@ dispatcher.register((data) => {
     ManagerStore.emitChange();
 })
 
+
+dispatcher.register((data) => {
+    if(data.action.type !== MANAGER_STORE_ACTIONS.CREATE_INVOICE
+        || isNullOrUndefined(data.action.orderId)
+        || isNullOrUndefined(data.action.customerId)
+        || isNullOrUndefined(data.action.shutterId)){
+        return;
+    }
+
+    fetch('/manager/createInvoice',{method:'POST', headers:{
+        'Accept': 'application/json',
+        'Content-Type': 'application/json' },
+        body:JSON.stringify({orderId: data.action.orderId, 
+                            customerId: data.action.customerId,
+                            shutterId: data.action.shutterId})})
+        .then((response) => response.json())
+        .then((data) => console.log(data))
+        .then(() => ManagerStore.emitChange());
+    
+});
+
 export default dispatcher;
