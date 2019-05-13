@@ -14,6 +14,17 @@ function getAllOrders(callback){
     })
 }
 
+function getAllOrdersOfTheCompany(callback){
+    const db = connection.getDatabase();
+    const collection = db.collection('orders');
+    collection.find().toArray((err, data) => {
+        test.strictEqual(null, err);
+        logger.info('orders are coming back for manager');
+        callback(data);
+    })
+}
+
+
 function getOrderById(orderId, callback){
     const db = connection.getDatabase();
     const collection = db.collection('orders');
@@ -48,7 +59,6 @@ function getWorkersDataForInstallation(callback){
 }
 
 function organiseInstallation(orderId, workerId, callback){
-    console.log(orderId);
     const db = connection.getDatabase();
     const collection = db.collection('orders');
     collection.updateOne({"_id":ObjectId(orderId)},{
@@ -61,12 +71,28 @@ function organiseInstallation(orderId, workerId, callback){
     }).catch(err => logger.debug(err));
 }
 
-function getShutterDataById(shutterId,callback){
+function closeOrder(orderId, callback){
+    const db = connection.getDatabase();
+    const collection = db.collection('orders');
+    collection.updateOne({"_id":ObjectId(orderId)},{
+        $set:{"isPayed":true}
+    }).then(data => {
+        test.notEqual(null,data);
+            logger.info('updating was successful');
+            logger.debug(data);
+            callback(data);
+    }).catch(err => logger.debug(err));
+
+}
+
+function getShutterDataByIds(windows,callback){
     const db = connection.getDatabase();
     const collection = db.collection('shutters');
-    collection.findOne({"_id":ObjectId(shutterId)},(err, data) => {
+    collection.find({"_id":
+                            {"$in" :windows.map(x => ObjectId(x.shutter))}
+                    }).toArray((err, data) => {
         test.strictEqual(null,err);
-        logger.info('getting one shutter at a time');
+        logger.info('getting  the shutters back');
         logger.debug(data);
         callback(data);
     })
@@ -75,9 +101,11 @@ function getShutterDataById(shutterId,callback){
 
 module.exports = {
     getAllOrders,
+    getAllOrdersOfTheCompany,
     getCustomerDataByCustomerId,
     getWorkersDataForInstallation,
     organiseInstallation,
     getOrderById,
-    getShutterDataById
+    getShutterDataByIds,
+    closeOrder
 }

@@ -27,10 +27,21 @@ router.post('/getCustomerData', (req,res) => {
     })
 });
 
-router.post('/createOrder', (req,res) => {
+router.post('/createOrder',[
+    check('customerId').isString(),
+    check('dueDateOfAssembling').exists(),
+    check('isInProgress').exists(),
+    check('isDone').exists(),
+    check('parts').isArray(),
+    check('windows').isArray(),
+], (req,res) => {
+    let errors = validationResult(req);
+    if(!errors.isEmpty){
+        res.send(errors);
+    }
     let order = req.body;
     service.createOrder(order,(result) => {
-            res.send(result);
+            res.send({message:'the order was created', level:'info'});
 
     })
 });

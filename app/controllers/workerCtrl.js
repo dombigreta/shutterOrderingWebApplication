@@ -27,15 +27,17 @@ router.get('/getAllParts', (req,res) => {
 router.post('/finishOrder',(req,res) => {
     let orderId = req.body.orderId;
     service.finishOrder(orderId,(data) => {
-        res.send(data);
+        res.send({message:'the order was finished', level:'info'});
     });
 });
 
 router.post('/startAssemblingOrder',(req,res) => {
     let order = req.body.order;
     service.startAssemblingOrder(order,(data) => {
-        res.send(data);
+        res.send({message:'The order is being assebled', level:'info'});
     });
 });
+
+
 
 module.exports = router;

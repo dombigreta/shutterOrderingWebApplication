@@ -33,7 +33,7 @@ class CustomerView extends React.Component{
                 <OrderCardContainerComponent orders={this.state.ownOrders} 
                     isWorkerView={false}
                     isFullViewRequired={false}
-                    title={`Your own order`}
+                    title={`Your own orders`}
                     currentView={VIEWS.CUSTOMER_VIEW}/>       
                 <CreateOrderComponent/>
             </React.Fragment>)

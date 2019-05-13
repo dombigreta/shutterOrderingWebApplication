@@ -17,9 +17,8 @@ docker run --detach --name $MONGO_CONTAINER_NAME --network $MONGO_NETWORK_NAME -
 
 chmod +r *.json
 
-mongoimport --host $MONGO_HOST_IP --db webtech --collection orders orders.json
 mongoimport --host $MONGO_HOST_IP --db webtech --collection customers customers.json
 mongoimport --host $MONGO_HOST_IP --db webtech --collection shutters shutters.json
 mongoimport --host $MONGO_HOST_IP --db webtech --collection parts parts.json
 mongoimport --host $MONGO_HOST_IP --db webtech --collection workers workers.json
-P
+mongoimport --host $MONGO_HOST_IP --db webtech --collection orders orders.json

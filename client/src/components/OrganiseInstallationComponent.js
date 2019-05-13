@@ -71,7 +71,7 @@ class OrganiseInstallationComponent extends React.Component{
         let orderId = this.state.editingOrder._id;
         let customerId = this.state.customerData._id;
         let shutterId = this.state.editingOrder.shutter;
-        if(isNullOrUndefined(orderId) || isNullOrUndefined(customerId) || isNullOrUndefined(shutterId)){
+        if(isNullOrUndefined(orderId) || isNullOrUndefined(customerId)){
             return;
         }
         ManagerActions.createInvoice(orderId,customerId,shutterId);

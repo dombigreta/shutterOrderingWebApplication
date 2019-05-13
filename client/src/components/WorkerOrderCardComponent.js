@@ -47,6 +47,19 @@ class WorkerOrderCardComponent extends React.Component{
             return 'Not yet being assembled';
         }
     }
+
+    createWindowParameterCell = (window,index) => {
+        return (
+            <div key={index} className="p-3 mb-2 bg-info text-white">
+                      <h6 className="font-weight-bold">{`${index}. Window parameters:`}</h6>
+                        <div className="d-flex">
+                        <div className="m-1"><label className="font-weight-bold">height </label> {window.height} cm</div>
+                        <div className="m-1"><label className="font-weight-bold">width: </label> {window.height} cm</div>
+                        </div>
+                </div>
+        )
+    }
+    
     
     render(){
         if(isNullOrUndefined(this.state.order)) return <React.Fragment></React.Fragment>
@@ -60,13 +73,7 @@ class WorkerOrderCardComponent extends React.Component{
                    <div><label className="font-weight-bold">Has been paid: </label> {this.state.order.isPaid ? 'yes' : 'no'}</div>
                    <div><label className="font-weight-bold">State of order:</label> {this.getStateOfOrder()}</div>
                    <div><label className="font-weight-bold">Price:</label> {this.state.order.price} {this.state.order.currency}</div>
-                   <div className="p-3 mb-2 bg-info text-white">
-                      <h6 className="font-weight-bold">Window parameters:</h6>
-                        <div className="d-flex">
-                        <div className="m-1"><label className="font-weight-bold">Height </label> {this.state.order.window.height} cm</div>
-                        <div className="m-1"><label className="font-weight-bold">Width: </label> {this.state.order.window.height} cm</div>
-                        </div>
-                   </div>
+                   {this.state.order.windows.map((window,index)  => this.createWindowParameterCell(window, index +1 ))}
                  </div>
             </div>
             <AddPartsComponent order={this.state.order}/>

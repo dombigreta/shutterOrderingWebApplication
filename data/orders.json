@@ -8,95 +8,9 @@
     "isPayed" : false,
     "price" : 12240,
     "currency":"HUF",
-    "window": {"height":100, "width":300},
+    "windows": [{"height":100, "width":300, "shutter": ObjectId("5cd40e54e61b4462dfbf361c")},
+                {"height":200, "width":400, "shutter": ObjectId("5cd40e64e78471307617d1bb")},
+                {"height":700, "width":500, "shutter": ObjectId("5cd40e6a70a76d64fa5eccdb")}],
     "workerId": null,
-    "shutter": ObjectId("5cd40e54e61b4462dfbf361c"),
-    "parts":[ ObjectId("5cd45b94ae12367da257f98f")]
-}
-
-
-{
-    "_id" : ObjectId("5cd40ceec265336c42b11771"),
-    "customerId":  ObjectId("5ccf084196f89468f458cfbf"),
-    "dueDateOfAssembling" : ISODate("2019-05-30T00:00:00.000Z"),
-    "dateOfSubmittingOrder": ISODate("2019-04-01T00:00:00.000Z"),
-    "isInProgress" : false,
-    "isDone":false,
-    "isPayed" : true,
-    "price" : 100000,
-    "currency":"HUF",
-    "window": {"height":200, "width":200},
-    "workerId":null,
-    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
-    "parts":[ObjectId("5cd45b9970fe3a3daf8cc82a"), ObjectId("5cd408ea629a211e6637116c")]
-}
-
-{
-    "_id" : ObjectId("5cd40d005bcbdc6d30a954cf"),
-    "customerId":  ObjectId("5ccf084196f89468f458cfbf"),
-    "dueDateOfAssembling" : ISODate("2019-06-15T00:00:00.000Z"),
-    "dateOfSubmittingOrder": ISODate("2019-05-24T00:00:00.000Z"),
-    "isInProgress" : false,
-    "isDone":false,
-    "isPayed" : false,
-    "price" : 300000,
-    "currency":"HUF",
-    "workerId": ObjectId("5cd67c69e83d2bde68bbdc12"),
-    "window": {"height":300, "width":400},
-    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
     "parts":[]
 }
-
-
-{
-    "_id" : ObjectId("5cd67d4791aec19ccd379c09"),
-    "customerId":  ObjectId("5cd40776f106130dc918d6ba"),
-    "dueDateOfAssembling" : ISODate("2019-05-21T00:00:00.000Z"),
-    "dateOfSubmittingOrder": ISODate("2019-03-01T00:00:00.000Z"),
-    "isInProgress" : true,
-    "isDone":true,
-    "isPayed" : true,
-    "price" : 25000,
-    "currency":"HUF",
-    "window": {"height":200, "width":200},
-    "workerId": ObjectId("5cd67cc2d920a833fb79eb76"),
-    "shutter": ObjectId("5ccf084196f89468f458cfbf"),
-    "parts":[ObjectId("5cd45b9e7a4c016ed6e4fce9"), ObjectId("5cd45ba39ee9fe4647d08855")]
-}
-
-
-
-{
-    "_id" : ObjectId("5cd67d9473402168204642d1"),
-    "customerId":  ObjectId("5cd40776f106130dc918d6ba"),
-    "dueDateOfAssembling" : ISODate("2019-04-05T00:00:00.000Z"),
-    "dateOfSubmittingOrder": ISODate("2019-02-15T00:00:00.000Z"),
-    "isInProgress" : true,
-    "isDone":true,
-    "isPayed" : true,
-    "price" : 26500,
-    "currency":"HUF",
-    "window": {"height":200, "width":200},
-    "workerId": ObjectId("5cd67cc2d920a833fb79eb76"),
-    "shutter": ObjectId("5cd40e64e78471307617d1bb"),
-    "parts":[ObjectId("5cd45ba80c8c6fa598c3cbba"), ObjectId("5cd45b9970fe3a3daf8cc82a")]
-}
-
-
-{
-    "_id" : ObjectId("5cd67dd4a820d274323b4a0f"),
-    "customerId":  ObjectId("5cd408dc228c3c9ab0e9a85d"),
-    "dueDateOfAssembling" : ISODate("2019-04-05T00:00:00.000Z"),
-    "dateOfSubmittingOrder": ISODate("2019-02-15T00:00:00.000Z"),
-    "isInProgress" : true,
-    "isDone":true,
-    "isPayed" : true,
-    "price" : 29450,
-    "currency":"HUF",
-    "window": {"height":200, "width":200},
-    "workerId": ObjectId("5cd67c69e83d2bde68bbdc12"),
-    "shutter": ObjectId("5cd40e717a661d8c631792f3"),
-    "parts":[ObjectId("5cd45ba80c8c6fa598c3cbba"), ObjectId("5cd45b9e7a4c016ed6e4fce9")]
-}
-
-

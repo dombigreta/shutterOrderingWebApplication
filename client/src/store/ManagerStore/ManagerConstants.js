@@ -5,5 +5,6 @@ module.exports = {
     GET_WORKERS_DATA_FOR_INSTALLATION: 'getWorkersDataForInstallation',
     ORGANISE_INSTALLATION:'organiseInstallation',
     SET_EDITING_ORDER_UNDEFINED:'setEditingOrderUndefined',
-    CREATE_INVOICE:'createInvoice'
+    CREATE_INVOICE:'createInvoice',
+    GET_STATISTICS:'getstatistics'
 }

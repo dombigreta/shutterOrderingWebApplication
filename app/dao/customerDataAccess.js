@@ -26,8 +26,7 @@ function createOrder(order,callback){
     "isPayed" : order.isPayed,
     "price" : order.price,
     "currency":order.currency,
-    "window": {"height":order.window.height, "width":order.window.width},
-    "shutter": ObjectId(order.shutter),
+    "windows": order.windows.map(window => ({"height": window.height, "width":window.width, "shutter":ObjectId(window.shutter)})),
     "parts":[]
     }, (err, data) => {
          test.strictEqual(null, err);

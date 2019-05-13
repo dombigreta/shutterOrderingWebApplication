@@ -5,6 +5,7 @@ class ManagerStore extends EventEmitter{
     _workers = [];
     _editingOrder = null;
     _customerData = null;
+    _statistics = null;
     
     emitChange(){
         this.emit('change');

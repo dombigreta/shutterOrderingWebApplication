@@ -1,16 +1,14 @@
 import React from 'react';
 import  * as CustomerActions from '../store/CustomerStore/CustomerActions';
 import CustomerStore from '../store/CustomerStore/CustomerStore';
+import { isNullOrUndefined } from 'util';
+import ShutterCheckBoxComponent from '../components/shuttercheckboxComponent';
 
 class CreateOrderComponent extends React.Component{
     state = {
         shutterTypes: CustomerStore._shutterTypes,
         customerData: CustomerStore._customerData,
-        windowDetails:{
-            width:0,
-            height:0
-        },
-        selectedShutterOption:0,
+        windowsDetails:[],
         currency:'HUF',
         basePrice:0
     }
@@ -19,6 +17,7 @@ class CreateOrderComponent extends React.Component{
         CustomerStore.addChangeListener(this.onChange)
         CustomerActions.getShutterTypes();
         CustomerActions.getCustomerData();
+
     }
 
     componentWillUnmount(){
@@ -30,32 +29,21 @@ class CreateOrderComponent extends React.Component{
                         customerData:CustomerStore._customerData,},
                         () => {
                             if(this.state.shutterTypes !== undefined && this.state.shutterTypes.length > 0){
-                                this.setState({selectedShutterOption: this.state.shutterTypes[0]._id,
-                                                windowDetails:{height:0,width:0},
-                                                basePrice:0})
+                                this.calculateBasePriceByWindowDetails();
                             }
                 });
     }
-    createShutterCell = (shutter) => {
-        return (
-            <div key={shutter._id} className="form-check fancy-font-size">
-            <input type="checkbox"  checked={this.state.selectedShutterOption === shutter._id} 
-                                    className="form-check-input"
-                                    name="selectedShutterOption" 
-                                    value={shutter._id}
-                                    onChange={this.handleChange}/>
-            <label className="form-check-label font-weight-bold" htmlFor={shutter.shutterName}>
-              Name: {shutter.name}
-            </label>
-            <label className="ml-3 font-weight-bold">Price:</label> {shutter.basePrice} {shutter.currency}/m<sup>2</sup>
-          </div>
-        )
-    }
+
 
     calculateBasePriceByWindowDetails = () => {
-        let selectedShutter = this.state.shutterTypes.filter(x => x._id === this.state.selectedShutterOption)[0];
-        if(selectedShutter === undefined) return;
-        return Math.round(selectedShutter.basePrice * ((this.state.windowDetails.height / 100) * (this.state.windowDetails.width / 100)),2);
+        let price = 0;
+        this.state.windowsDetails.map(window => {
+            let shutter = this.state.shutterTypes.filter(shutter => shutter._id === window.shutter)[0];
+            if(!isNullOrUndefined(shutter)){
+                price += Math.round(shutter.basePrice * ((window.height /100)* (window.width/100)),2);
+            }
+        })
+        this.setState({basePrice:price});
         
     }
 
@@ -76,11 +64,10 @@ class CreateOrderComponent extends React.Component{
             isInProgress : false,
             isDone:false,
             isPayed : false,
-            price: this.calculateBasePriceByWindowDetails(),
+            price: this.state.basePrice,
             currency:"HUF",
-            window: this.state.windowDetails,
+            windows: this.state.windowsDetails,
             workerId:null,
-            shutter: this.state.selectedShutterOption,
             parts:[ ]
         }
 
@@ -88,21 +75,86 @@ class CreateOrderComponent extends React.Component{
         
     }
 
-    handleWindowDetailsChange = (e) => {
+    handleWindowDetailsChange = (e, index) => {
+
         let name = e.target.name;
         let value = e.target.value;
+
+        let window = this.state.windowsDetails[index];
+        window[name] = parseInt(value) || 0;
         this.setState({
-            windowDetails:{
-                ...this.state.windowDetails,
-                [name]:value
-            }
+            windowDetails:[...this.state.windowsDetails, 
+                window]
+        });
+
+        this.calculateBasePriceByWindowDetails()
+    }
+
+    handleAddingNewWindow = () => {
+        this.setState({
+            windowsDetails: [...this.state.windowsDetails, {height:0,width:0,shutter:this.state.shutterTypes[0]._id}]
         })
+    }
+
+    handleShutterTypeChange(shutterId,index){
+       let window = this.state.windowsDetails[index];
+       let indexOf = this.state.windowsDetails.indexOf(window);
+       if(indexOf !== -1){
+           window.shutter = shutterId
+           let newDetails = this.state.windowsDetails.splice(indexOf,1,window);
+           this.setState({
+               windowDetails:newDetails
+           }, () => this.calculateBasePriceByWindowDetails());
+       }
+    }
+
+    createWindowDetailsRow = (window,index) => {
+       return (
+        <div key={index}>
+                <div className="d-flex row">
+            <div className="form-group col-6">
+                <label className="font-weight-bold">height</label>
+                <div className="input-group input-group-sm">
+                <input type="text"  className="form-control form-control-sm" 
+                                    value={window.height} 
+                                    name="height" 
+                                    placeholder="height"
+                                    onChange={(e) => this.handleWindowDetailsChange(e,index)}
+                                    required/>
+                <div className="input-group-append">
+                    <span className="input-group-text">cm</span>
+                </div>
+                </div>
+            </div>
+            <div className="form-group col-6">
+                <label className="font-weight-bold">width</label>
+                <div className="input-group input-group-sm">
+                <input type="text"  className="form-control form-control-sm" 
+                                    value={window.width}
+                                    name="width"  
+                                    placeholder="width"
+                                    onChange={(e) => this.handleWindowDetailsChange(e,index)}
+                                    required/>
+                    <div className="input-group-append">
+                        <span className="input-group-text">cm</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        {/** shutters */}
+        <div className="mb-5">
+        <h5>Choose a shutter</h5>
+            <ShutterCheckBoxComponent ShutterTypes={this.state.shutterTypes} window={window} index={index}
+            handleShutterTypeChange={(shutterId, index) => this.handleShutterTypeChange(shutterId, index)}/>
+        </div>
+        </div>
+       )
     }
 
     render(){
         if(this.state.shutterTypes.length === 0 || this.state.customerData === undefined) return <div></div>
         return(
-            <form className="p-3 mt-2 bg-light text-dark rounded-container mb-3" onSubmit={this.handleSubmit}>
+            <div className="p-3 mt-2 bg-light text-dark rounded-container mb-3">
                 <h3>Create a new order</h3>
 
         {/** basic info */}
@@ -135,51 +187,16 @@ class CreateOrderComponent extends React.Component{
         
         {/**window info */}
         <div className="mb-3">
-         <h5>Window parameters</h5>
-         <div className="d-flex row">
-        <div className="form-group col-6">
-            <label className="font-weight-bold">height</label>
-            <div className="input-group input-group-sm">
-            <input type="text"  className="form-control form-control-sm" 
-                                value={this.state.windowDetails.height} 
-                                name="height" 
-                                placeholder="height"
-                                onChange={this.handleWindowDetailsChange}
-                                required/>
-            <div className="input-group-append">
-                <span className="input-group-text">cm</span>
-            </div>
-            </div>
-        </div>
-        <div className="form-group col-6">
-            <label className="font-weight-bold">width</label>
-            <div className="input-group input-group-sm">
-            <input type="text"  className="form-control form-control-sm" 
-                                value={this.state.windowDetails.width}
-                                name="width"  
-                                placeholder="width"
-                                onChange={this.handleWindowDetailsChange}
-                                required/>
-                 <div className="input-group-append">
-                    <span className="input-group-text">cm</span>
-                </div>
-            </div>
-        </div>
-        </div>
+         <h5>Window's parameters</h5>
+         {this.state.windowsDetails.map((window,index) => this.createWindowDetailsRow(window,index))}
+           <button onClick={this.handleAddingNewWindow} className="btn btn-sm btn-danger">Add new window</button>
          </div>
-        {/** shutters */}
-        <div className="mb-5">
-         <h5>Choose a shutter</h5>
-         <div className="mb-3">
-            {this.state.shutterTypes.map((shutter) => this.createShutterCell(shutter))}
-        </div>
-            <label className="font-weight-bold">Net price</label> : {this.calculateBasePriceByWindowDetails() + ' HUF'}
-         </div>
+         <label className="font-weight-bold">Net price</label> : {this.state.basePrice + ' HUF'}
          <div>
 
         </div>
-        <button type="submit" className="btn btn-primary btn-sm">Submit your order</button>
-    </form>)
+        <button onClick={this.handleSubmit} className="btn btn-primary btn-sm">Submit your order</button>
+    </div>)
     }
 }
 

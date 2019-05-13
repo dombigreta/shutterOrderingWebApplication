@@ -1,5 +1,7 @@
 const express = require('express');
 const router = express.Router();
+const appRoot = require('app-root-path');
+const fs = require('fs');
 
 const srs = require('../services/managerService');
 const service = new srs();
@@ -36,7 +38,7 @@ router.post('/organiseInstallation',(req,res) => {
     let orderId = req.body.orderId;
     let workerId = req.body.workerId;
     service.organiseInstallation(orderId, workerId, (result) => {
-        res.send(result);
+        res.send({message:'the invoice was created', level:'info'});
     })
 });
 
@@ -44,9 +46,21 @@ router.post('/organiseInstallation',(req,res) => {
 router.post('/createInvoice',(req,res) => {
     let orderId = req.body.orderId;
     let customerId = req.body.customerId;
-    let shutterId = req.body.shutterId;
-    service.createInvoice(orderId,customerId,shutterId, () => {
-        res.send('valami');
+
+    service.createInvoice(orderId,customerId, (fileName) => {
+      let file = appRoot.path + '/app/invoices/' + fileName;
+      console.log(file);
+      if(!fs.existsSync(file)){
+        res.send({error:'the file is not found', level:'error'});
+      }
+      res.send({message:'the invoice was created', level:'info'}); 
     })
 })
+
+router.get('/getStatistics', (req,res) => {
+    service.getStatistics((data) => {
+        res.send(data);
+    })
+})
+
 module.exports = router;

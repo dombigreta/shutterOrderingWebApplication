@@ -294,3 +294,1475 @@
 2019-05-13 05:43:34 [34mdebug[39m: [object Object]
 2019-05-13 05:43:34 [32minfo[39m: getting one shutter at a time
 2019-05-13 05:43:34 [34mdebug[39m: [object Object]
+2019-05-13 05:45:34 [32minfo[39m: getting one order at a time
+2019-05-13 05:45:34 [34mdebug[39m: [object Object]
+2019-05-13 05:45:34 [32minfo[39m: getting one customer at a time
+2019-05-13 05:45:34 [34mdebug[39m: [object Object]
+2019-05-13 05:45:34 [32minfo[39m: getting one shutter at a time
+2019-05-13 05:45:34 [34mdebug[39m: [object Object]
+2019-05-13 19:33:25 [32minfo[39m: server is running on port 9999
+2019-05-13 19:33:25 [32minfo[39m: successfully connected
+2019-05-13 19:34:52 [32minfo[39m: {find count undefined}
+2019-05-13 19:34:52 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:34:52 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:37:29 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:37:29 [32minfo[39m: {find count undefined}
+2019-05-13 19:37:29 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:38:20 [32minfo[39m: {find count undefined}
+2019-05-13 19:38:20 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:38:20 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:38:30 [32minfo[39m: {find count undefined}
+2019-05-13 19:38:30 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:38:30 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:38:57 [32minfo[39m: orders are coming back for worker
+2019-05-13 19:38:58 [32minfo[39m: parts are coming back for worker
+2019-05-13 19:38:59 [32minfo[39m: orders are coming back for manager
+2019-05-13 19:38:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 19:39:00 [32minfo[39m: customers are coming back for manager
+2019-05-13 19:39:00 [32minfo[39m: getting one order at a time
+2019-05-13 19:39:00 [34mdebug[39m: [object Object]
+2019-05-13 19:40:33 [32minfo[39m: getting one order at a time
+2019-05-13 19:40:33 [34mdebug[39m: [object Object]
+2019-05-13 19:40:33 [32minfo[39m: customers are coming back for manager
+2019-05-13 19:40:33 [32minfo[39m: orders are coming back for manager
+2019-05-13 19:40:33 [32minfo[39m: customers are coming back for manager
+2019-05-13 19:40:33 [32minfo[39m: getting one customer at a time
+2019-05-13 19:40:33 [34mdebug[39m: [object Object]
+2019-05-13 19:41:31 [32minfo[39m: getting one order at a time
+2019-05-13 19:41:31 [34mdebug[39m: [object Object]
+2019-05-13 19:41:31 [32minfo[39m: customers are coming back for manager
+2019-05-13 19:41:31 [32minfo[39m: orders are coming back for manager
+2019-05-13 19:41:31 [32minfo[39m: customers are coming back for manager
+2019-05-13 19:41:31 [32minfo[39m: getting one customer at a time
+2019-05-13 19:41:31 [34mdebug[39m: [object Object]
+2019-05-13 19:41:35 [32minfo[39m: orders are coming back for worker
+2019-05-13 19:41:35 [32minfo[39m: parts are coming back for worker
+2019-05-13 19:41:36 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:41:36 [32minfo[39m: {find count undefined}
+2019-05-13 19:41:36 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:42:53 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:42:53 [32minfo[39m: {find count undefined}
+2019-05-13 19:42:53 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:46:05 [32minfo[39m: {find count undefined}
+2019-05-13 19:46:05 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:46:05 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:47:36 [32minfo[39m: {find count undefined}
+2019-05-13 19:47:36 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:47:36 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:49:03 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:49:03 [32minfo[39m: {find count undefined}
+2019-05-13 19:49:03 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:49:38 [32minfo[39m: {find count undefined}
+2019-05-13 19:49:38 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:49:38 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:50:04 [32minfo[39m: {find count undefined}
+2019-05-13 19:50:04 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:50:04 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:50:30 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:50:30 [32minfo[39m: {find count undefined}
+2019-05-13 19:50:30 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:50:43 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:50:43 [32minfo[39m: {find count undefined}
+2019-05-13 19:50:43 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:51:15 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:51:15 [32minfo[39m: {find count undefined}
+2019-05-13 19:51:15 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:51:25 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:51:25 [32minfo[39m: {find count undefined}
+2019-05-13 19:51:25 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:51:26 [32minfo[39m: {inserted count 1}
+2019-05-13 19:53:11 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:53:11 [32minfo[39m: {find count undefined}
+2019-05-13 19:53:11 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:53:29 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:53:29 [32minfo[39m: {find count undefined}
+2019-05-13 19:53:29 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:54:53 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:54:53 [32minfo[39m: {find count undefined}
+2019-05-13 19:54:53 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:57:05 [32minfo[39m: Shutter types came back from db
+2019-05-13 19:57:05 [32minfo[39m: {find count undefined}
+2019-05-13 19:57:05 [32minfo[39m: orders are coming back for customer
+2019-05-13 19:57:11 [32minfo[39m: {inserted count 1}
+2019-05-13 20:00:02 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:00:02 [32minfo[39m: {find count undefined}
+2019-05-13 20:00:02 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:00:58 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:00:58 [32minfo[39m: {find count undefined}
+2019-05-13 20:00:58 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:02:05 [32minfo[39m: {find count undefined}
+2019-05-13 20:02:05 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:02:05 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:02:10 [32minfo[39m: {inserted count 1}
+2019-05-13 20:03:01 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:03:01 [32minfo[39m: {find count undefined}
+2019-05-13 20:03:01 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:04:29 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:04:29 [32minfo[39m: {find count undefined}
+2019-05-13 20:04:29 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:04:39 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:04:39 [32minfo[39m: {find count undefined}
+2019-05-13 20:04:39 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:04:54 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:04:54 [32minfo[39m: {find count undefined}
+2019-05-13 20:04:54 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:04:56 [32minfo[39m: {inserted count 1}
+2019-05-13 20:05:53 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:05:53 [32minfo[39m: {find count undefined}
+2019-05-13 20:05:53 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:06:14 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:06:14 [32minfo[39m: {find count undefined}
+2019-05-13 20:06:14 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:06:17 [32minfo[39m: {inserted count 1}
+2019-05-13 20:06:21 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:06:21 [32minfo[39m: {find count undefined}
+2019-05-13 20:06:21 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:06:37 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:06:37 [32minfo[39m: {find count undefined}
+2019-05-13 20:06:37 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:08:02 [32minfo[39m: {find count undefined}
+2019-05-13 20:08:02 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:08:02 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:09:07 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:09:07 [32minfo[39m: {find count undefined}
+2019-05-13 20:09:07 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:09:17 [32minfo[39m: {find count undefined}
+2019-05-13 20:09:17 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:09:17 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:09:26 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:09:26 [32minfo[39m: {find count undefined}
+2019-05-13 20:09:26 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:11:28 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:11:28 [32minfo[39m: {find count undefined}
+2019-05-13 20:11:28 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:13:04 [32minfo[39m: {find count undefined}
+2019-05-13 20:13:04 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:13:04 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:13:22 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:13:22 [32minfo[39m: {find count undefined}
+2019-05-13 20:13:22 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:16:32 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:16:32 [32minfo[39m: {find count undefined}
+2019-05-13 20:16:32 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:17:03 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:17:03 [32minfo[39m: {find count undefined}
+2019-05-13 20:17:03 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:17:25 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:17:25 [32minfo[39m: {find count undefined}
+2019-05-13 20:17:25 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:18:10 [32minfo[39m: {find count undefined}
+2019-05-13 20:18:10 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:18:10 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:18:18 [32minfo[39m: {find count undefined}
+2019-05-13 20:18:18 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:18:18 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:19:38 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:19:38 [32minfo[39m: {find count undefined}
+2019-05-13 20:19:38 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:20:40 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:20:40 [32minfo[39m: {find count undefined}
+2019-05-13 20:20:40 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:21:52 [32minfo[39m: {find count undefined}
+2019-05-13 20:21:52 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:21:52 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:24:28 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:24:28 [32minfo[39m: {find count undefined}
+2019-05-13 20:24:28 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:25:13 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:25:13 [32minfo[39m: {find count undefined}
+2019-05-13 20:25:13 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:25:31 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:25:31 [32minfo[39m: {find count undefined}
+2019-05-13 20:25:31 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:25:49 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:25:49 [32minfo[39m: {find count undefined}
+2019-05-13 20:25:49 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:26:09 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:26:09 [32minfo[39m: {find count undefined}
+2019-05-13 20:26:09 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:27:38 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:27:38 [32minfo[39m: {find count undefined}
+2019-05-13 20:27:38 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:28:02 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:28:02 [32minfo[39m: {find count undefined}
+2019-05-13 20:28:02 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:28:29 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:28:29 [32minfo[39m: {find count undefined}
+2019-05-13 20:28:29 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:28:53 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:28:53 [32minfo[39m: {find count undefined}
+2019-05-13 20:28:53 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:29:08 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:29:08 [32minfo[39m: {find count undefined}
+2019-05-13 20:29:08 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:34:25 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:34:25 [32minfo[39m: {find count undefined}
+2019-05-13 20:34:25 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:34:59 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:34:59 [32minfo[39m: {find count undefined}
+2019-05-13 20:34:59 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:35:51 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:35:51 [32minfo[39m: {find count undefined}
+2019-05-13 20:35:51 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:36:30 [32minfo[39m: {find count undefined}
+2019-05-13 20:36:30 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:36:30 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:36:43 [32minfo[39m: {find count undefined}
+2019-05-13 20:36:43 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:36:43 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:37:14 [32minfo[39m: {find count undefined}
+2019-05-13 20:37:14 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:37:14 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:37:36 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:37:36 [32minfo[39m: {find count undefined}
+2019-05-13 20:37:36 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:38:09 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:38:09 [32minfo[39m: {find count undefined}
+2019-05-13 20:38:09 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:38:58 [32minfo[39m: {find count undefined}
+2019-05-13 20:38:58 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:38:58 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:39:34 [32minfo[39m: {find count undefined}
+2019-05-13 20:39:34 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:39:34 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:39:43 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:39:43 [32minfo[39m: {find count undefined}
+2019-05-13 20:39:43 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:40:26 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:40:26 [32minfo[39m: {find count undefined}
+2019-05-13 20:40:26 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:41:34 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:41:34 [32minfo[39m: {find count undefined}
+2019-05-13 20:41:34 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:42:01 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:42:01 [32minfo[39m: {find count undefined}
+2019-05-13 20:42:01 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:42:32 [32minfo[39m: Shutter types came back from db
+2019-05-13 20:42:32 [32minfo[39m: {find count undefined}
+2019-05-13 20:42:32 [32minfo[39m: orders are coming back for customer
+2019-05-13 20:54:14 [32minfo[39m: server is running on port 9999
+2019-05-13 20:54:14 [32minfo[39m: successfully connected
+2019-05-13 21:00:56 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:00:56 [32minfo[39m: {find count undefined}
+2019-05-13 21:00:56 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:01:10 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:01:10 [32minfo[39m: {find count undefined}
+2019-05-13 21:01:10 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:01:36 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:01:36 [32minfo[39m: {find count undefined}
+2019-05-13 21:01:36 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:02:09 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:02:09 [32minfo[39m: {find count undefined}
+2019-05-13 21:02:09 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:02:46 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:02:46 [32minfo[39m: {find count undefined}
+2019-05-13 21:02:46 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:03:02 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:03:02 [32minfo[39m: {find count undefined}
+2019-05-13 21:03:02 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:03:06 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:03:06 [32minfo[39m: {find count undefined}
+2019-05-13 21:03:06 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:03:10 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:03:10 [32minfo[39m: {find count undefined}
+2019-05-13 21:03:10 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:03:23 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:03:23 [32minfo[39m: {find count undefined}
+2019-05-13 21:03:23 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:03:57 [32minfo[39m: {find count undefined}
+2019-05-13 21:03:57 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:03:57 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:04:18 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:04:18 [32minfo[39m: {find count undefined}
+2019-05-13 21:04:18 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:05:46 [32minfo[39m: {find count undefined}
+2019-05-13 21:05:46 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:05:46 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:06:12 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:06:12 [32minfo[39m: {find count undefined}
+2019-05-13 21:06:12 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:07:50 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:07:50 [32minfo[39m: {find count undefined}
+2019-05-13 21:07:50 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:09:01 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:09:01 [32minfo[39m: {find count undefined}
+2019-05-13 21:09:01 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:09:16 [32minfo[39m: {find count undefined}
+2019-05-13 21:09:16 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:09:16 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:09:37 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:09:37 [32minfo[39m: {find count undefined}
+2019-05-13 21:09:37 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:09:46 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:09:46 [32minfo[39m: {find count undefined}
+2019-05-13 21:09:46 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:10:16 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:10:16 [32minfo[39m: {find count undefined}
+2019-05-13 21:10:16 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:10:52 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:10:52 [32minfo[39m: {find count undefined}
+2019-05-13 21:10:52 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:11:00 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:11:00 [32minfo[39m: {find count undefined}
+2019-05-13 21:11:00 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:11:02 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:11:02 [32minfo[39m: {find count undefined}
+2019-05-13 21:11:02 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:11:49 [32minfo[39m: {find count undefined}
+2019-05-13 21:11:49 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:11:49 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:12:50 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:12:50 [32minfo[39m: {find count undefined}
+2019-05-13 21:12:50 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:13:37 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:13:37 [32minfo[39m: {find count undefined}
+2019-05-13 21:13:37 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:13:58 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:13:58 [32minfo[39m: {find count undefined}
+2019-05-13 21:13:58 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:16:26 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:16:26 [32minfo[39m: {find count undefined}
+2019-05-13 21:16:26 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:16:56 [32minfo[39m: {find count undefined}
+2019-05-13 21:16:56 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:16:56 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:18:19 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:18:19 [32minfo[39m: {find count undefined}
+2019-05-13 21:18:19 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:18:36 [32minfo[39m: {find count undefined}
+2019-05-13 21:18:36 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:18:36 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:18:47 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:18:47 [32minfo[39m: {find count undefined}
+2019-05-13 21:18:47 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:19:22 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:19:22 [32minfo[39m: {find count undefined}
+2019-05-13 21:19:22 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:19:40 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:19:40 [32minfo[39m: {find count undefined}
+2019-05-13 21:19:40 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:20:02 [32minfo[39m: {find count undefined}
+2019-05-13 21:20:02 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:20:02 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:20:14 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:20:14 [32minfo[39m: {find count undefined}
+2019-05-13 21:20:14 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:21:08 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:21:08 [32minfo[39m: {find count undefined}
+2019-05-13 21:21:08 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:25:15 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:25:15 [32minfo[39m: {find count undefined}
+2019-05-13 21:25:15 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:25:48 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:25:48 [32minfo[39m: {find count undefined}
+2019-05-13 21:25:48 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:26:39 [32minfo[39m: {find count undefined}
+2019-05-13 21:26:39 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:26:39 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:28:11 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:28:11 [32minfo[39m: {find count undefined}
+2019-05-13 21:28:11 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:28:46 [32minfo[39m: {find count undefined}
+2019-05-13 21:28:46 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:28:46 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:29:41 [32minfo[39m: server is running on port 9999
+2019-05-13 21:29:41 [32minfo[39m: successfully connected
+2019-05-13 21:29:50 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:29:51 [32minfo[39m: {find count undefined}
+2019-05-13 21:29:51 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:30:22 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:30:22 [32minfo[39m: {find count undefined}
+2019-05-13 21:30:22 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:31:34 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:31:34 [32minfo[39m: {find count undefined}
+2019-05-13 21:31:34 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:31:45 [32minfo[39m: {inserted count 1}
+2019-05-13 21:31:54 [32minfo[39m: {find count undefined}
+2019-05-13 21:31:54 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:31:54 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:32:13 [32minfo[39m: {find count undefined}
+2019-05-13 21:32:13 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:32:13 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:32:30 [32minfo[39m: {inserted count 1}
+2019-05-13 21:32:40 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:32:40 [32minfo[39m: {find count undefined}
+2019-05-13 21:32:40 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:33:16 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:33:16 [32minfo[39m: {find count undefined}
+2019-05-13 21:33:16 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:33:51 [32minfo[39m: {inserted count 1}
+2019-05-13 21:34:00 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:34:00 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:34:00 [32minfo[39m: {find count undefined}
+2019-05-13 21:34:00 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:34:00 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:34:33 [32minfo[39m: {find count undefined}
+2019-05-13 21:34:33 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:34:33 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:34:48 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:34:48 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:34:50 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:34:50 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:34:52 [32minfo[39m: getting one order at a time
+2019-05-13 21:34:52 [34mdebug[39m: [object Object]
+2019-05-13 21:34:52 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:34:52 [32minfo[39m: getting one customer at a time
+2019-05-13 21:34:52 [34mdebug[39m: [object Object]
+2019-05-13 21:35:04 [32minfo[39m: updating was successful
+2019-05-13 21:35:04 [34mdebug[39m: [object Object]
+2019-05-13 21:35:04 [32minfo[39m: getting one order at a time
+2019-05-13 21:35:04 [34mdebug[39m: [object Object]
+2019-05-13 21:35:23 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:35:24 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:35:24 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:35:24 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:35:27 [32minfo[39m: getting one customer at a time
+2019-05-13 21:35:27 [34mdebug[39m: [object Object]
+2019-05-13 21:35:27 [32minfo[39m: getting one order at a time
+2019-05-13 21:35:27 [34mdebug[39m: [object Object]
+2019-05-13 21:35:27 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:35:32 [32minfo[39m: updating was successful
+2019-05-13 21:35:32 [34mdebug[39m: [object Object]
+2019-05-13 21:35:32 [32minfo[39m: getting one order at a time
+2019-05-13 21:35:32 [34mdebug[39m: [object Object]
+2019-05-13 21:35:34 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:35:34 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:35:35 [32minfo[39m: getting one order at a time
+2019-05-13 21:35:35 [34mdebug[39m: [object Object]
+2019-05-13 21:35:35 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:35:41 [32minfo[39m: getting one order at a time
+2019-05-13 21:35:41 [34mdebug[39m: [object Object]
+2019-05-13 21:35:41 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:38:09 [32minfo[39m: server is running on port 9999
+2019-05-13 21:38:09 [32minfo[39m: successfully connected
+2019-05-13 21:38:12 [32minfo[39m: updating was successful
+2019-05-13 21:38:12 [34mdebug[39m: [object Object]
+2019-05-13 21:38:12 [32minfo[39m: getting one order at a time
+2019-05-13 21:38:12 [34mdebug[39m: [object Object]
+2019-05-13 21:38:12 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:39:53 [32minfo[39m: updating was successful
+2019-05-13 21:39:53 [34mdebug[39m: [object Object]
+2019-05-13 21:39:53 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:39:53 [32minfo[39m: getting one order at a time
+2019-05-13 21:39:53 [34mdebug[39m: [object Object]
+2019-05-13 21:39:58 [32minfo[39m: getting one order at a time
+2019-05-13 21:39:58 [34mdebug[39m: [object Object]
+2019-05-13 21:39:58 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:40:01 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:40:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:40:05 [32minfo[39m: getting one customer at a time
+2019-05-13 21:40:05 [34mdebug[39m: [object Object]
+2019-05-13 21:40:05 [32minfo[39m: getting one order at a time
+2019-05-13 21:40:05 [34mdebug[39m: [object Object]
+2019-05-13 21:40:05 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:40:08 [32minfo[39m: updating was successful
+2019-05-13 21:40:08 [34mdebug[39m: [object Object]
+2019-05-13 21:40:08 [32minfo[39m: getting one order at a time
+2019-05-13 21:40:08 [34mdebug[39m: [object Object]
+2019-05-13 21:40:10 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:40:10 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:40:14 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:40:14 [32minfo[39m: getting one order at a time
+2019-05-13 21:40:14 [34mdebug[39m: [object Object]
+2019-05-13 21:40:18 [32minfo[39m: updating was successful
+2019-05-13 21:40:18 [34mdebug[39m: [object Object]
+2019-05-13 21:40:18 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:40:18 [32minfo[39m: getting one order at a time
+2019-05-13 21:40:18 [34mdebug[39m: [object Object]
+2019-05-13 21:40:21 [32minfo[39m: updating was successful
+2019-05-13 21:40:21 [34mdebug[39m: [object Object]
+2019-05-13 21:40:21 [32minfo[39m: getting one order at a time
+2019-05-13 21:40:21 [34mdebug[39m: [object Object]
+2019-05-13 21:40:21 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:42:57 [32minfo[39m: getting one order at a time
+2019-05-13 21:42:57 [34mdebug[39m: null
+2019-05-13 21:42:57 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:42:57 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:42:59 [32minfo[39m: getting one order at a time
+2019-05-13 21:42:59 [34mdebug[39m: null
+2019-05-13 21:42:59 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:42:59 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:43:01 [32minfo[39m: getting one order at a time
+2019-05-13 21:43:01 [34mdebug[39m: null
+2019-05-13 21:43:01 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:43:01 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:43:09 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:43:09 [32minfo[39m: getting one order at a time
+2019-05-13 21:43:09 [34mdebug[39m: null
+2019-05-13 21:43:09 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:43:13 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:43:13 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:43:14 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:43:14 [32minfo[39m: {find count undefined}
+2019-05-13 21:43:14 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:43:27 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:43:27 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:43:27 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:43:28 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:43:34 [32minfo[39m: {find count undefined}
+2019-05-13 21:43:34 [32minfo[39m: Shutter types came back from db
+2019-05-13 21:43:34 [32minfo[39m: orders are coming back for customer
+2019-05-13 21:44:27 [32minfo[39m: server is running on port 9999
+2019-05-13 21:44:27 [32minfo[39m: successfully connected
+2019-05-13 21:45:25 [32minfo[39m: server is running on port 9999
+2019-05-13 21:45:25 [32minfo[39m: successfully connected
+2019-05-13 21:45:36 [32minfo[39m: server is running on port 9999
+2019-05-13 21:45:36 [32minfo[39m: successfully connected
+2019-05-13 21:45:44 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:45:44 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:45:44 [32minfo[39m: getting one order at a time
+2019-05-13 21:45:44 [34mdebug[39m: [object Object]
+2019-05-13 21:45:44 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:45:44 [32minfo[39m: getting one customer at a time
+2019-05-13 21:45:44 [34mdebug[39m: [object Object]
+2019-05-13 21:45:48 [32minfo[39m: updating was successful
+2019-05-13 21:45:48 [34mdebug[39m: [object Object]
+2019-05-13 21:45:48 [32minfo[39m: getting one order at a time
+2019-05-13 21:45:48 [34mdebug[39m: [object Object]
+2019-05-13 21:45:51 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:45:51 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:45:52 [32minfo[39m: getting one order at a time
+2019-05-13 21:45:52 [34mdebug[39m: [object Object]
+2019-05-13 21:45:52 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:46:12 [32minfo[39m: updating was successful
+2019-05-13 21:46:12 [34mdebug[39m: [object Object]
+2019-05-13 21:46:12 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:46:12 [32minfo[39m: getting one order at a time
+2019-05-13 21:46:12 [34mdebug[39m: [object Object]
+2019-05-13 21:46:37 [32minfo[39m: server is running on port 9999
+2019-05-13 21:46:37 [32minfo[39m: successfully connected
+2019-05-13 21:46:53 [32minfo[39m: getting one order at a time
+2019-05-13 21:46:53 [34mdebug[39m: [object Object]
+2019-05-13 21:46:53 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:46:53 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:46:53 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:47:02 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:47:02 [32minfo[39m: getting one order at a time
+2019-05-13 21:47:02 [34mdebug[39m: [object Object]
+2019-05-13 21:47:02 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:47:02 [32minfo[39m: parts are coming back for worker
+2019-05-13 21:47:11 [32minfo[39m: updating was successful
+2019-05-13 21:47:11 [34mdebug[39m: [object Object]
+2019-05-13 21:47:11 [32minfo[39m: orders are coming back for worker
+2019-05-13 21:47:11 [32minfo[39m: getting one order at a time
+2019-05-13 21:47:11 [34mdebug[39m: [object Object]
+2019-05-13 21:47:19 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:47:20 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:47:21 [32minfo[39m: getting one order at a time
+2019-05-13 21:47:21 [34mdebug[39m: [object Object]
+2019-05-13 21:47:21 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:47:21 [32minfo[39m: getting one customer at a time
+2019-05-13 21:47:21 [34mdebug[39m: [object Object]
+2019-05-13 21:48:57 [32minfo[39m: server is running on port 9999
+2019-05-13 21:48:57 [32minfo[39m: successfully connected
+2019-05-13 21:53:21 [32minfo[39m: server is running on port 9999
+2019-05-13 21:53:21 [32minfo[39m: successfully connected
+2019-05-13 21:54:03 [32minfo[39m: server is running on port 9999
+2019-05-13 21:54:03 [32minfo[39m: successfully connected
+2019-05-13 21:54:59 [32minfo[39m: server is running on port 9999
+2019-05-13 21:54:59 [32minfo[39m: successfully connected
+2019-05-13 21:56:01 [32minfo[39m: getting one order at a time
+2019-05-13 21:56:01 [34mdebug[39m: [object Object]
+2019-05-13 21:56:01 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:56:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:56:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:56:01 [32minfo[39m: getting one customer at a time
+2019-05-13 21:56:02 [34mdebug[39m: [object Object]
+2019-05-13 21:56:53 [32minfo[39m: getting one order at a time
+2019-05-13 21:56:53 [34mdebug[39m: [object Object]
+2019-05-13 21:56:53 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:56:53 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:56:53 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:56:53 [32minfo[39m: getting one customer at a time
+2019-05-13 21:56:53 [34mdebug[39m: [object Object]
+2019-05-13 21:57:10 [32minfo[39m: server is running on port 9999
+2019-05-13 21:57:10 [32minfo[39m: successfully connected
+2019-05-13 21:57:56 [32minfo[39m: server is running on port 9999
+2019-05-13 21:57:56 [32minfo[39m: successfully connected
+2019-05-13 21:58:18 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:58:18 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:58:19 [32minfo[39m: getting one order at a time
+2019-05-13 21:58:19 [34mdebug[39m: [object Object]
+2019-05-13 21:58:19 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:58:19 [32minfo[39m: getting one customer at a time
+2019-05-13 21:58:19 [34mdebug[39m: [object Object]
+2019-05-13 21:59:21 [32minfo[39m: getting one order at a time
+2019-05-13 21:59:21 [34mdebug[39m: [object Object]
+2019-05-13 21:59:21 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:59:21 [32minfo[39m: orders are coming back for manager
+2019-05-13 21:59:21 [32minfo[39m: customers are coming back for manager
+2019-05-13 21:59:21 [32minfo[39m: getting one customer at a time
+2019-05-13 21:59:21 [34mdebug[39m: [object Object]
+2019-05-13 22:00:11 [32minfo[39m: server is running on port 9999
+2019-05-13 22:00:11 [32minfo[39m: successfully connected
+2019-05-13 22:00:39 [32minfo[39m: getting one order at a time
+2019-05-13 22:00:39 [34mdebug[39m: [object Object]
+2019-05-13 22:00:39 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:00:39 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:00:39 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:00:39 [32minfo[39m: getting one customer at a time
+2019-05-13 22:00:39 [34mdebug[39m: [object Object]
+2019-05-13 22:00:59 [32minfo[39m: getting one order at a time
+2019-05-13 22:00:59 [34mdebug[39m: [object Object]
+2019-05-13 22:00:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:00:59 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:00:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:01:00 [32minfo[39m: getting one customer at a time
+2019-05-13 22:01:00 [34mdebug[39m: [object Object]
+2019-05-13 22:01:09 [32minfo[39m: server is running on port 9999
+2019-05-13 22:01:09 [32minfo[39m: successfully connected
+2019-05-13 22:01:20 [32minfo[39m: server is running on port 9999
+2019-05-13 22:01:20 [32minfo[39m: successfully connected
+2019-05-13 22:01:24 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:01:24 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:01:28 [32minfo[39m: getting one order at a time
+2019-05-13 22:01:28 [34mdebug[39m: [object Object]
+2019-05-13 22:01:28 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:01:28 [32minfo[39m: getting one customer at a time
+2019-05-13 22:01:28 [34mdebug[39m: [object Object]
+2019-05-13 22:01:30 [32minfo[39m: getting one order at a time
+2019-05-13 22:01:30 [34mdebug[39m: [object Object]
+2019-05-13 22:01:30 [32minfo[39m: getting one customer at a time
+2019-05-13 22:01:30 [34mdebug[39m: [object Object]
+2019-05-13 22:01:30 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:01:30 [34mdebug[39m: [object Object]
+2019-05-13 22:01:30 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:01:30 [34mdebug[39m: [object Object]
+2019-05-13 22:01:30 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:01:30 [34mdebug[39m: [object Object]
+2019-05-13 22:02:40 [32minfo[39m: server is running on port 9999
+2019-05-13 22:02:40 [32minfo[39m: successfully connected
+2019-05-13 22:02:43 [32minfo[39m: getting one order at a time
+2019-05-13 22:02:43 [34mdebug[39m: [object Object]
+2019-05-13 22:02:43 [32minfo[39m: getting one customer at a time
+2019-05-13 22:02:43 [34mdebug[39m: [object Object]
+2019-05-13 22:02:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:02:43 [34mdebug[39m: [object Object]
+2019-05-13 22:02:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:02:43 [34mdebug[39m: [object Object]
+2019-05-13 22:02:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:02:43 [34mdebug[39m: [object Object]
+2019-05-13 22:04:43 [32minfo[39m: getting one order at a time
+2019-05-13 22:04:43 [34mdebug[39m: [object Object]
+2019-05-13 22:04:43 [32minfo[39m: getting one customer at a time
+2019-05-13 22:04:43 [34mdebug[39m: [object Object]
+2019-05-13 22:04:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:04:43 [34mdebug[39m: [object Object]
+2019-05-13 22:04:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:04:43 [34mdebug[39m: [object Object]
+2019-05-13 22:04:43 [32minfo[39m: getting one shutter at a time
+2019-05-13 22:04:43 [34mdebug[39m: [object Object]
+2019-05-13 22:08:46 [32minfo[39m: server is running on port 9999
+2019-05-13 22:08:46 [32minfo[39m: successfully connected
+2019-05-13 22:08:53 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:08:53 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:09:01 [32minfo[39m: getting one order at a time
+2019-05-13 22:09:01 [34mdebug[39m: [object Object]
+2019-05-13 22:09:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:09:01 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:09:01 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:09:01 [32minfo[39m: getting one customer at a time
+2019-05-13 22:09:01 [34mdebug[39m: [object Object]
+2019-05-13 22:09:04 [32minfo[39m: getting one order at a time
+2019-05-13 22:09:04 [34mdebug[39m: [object Object]
+2019-05-13 22:09:27 [32minfo[39m: server is running on port 9999
+2019-05-13 22:09:27 [32minfo[39m: successfully connected
+2019-05-13 22:09:30 [32minfo[39m: getting one order at a time
+2019-05-13 22:09:30 [34mdebug[39m: [object Object]
+2019-05-13 22:12:35 [32minfo[39m: server is running on port 9999
+2019-05-13 22:12:35 [32minfo[39m: successfully connected
+2019-05-13 22:12:38 [32minfo[39m: server is running on port 9999
+2019-05-13 22:12:38 [32minfo[39m: successfully connected
+2019-05-13 22:12:40 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:12:40 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:12:41 [32minfo[39m: getting one order at a time
+2019-05-13 22:12:41 [34mdebug[39m: [object Object]
+2019-05-13 22:12:41 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:12:41 [32minfo[39m: getting one customer at a time
+2019-05-13 22:12:41 [34mdebug[39m: [object Object]
+2019-05-13 22:12:46 [32minfo[39m: getting one order at a time
+2019-05-13 22:12:46 [34mdebug[39m: [object Object]
+2019-05-13 22:12:46 [32minfo[39m: updating was successful
+2019-05-13 22:12:46 [34mdebug[39m: [object Object]
+2019-05-13 22:12:52 [32minfo[39m: getting one order at a time
+2019-05-13 22:12:52 [34mdebug[39m: [object Object]
+2019-05-13 22:12:52 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:12:52 [32minfo[39m: getting one customer at a time
+2019-05-13 22:12:52 [34mdebug[39m: [object Object]
+2019-05-13 22:12:55 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:12:55 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:12:57 [32minfo[39m: getting one order at a time
+2019-05-13 22:12:57 [34mdebug[39m: [object Object]
+2019-05-13 22:12:58 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:13:02 [32minfo[39m: updating was successful
+2019-05-13 22:13:02 [34mdebug[39m: [object Object]
+2019-05-13 22:13:02 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:13:02 [32minfo[39m: getting one order at a time
+2019-05-13 22:13:02 [34mdebug[39m: [object Object]
+2019-05-13 22:13:05 [32minfo[39m: updating was successful
+2019-05-13 22:13:05 [34mdebug[39m: [object Object]
+2019-05-13 22:13:05 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:13:05 [32minfo[39m: getting one order at a time
+2019-05-13 22:13:05 [34mdebug[39m: [object Object]
+2019-05-13 22:13:10 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:13:10 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:13:12 [32minfo[39m: getting one order at a time
+2019-05-13 22:13:12 [34mdebug[39m: [object Object]
+2019-05-13 22:13:12 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:13:12 [32minfo[39m: getting one customer at a time
+2019-05-13 22:13:12 [34mdebug[39m: [object Object]
+2019-05-13 22:13:15 [32minfo[39m: getting one order at a time
+2019-05-13 22:13:15 [34mdebug[39m: [object Object]
+2019-05-13 22:13:15 [32minfo[39m: getting one customer at a time
+2019-05-13 22:14:17 [32minfo[39m: server is running on port 9999
+2019-05-13 22:14:17 [32minfo[39m: successfully connected
+2019-05-13 22:14:27 [32minfo[39m: getting one order at a time
+2019-05-13 22:14:27 [34mdebug[39m: [object Object]
+2019-05-13 22:14:27 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:14:27 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:14:27 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:14:27 [32minfo[39m: getting one customer at a time
+2019-05-13 22:14:27 [34mdebug[39m: [object Object]
+2019-05-13 22:14:29 [32minfo[39m: getting one order at a time
+2019-05-13 22:14:29 [34mdebug[39m: [object Object]
+2019-05-13 22:14:29 [32minfo[39m: getting one customer at a time
+2019-05-13 22:14:47 [32minfo[39m: server is running on port 9999
+2019-05-13 22:14:47 [32minfo[39m: successfully connected
+2019-05-13 22:14:50 [32minfo[39m: getting one order at a time
+2019-05-13 22:14:50 [34mdebug[39m: [object Object]
+2019-05-13 22:14:50 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:14:50 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:14:50 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:14:50 [32minfo[39m: getting one customer at a time
+2019-05-13 22:14:50 [34mdebug[39m: [object Object]
+2019-05-13 22:14:53 [32minfo[39m: getting one order at a time
+2019-05-13 22:14:53 [34mdebug[39m: [object Object]
+2019-05-13 22:14:53 [32minfo[39m: getting one customer at a time
+2019-05-13 22:14:53 [34mdebug[39m: [object Object]
+2019-05-13 22:14:53 [32minfo[39m: getting  the shutters backk
+2019-05-13 22:14:53 [34mdebug[39m: [object Object]
+2019-05-13 22:15:35 [32minfo[39m: server is running on port 9999
+2019-05-13 22:15:35 [32minfo[39m: successfully connected
+2019-05-13 22:16:14 [32minfo[39m: server is running on port 9999
+2019-05-13 22:16:14 [32minfo[39m: successfully connected
+2019-05-13 22:16:24 [32minfo[39m: getting one order at a time
+2019-05-13 22:16:24 [34mdebug[39m: [object Object]
+2019-05-13 22:16:24 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:16:24 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:16:24 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:16:24 [32minfo[39m: getting one customer at a time
+2019-05-13 22:16:24 [34mdebug[39m: [object Object]
+2019-05-13 22:16:26 [32minfo[39m: getting one order at a time
+2019-05-13 22:16:26 [34mdebug[39m: [object Object]
+2019-05-13 22:16:26 [32minfo[39m: getting one customer at a time
+2019-05-13 22:16:26 [34mdebug[39m: [object Object]
+2019-05-13 22:16:26 [32minfo[39m: getting  the shutters backk
+2019-05-13 22:16:26 [34mdebug[39m: 
+2019-05-13 22:17:00 [32minfo[39m: server is running on port 9999
+2019-05-13 22:17:00 [32minfo[39m: successfully connected
+2019-05-13 22:17:04 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:17:04 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:17:06 [32minfo[39m: getting one order at a time
+2019-05-13 22:17:06 [34mdebug[39m: [object Object]
+2019-05-13 22:17:06 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:17:06 [32minfo[39m: getting one customer at a time
+2019-05-13 22:17:06 [34mdebug[39m: [object Object]
+2019-05-13 22:17:08 [32minfo[39m: getting one order at a time
+2019-05-13 22:17:08 [34mdebug[39m: [object Object]
+2019-05-13 22:17:08 [32minfo[39m: getting one customer at a time
+2019-05-13 22:17:08 [34mdebug[39m: [object Object]
+2019-05-13 22:17:08 [32minfo[39m: getting  the shutters backk
+2019-05-13 22:17:08 [34mdebug[39m: 
+2019-05-13 22:20:17 [32minfo[39m: server is running on port 9999
+2019-05-13 22:20:18 [32minfo[39m: successfully connected
+2019-05-13 22:20:22 [32minfo[39m: getting one order at a time
+2019-05-13 22:20:22 [34mdebug[39m: [object Object]
+2019-05-13 22:20:22 [32minfo[39m: getting one customer at a time
+2019-05-13 22:20:22 [34mdebug[39m: [object Object]
+2019-05-13 22:20:22 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:20:22 [34mdebug[39m: 
+2019-05-13 22:23:37 [32minfo[39m: server is running on port 9999
+2019-05-13 22:23:37 [32minfo[39m: successfully connected
+2019-05-13 22:23:41 [32minfo[39m: getting one order at a time
+2019-05-13 22:23:41 [34mdebug[39m: [object Object]
+2019-05-13 22:23:41 [32minfo[39m: getting one customer at a time
+2019-05-13 22:23:41 [34mdebug[39m: [object Object]
+2019-05-13 22:23:41 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:23:41 [34mdebug[39m: [object Object],[object Object]
+2019-05-13 22:24:29 [32minfo[39m: server is running on port 9999
+2019-05-13 22:24:29 [32minfo[39m: successfully connected
+2019-05-13 22:24:35 [32minfo[39m: getting one order at a time
+2019-05-13 22:24:35 [34mdebug[39m: [object Object]
+2019-05-13 22:24:35 [32minfo[39m: getting one customer at a time
+2019-05-13 22:24:35 [34mdebug[39m: [object Object]
+2019-05-13 22:24:35 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:24:35 [34mdebug[39m: 
+2019-05-13 22:26:10 [32minfo[39m: server is running on port 9999
+2019-05-13 22:26:10 [32minfo[39m: successfully connected
+2019-05-13 22:26:17 [32minfo[39m: getting one order at a time
+2019-05-13 22:26:17 [34mdebug[39m: [object Object]
+2019-05-13 22:26:17 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:26:17 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:26:17 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:26:17 [32minfo[39m: getting one customer at a time
+2019-05-13 22:26:17 [34mdebug[39m: [object Object]
+2019-05-13 22:26:18 [32minfo[39m: getting one order at a time
+2019-05-13 22:26:18 [34mdebug[39m: [object Object]
+2019-05-13 22:26:18 [32minfo[39m: getting one customer at a time
+2019-05-13 22:26:18 [34mdebug[39m: [object Object]
+2019-05-13 22:26:18 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:26:18 [34mdebug[39m: 
+2019-05-13 22:27:17 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:27:17 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:27:18 [32minfo[39m: getting one order at a time
+2019-05-13 22:27:18 [34mdebug[39m: [object Object]
+2019-05-13 22:27:18 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:29:39 [32minfo[39m: server is running on port 9999
+2019-05-13 22:29:39 [32minfo[39m: successfully connected
+2019-05-13 22:29:46 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:29:46 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:29:47 [32minfo[39m: getting one order at a time
+2019-05-13 22:29:47 [34mdebug[39m: [object Object]
+2019-05-13 22:29:47 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:29:51 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:29:51 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:29:52 [32minfo[39m: getting one order at a time
+2019-05-13 22:29:52 [34mdebug[39m: [object Object]
+2019-05-13 22:29:53 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:29:53 [32minfo[39m: getting one customer at a time
+2019-05-13 22:29:53 [34mdebug[39m: [object Object]
+2019-05-13 22:29:54 [32minfo[39m: getting one order at a time
+2019-05-13 22:29:54 [34mdebug[39m: [object Object]
+2019-05-13 22:29:54 [32minfo[39m: getting one customer at a time
+2019-05-13 22:30:04 [32minfo[39m: server is running on port 9999
+2019-05-13 22:30:04 [32minfo[39m: successfully connected
+2019-05-13 22:30:06 [32minfo[39m: getting one order at a time
+2019-05-13 22:30:06 [34mdebug[39m: [object Object]
+2019-05-13 22:30:06 [32minfo[39m: getting one customer at a time
+2019-05-13 22:30:06 [34mdebug[39m: [object Object]
+2019-05-13 22:30:06 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:30:06 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:30:43 [32minfo[39m: server is running on port 9999
+2019-05-13 22:30:43 [32minfo[39m: successfully connected
+2019-05-13 22:30:47 [32minfo[39m: getting one order at a time
+2019-05-13 22:30:47 [34mdebug[39m: [object Object]
+2019-05-13 22:30:47 [32minfo[39m: getting one customer at a time
+2019-05-13 22:30:47 [34mdebug[39m: [object Object]
+2019-05-13 22:30:47 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:30:47 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:32:47 [32minfo[39m: getting one order at a time
+2019-05-13 22:32:47 [34mdebug[39m: [object Object]
+2019-05-13 22:32:47 [32minfo[39m: getting one customer at a time
+2019-05-13 22:32:47 [34mdebug[39m: [object Object]
+2019-05-13 22:32:47 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:32:47 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:34:25 [32minfo[39m: server is running on port 9999
+2019-05-13 22:34:25 [32minfo[39m: successfully connected
+2019-05-13 22:34:39 [32minfo[39m: {find count undefined}
+2019-05-13 22:34:39 [32minfo[39m: Shutter types came back from db
+2019-05-13 22:34:39 [32minfo[39m: orders are coming back for customer
+2019-05-13 22:34:57 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:34:57 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:34:58 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:34:58 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:34:59 [32minfo[39m: {find count undefined}
+2019-05-13 22:34:59 [32minfo[39m: Shutter types came back from db
+2019-05-13 22:34:59 [32minfo[39m: orders are coming back for customer
+2019-05-13 22:35:01 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:35:01 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:35:02 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:35:02 [32minfo[39m: getting one order at a time
+2019-05-13 22:35:02 [34mdebug[39m: [object Object]
+2019-05-13 22:35:06 [32minfo[39m: Shutter types came back from db
+2019-05-13 22:35:06 [32minfo[39m: {find count undefined}
+2019-05-13 22:35:06 [32minfo[39m: orders are coming back for customer
+2019-05-13 22:35:53 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:35:53 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:35:54 [32minfo[39m: {find count undefined}
+2019-05-13 22:35:54 [32minfo[39m: orders are coming back for customer
+2019-05-13 22:35:54 [32minfo[39m: Shutter types came back from db
+2019-05-13 22:36:15 [32minfo[39m: {inserted count 1}
+2019-05-13 22:36:20 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:36:20 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:36:20 [32minfo[39m: Shutter types came back from db
+2019-05-13 22:36:21 [32minfo[39m: {find count undefined}
+2019-05-13 22:36:21 [32minfo[39m: orders are coming back for customer
+2019-05-13 22:36:44 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:36:44 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:36:46 [32minfo[39m: getting one customer at a time
+2019-05-13 22:36:46 [34mdebug[39m: [object Object]
+2019-05-13 22:36:46 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:36:46 [32minfo[39m: getting one order at a time
+2019-05-13 22:36:46 [34mdebug[39m: [object Object]
+2019-05-13 22:36:49 [32minfo[39m: getting one order at a time
+2019-05-13 22:36:49 [34mdebug[39m: [object Object]
+2019-05-13 22:36:49 [32minfo[39m: getting one customer at a time
+2019-05-13 22:36:49 [34mdebug[39m: [object Object]
+2019-05-13 22:36:49 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:36:49 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:40:09 [32minfo[39m: server is running on port 9999
+2019-05-13 22:40:09 [32minfo[39m: successfully connected
+2019-05-13 22:40:16 [32minfo[39m: getting one order at a time
+2019-05-13 22:40:16 [34mdebug[39m: [object Object]
+2019-05-13 22:40:16 [32minfo[39m: getting one customer at a time
+2019-05-13 22:40:16 [34mdebug[39m: [object Object]
+2019-05-13 22:40:16 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:40:16 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:42:16 [32minfo[39m: getting one order at a time
+2019-05-13 22:42:16 [34mdebug[39m: [object Object]
+2019-05-13 22:42:16 [32minfo[39m: getting one customer at a time
+2019-05-13 22:42:16 [34mdebug[39m: [object Object]
+2019-05-13 22:42:16 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:42:16 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:43:34 [32minfo[39m: server is running on port 9999
+2019-05-13 22:43:34 [32minfo[39m: successfully connected
+2019-05-13 22:50:19 [32minfo[39m: server is running on port 9999
+2019-05-13 22:50:19 [32minfo[39m: successfully connected
+2019-05-13 22:50:24 [32minfo[39m: getting one order at a time
+2019-05-13 22:50:24 [34mdebug[39m: [object Object]
+2019-05-13 22:50:24 [32minfo[39m: getting one customer at a time
+2019-05-13 22:50:24 [34mdebug[39m: [object Object]
+2019-05-13 22:50:24 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:50:24 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:54:39 [32minfo[39m: server is running on port 9999
+2019-05-13 22:54:39 [32minfo[39m: successfully connected
+2019-05-13 22:54:48 [32minfo[39m: server is running on port 9999
+2019-05-13 22:54:48 [32minfo[39m: successfully connected
+2019-05-13 22:54:52 [32minfo[39m: getting one order at a time
+2019-05-13 22:54:52 [34mdebug[39m: [object Object]
+2019-05-13 22:54:52 [32minfo[39m: getting one customer at a time
+2019-05-13 22:54:52 [34mdebug[39m: [object Object]
+2019-05-13 22:54:52 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:54:52 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 22:55:23 [32minfo[39m: server is running on port 9999
+2019-05-13 22:55:23 [32minfo[39m: successfully connected
+2019-05-13 22:56:06 [32minfo[39m: server is running on port 9999
+2019-05-13 22:56:06 [32minfo[39m: successfully connected
+2019-05-13 22:56:18 [32minfo[39m: server is running on port 9999
+2019-05-13 22:56:18 [32minfo[39m: successfully connected
+2019-05-13 22:57:49 [32minfo[39m: orders are coming back for worker
+2019-05-13 22:57:49 [32minfo[39m: parts are coming back for worker
+2019-05-13 22:57:50 [32minfo[39m: orders are coming back for manager
+2019-05-13 22:57:51 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:57:53 [32minfo[39m: getting one order at a time
+2019-05-13 22:57:53 [34mdebug[39m: [object Object]
+2019-05-13 22:57:53 [32minfo[39m: customers are coming back for manager
+2019-05-13 22:57:53 [32minfo[39m: getting one customer at a time
+2019-05-13 22:57:53 [34mdebug[39m: [object Object]
+2019-05-13 22:57:55 [32minfo[39m: getting one order at a time
+2019-05-13 22:57:55 [34mdebug[39m: [object Object]
+2019-05-13 22:57:55 [32minfo[39m: getting one customer at a time
+2019-05-13 22:57:55 [34mdebug[39m: [object Object]
+2019-05-13 22:57:55 [32minfo[39m: getting  the shutters bakk
+2019-05-13 22:57:55 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:00:45 [32minfo[39m: server is running on port 9999
+2019-05-13 23:00:45 [32minfo[39m: successfully connected
+2019-05-13 23:01:57 [32minfo[39m: server is running on port 9999
+2019-05-13 23:01:57 [32minfo[39m: successfully connected
+2019-05-13 23:03:25 [32minfo[39m: server is running on port 9999
+2019-05-13 23:03:25 [32minfo[39m: successfully connected
+2019-05-13 23:03:43 [32minfo[39m: getting one order at a time
+2019-05-13 23:03:43 [34mdebug[39m: [object Object]
+2019-05-13 23:03:43 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:03:43 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:03:43 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:03:43 [32minfo[39m: getting one customer at a time
+2019-05-13 23:03:43 [34mdebug[39m: [object Object]
+2019-05-13 23:03:45 [32minfo[39m: getting one order at a time
+2019-05-13 23:03:45 [34mdebug[39m: [object Object]
+2019-05-13 23:03:45 [32minfo[39m: getting one customer at a time
+2019-05-13 23:03:45 [34mdebug[39m: [object Object]
+2019-05-13 23:03:45 [32minfo[39m: getting  the shutters bakk
+2019-05-13 23:03:45 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:04:02 [32minfo[39m: server is running on port 9999
+2019-05-13 23:04:02 [32minfo[39m: successfully connected
+2019-05-13 23:04:07 [32minfo[39m: getting one order at a time
+2019-05-13 23:04:07 [34mdebug[39m: [object Object]
+2019-05-13 23:04:07 [32minfo[39m: getting one customer at a time
+2019-05-13 23:04:07 [34mdebug[39m: [object Object]
+2019-05-13 23:04:07 [32minfo[39m: getting  the shutters bakk
+2019-05-13 23:04:07 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:04:53 [32minfo[39m: server is running on port 9999
+2019-05-13 23:04:53 [32minfo[39m: successfully connected
+2019-05-13 23:05:09 [32minfo[39m: getting one order at a time
+2019-05-13 23:05:09 [34mdebug[39m: [object Object]
+2019-05-13 23:05:09 [32minfo[39m: getting one customer at a time
+2019-05-13 23:05:09 [34mdebug[39m: [object Object]
+2019-05-13 23:05:36 [32minfo[39m: server is running on port 9999
+2019-05-13 23:05:36 [32minfo[39m: successfully connected
+2019-05-13 23:05:46 [32minfo[39m: server is running on port 9999
+2019-05-13 23:05:46 [32minfo[39m: successfully connected
+2019-05-13 23:05:51 [32minfo[39m: getting one order at a time
+2019-05-13 23:05:51 [34mdebug[39m: [object Object]
+2019-05-13 23:05:51 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:05:51 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:05:51 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:05:51 [32minfo[39m: getting one customer at a time
+2019-05-13 23:05:51 [34mdebug[39m: [object Object]
+2019-05-13 23:05:53 [32minfo[39m: getting one order at a time
+2019-05-13 23:05:53 [34mdebug[39m: [object Object]
+2019-05-13 23:05:53 [32minfo[39m: getting one customer at a time
+2019-05-13 23:05:53 [34mdebug[39m: [object Object]
+2019-05-13 23:05:53 [32minfo[39m: getting  the shutters bakk
+2019-05-13 23:05:53 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:06:40 [32minfo[39m: server is running on port 9999
+2019-05-13 23:06:41 [32minfo[39m: successfully connected
+2019-05-13 23:07:00 [32minfo[39m: server is running on port 9999
+2019-05-13 23:07:00 [32minfo[39m: successfully connected
+2019-05-13 23:07:10 [32minfo[39m: server is running on port 9999
+2019-05-13 23:07:10 [32minfo[39m: successfully connected
+2019-05-13 23:07:15 [32minfo[39m: getting one order at a time
+2019-05-13 23:07:15 [34mdebug[39m: [object Object]
+2019-05-13 23:07:15 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:07:15 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:07:15 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:07:15 [32minfo[39m: getting one customer at a time
+2019-05-13 23:07:15 [34mdebug[39m: [object Object]
+2019-05-13 23:07:17 [32minfo[39m: getting one order at a time
+2019-05-13 23:07:17 [34mdebug[39m: [object Object]
+2019-05-13 23:07:17 [32minfo[39m: getting one customer at a time
+2019-05-13 23:07:17 [34mdebug[39m: [object Object]
+2019-05-13 23:07:17 [32minfo[39m: getting  the shutters bakk
+2019-05-13 23:07:17 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:09:04 [32minfo[39m: server is running on port 9999
+2019-05-13 23:09:04 [32minfo[39m: successfully connected
+2019-05-13 23:09:10 [32minfo[39m: getting one order at a time
+2019-05-13 23:09:10 [34mdebug[39m: [object Object]
+2019-05-13 23:09:10 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:09:10 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:09:10 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:09:10 [32minfo[39m: getting one customer at a time
+2019-05-13 23:09:10 [34mdebug[39m: [object Object]
+2019-05-13 23:09:14 [32minfo[39m: getting one order at a time
+2019-05-13 23:09:14 [34mdebug[39m: [object Object]
+2019-05-13 23:09:14 [32minfo[39m: getting one customer at a time
+2019-05-13 23:09:14 [34mdebug[39m: [object Object]
+2019-05-13 23:09:14 [32minfo[39m: getting  the shutters bakk
+2019-05-13 23:09:14 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:19:33 [32minfo[39m: server is running on port 9999
+2019-05-13 23:19:33 [32minfo[39m: successfully connected
+2019-05-13 23:19:56 [32minfo[39m: server is running on port 9999
+2019-05-13 23:19:56 [32minfo[39m: successfully connected
+2019-05-13 23:19:59 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:19:59 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:20:02 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:02 [34mdebug[39m: [object Object]
+2019-05-13 23:20:02 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:20:02 [32minfo[39m: getting one customer at a time
+2019-05-13 23:20:02 [34mdebug[39m: [object Object]
+2019-05-13 23:20:04 [32minfo[39m: updating was successful
+2019-05-13 23:20:04 [34mdebug[39m: [object Object]
+2019-05-13 23:20:04 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:04 [34mdebug[39m: [object Object]
+2019-05-13 23:20:06 [32minfo[39m: orders are coming back for worker
+2019-05-13 23:20:06 [32minfo[39m: parts are coming back for worker
+2019-05-13 23:20:08 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:08 [34mdebug[39m: [object Object]
+2019-05-13 23:20:08 [32minfo[39m: parts are coming back for worker
+2019-05-13 23:20:13 [32minfo[39m: updating was successful
+2019-05-13 23:20:13 [34mdebug[39m: [object Object]
+2019-05-13 23:20:13 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:13 [34mdebug[39m: [object Object]
+2019-05-13 23:20:13 [32minfo[39m: orders are coming back for worker
+2019-05-13 23:20:14 [32minfo[39m: updating was successful
+2019-05-13 23:20:14 [34mdebug[39m: [object Object]
+2019-05-13 23:20:14 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:14 [34mdebug[39m: [object Object]
+2019-05-13 23:20:14 [32minfo[39m: orders are coming back for worker
+2019-05-13 23:20:19 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:20:19 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:20:21 [32minfo[39m: getting one customer at a time
+2019-05-13 23:20:21 [34mdebug[39m: [object Object]
+2019-05-13 23:20:21 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:20:21 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:21 [34mdebug[39m: [object Object]
+2019-05-13 23:20:23 [32minfo[39m: getting one order at a time
+2019-05-13 23:20:23 [34mdebug[39m: [object Object]
+2019-05-13 23:20:23 [32minfo[39m: getting one customer at a time
+2019-05-13 23:20:23 [34mdebug[39m: [object Object]
+2019-05-13 23:20:23 [32minfo[39m: getting  the shutters bakk
+2019-05-13 23:20:23 [34mdebug[39m: [object Object]
+2019-05-13 23:21:12 [32minfo[39m: server is running on port 9999
+2019-05-13 23:21:13 [32minfo[39m: successfully connected
+2019-05-13 23:22:32 [32minfo[39m: server is running on port 9999
+2019-05-13 23:22:32 [32minfo[39m: successfully connected
+2019-05-13 23:23:26 [32minfo[39m: server is running on port 9999
+2019-05-13 23:23:26 [32minfo[39m: successfully connected
+2019-05-13 23:24:18 [32minfo[39m: getting one order at a time
+2019-05-13 23:24:18 [34mdebug[39m: [object Object]
+2019-05-13 23:24:18 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:24:18 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:24:18 [32minfo[39m: getting one customer at a time
+2019-05-13 23:24:18 [34mdebug[39m: [object Object]
+2019-05-13 23:24:18 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:25:33 [32minfo[39m: getting one order at a time
+2019-05-13 23:25:33 [34mdebug[39m: [object Object]
+2019-05-13 23:25:33 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:25:33 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:25:33 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:25:33 [32minfo[39m: getting one customer at a time
+2019-05-13 23:25:33 [34mdebug[39m: [object Object]
+2019-05-13 23:25:33 [32minfo[39m: getting one order at a time
+2019-05-13 23:25:33 [34mdebug[39m: [object Object]
+2019-05-13 23:25:33 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:25:33 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:25:33 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:25:34 [32minfo[39m: getting one customer at a time
+2019-05-13 23:25:34 [34mdebug[39m: [object Object]
+2019-05-13 23:26:48 [32minfo[39m: server is running on port 9999
+2019-05-13 23:26:48 [32minfo[39m: successfully connected
+2019-05-13 23:27:40 [32minfo[39m: server is running on port 9999
+2019-05-13 23:27:40 [32minfo[39m: successfully connected
+2019-05-13 23:27:44 [32minfo[39m: getting one order at a time
+2019-05-13 23:27:44 [34mdebug[39m: [object Object]
+2019-05-13 23:27:44 [32minfo[39m: getting one customer at a time
+2019-05-13 23:27:44 [34mdebug[39m: [object Object]
+2019-05-13 23:27:44 [32minfo[39m: getting  the shutters back
+2019-05-13 23:27:44 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-13 23:27:45 [32minfo[39m: updating was successful
+2019-05-13 23:27:45 [34mdebug[39m: [object Object]
+2019-05-13 23:28:08 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:28:09 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:29:03 [32minfo[39m: {find count undefined}
+2019-05-13 23:29:03 [32minfo[39m: orders are coming back for customer
+2019-05-13 23:29:03 [32minfo[39m: Shutter types came back from db
+2019-05-13 23:29:06 [32minfo[39m: {find count undefined}
+2019-05-13 23:29:06 [32minfo[39m: Shutter types came back from db
+2019-05-13 23:29:06 [32minfo[39m: orders are coming back for customer
+2019-05-13 23:29:08 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:29:08 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:29:11 [32minfo[39m: orders are coming back for worker
+2019-05-13 23:29:11 [32minfo[39m: parts are coming back for worker
+2019-05-13 23:31:38 [32minfo[39m: server is running on port 9999
+2019-05-13 23:31:38 [32minfo[39m: successfully connected
+2019-05-13 23:31:54 [32minfo[39m: server is running on port 9999
+2019-05-13 23:31:54 [32minfo[39m: successfully connected
+2019-05-13 23:32:09 [32minfo[39m: server is running on port 9999
+2019-05-13 23:32:09 [32minfo[39m: successfully connected
+2019-05-13 23:32:16 [32minfo[39m: getting one order at a time
+2019-05-13 23:32:16 [34mdebug[39m: [object Object]
+2019-05-13 23:32:16 [32minfo[39m: parts are coming back for worker
+2019-05-13 23:32:19 [32minfo[39m: parts are coming back for worker
+2019-05-13 23:32:19 [32minfo[39m: getting one order at a time
+2019-05-13 23:32:19 [34mdebug[39m: [object Object]
+2019-05-13 23:32:23 [32minfo[39m: getting one order at a time
+2019-05-13 23:32:23 [34mdebug[39m: [object Object]
+2019-05-13 23:32:23 [32minfo[39m: parts are coming back for worker
+2019-05-13 23:32:25 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:32:25 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:32:27 [32minfo[39m: getting one order at a time
+2019-05-13 23:32:27 [34mdebug[39m: [object Object]
+2019-05-13 23:32:27 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:32:27 [32minfo[39m: getting one customer at a time
+2019-05-13 23:32:27 [34mdebug[39m: [object Object]
+2019-05-13 23:32:28 [32minfo[39m: getting one order at a time
+2019-05-13 23:32:28 [34mdebug[39m: [object Object]
+2019-05-13 23:32:28 [32minfo[39m: getting one customer at a time
+2019-05-13 23:32:28 [34mdebug[39m: [object Object]
+2019-05-13 23:32:28 [32minfo[39m: getting  the shutters back
+2019-05-13 23:32:28 [34mdebug[39m: [object Object]
+2019-05-13 23:32:29 [32minfo[39m: updating was successful
+2019-05-13 23:32:29 [34mdebug[39m: [object Object]
+2019-05-13 23:33:14 [32minfo[39m: getting one order at a time
+2019-05-13 23:33:14 [34mdebug[39m: [object Object]
+2019-05-13 23:33:14 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:33:14 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:33:14 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:33:14 [32minfo[39m: getting one customer at a time
+2019-05-13 23:33:14 [34mdebug[39m: [object Object]
+2019-05-13 23:33:14 [32minfo[39m: getting one order at a time
+2019-05-13 23:33:14 [34mdebug[39m: [object Object]
+2019-05-13 23:33:14 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:33:14 [32minfo[39m: orders are coming back for manager
+2019-05-13 23:33:14 [32minfo[39m: customers are coming back for manager
+2019-05-13 23:33:15 [32minfo[39m: getting one customer at a time
+2019-05-13 23:33:15 [34mdebug[39m: [object Object]
+2019-05-14 00:12:00 [32minfo[39m: getting one order at a time
+2019-05-14 00:12:00 [34mdebug[39m: [object Object]
+2019-05-14 00:12:00 [32minfo[39m: getting one customer at a time
+2019-05-14 00:12:00 [34mdebug[39m: [object Object]
+2019-05-14 00:12:01 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:12:01 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:12:01 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:12:01 [32minfo[39m: getting one order at a time
+2019-05-14 00:12:01 [34mdebug[39m: [object Object]
+2019-05-14 00:12:01 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:12:01 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:12:01 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:12:01 [32minfo[39m: getting one customer at a time
+2019-05-14 00:12:01 [34mdebug[39m: [object Object]
+2019-05-14 00:13:21 [32minfo[39m: getting one order at a time
+2019-05-14 00:13:21 [34mdebug[39m: [object Object]
+2019-05-14 00:13:21 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:13:21 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:13:21 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:13:21 [32minfo[39m: getting one customer at a time
+2019-05-14 00:13:21 [34mdebug[39m: [object Object]
+2019-05-14 00:13:21 [32minfo[39m: getting one order at a time
+2019-05-14 00:13:21 [34mdebug[39m: [object Object]
+2019-05-14 00:13:21 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:13:21 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:13:21 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:13:21 [32minfo[39m: getting one customer at a time
+2019-05-14 00:13:21 [34mdebug[39m: [object Object]
+2019-05-14 00:14:12 [32minfo[39m: getting one order at a time
+2019-05-14 00:14:12 [34mdebug[39m: [object Object]
+2019-05-14 00:14:12 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:12 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:14:12 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:12 [32minfo[39m: getting one customer at a time
+2019-05-14 00:14:12 [34mdebug[39m: [object Object]
+2019-05-14 00:14:12 [32minfo[39m: getting one order at a time
+2019-05-14 00:14:12 [34mdebug[39m: [object Object]
+2019-05-14 00:14:12 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:12 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:14:12 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:12 [32minfo[39m: getting one customer at a time
+2019-05-14 00:14:12 [34mdebug[39m: [object Object]
+2019-05-14 00:14:28 [32minfo[39m: getting one order at a time
+2019-05-14 00:14:28 [34mdebug[39m: [object Object]
+2019-05-14 00:14:28 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:28 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:14:28 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:28 [32minfo[39m: getting one customer at a time
+2019-05-14 00:14:28 [34mdebug[39m: [object Object]
+2019-05-14 00:14:28 [32minfo[39m: getting one order at a time
+2019-05-14 00:14:28 [34mdebug[39m: [object Object]
+2019-05-14 00:14:28 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:28 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:14:28 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:14:28 [32minfo[39m: getting one customer at a time
+2019-05-14 00:14:28 [34mdebug[39m: [object Object]
+2019-05-14 00:15:49 [32minfo[39m: server is running on port 9999
+2019-05-14 00:15:49 [32minfo[39m: successfully connected
+2019-05-14 00:20:31 [32minfo[39m: server is running on port 9999
+2019-05-14 00:20:31 [32minfo[39m: successfully connected
+2019-05-14 00:21:59 [32minfo[39m: server is running on port 9999
+2019-05-14 00:21:59 [32minfo[39m: successfully connected
+2019-05-14 00:23:00 [32minfo[39m: server is running on port 9999
+2019-05-14 00:23:00 [32minfo[39m: successfully connected
+2019-05-14 00:24:08 [32minfo[39m: server is running on port 9999
+2019-05-14 00:24:08 [32minfo[39m: successfully connected
+2019-05-14 00:26:25 [32minfo[39m: server is running on port 9999
+2019-05-14 00:26:25 [32minfo[39m: successfully connected
+2019-05-14 00:26:59 [32minfo[39m: server is running on port 9999
+2019-05-14 00:26:59 [32minfo[39m: successfully connected
+2019-05-14 00:27:08 [32minfo[39m: server is running on port 9999
+2019-05-14 00:27:08 [32minfo[39m: successfully connected
+2019-05-14 00:27:11 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:27:23 [32minfo[39m: {find count undefined}
+2019-05-14 00:27:23 [32minfo[39m: orders are coming back for customer
+2019-05-14 00:27:23 [32minfo[39m: Shutter types came back from db
+2019-05-14 00:28:02 [32minfo[39m: server is running on port 9999
+2019-05-14 00:28:02 [32minfo[39m: successfully connected
+2019-05-14 00:28:05 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:29:47 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:29:47 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:29:53 [32minfo[39m: orders are coming back for worker
+2019-05-14 00:29:53 [32minfo[39m: parts are coming back for worker
+2019-05-14 00:29:54 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:29:54 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:29:55 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:29:55 [32minfo[39m: getting one order at a time
+2019-05-14 00:29:55 [34mdebug[39m: [object Object]
+2019-05-14 00:29:55 [32minfo[39m: getting one customer at a time
+2019-05-14 00:29:55 [34mdebug[39m: [object Object]
+2019-05-14 00:30:18 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:30:19 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:31:12 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:31:12 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:31:18 [32minfo[39m: orders are coming back for worker
+2019-05-14 00:31:18 [32minfo[39m: parts are coming back for worker
+2019-05-14 00:31:19 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:31:19 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:32:21 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:32:21 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:32:50 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:32:50 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:33:01 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:33:01 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:33:21 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:33:21 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:33:39 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:33:39 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:35:04 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:35:04 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:35:11 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:35:11 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:35:27 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:35:27 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:35:51 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:35:51 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:37:13 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:37:13 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:37:36 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:37:36 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:37:41 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:37:41 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:40:03 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:40:03 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:40:40 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:40:40 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:40:58 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:40:58 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:41:29 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:41:29 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:51:42 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:51:42 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:51:55 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:51:55 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:54:45 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:54:45 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:54:48 [32minfo[39m: orders are coming back for worker
+2019-05-14 00:54:48 [32minfo[39m: parts are coming back for worker
+2019-05-14 00:54:49 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:54:49 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:55:40 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:55:40 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:55:59 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:55:59 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:56:38 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:56:38 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:56:38 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:56:48 [32minfo[39m: orders are coming back for worker
+2019-05-14 00:56:48 [32minfo[39m: parts are coming back for worker
+2019-05-14 00:57:05 [32minfo[39m: orders are coming back for worker
+2019-05-14 00:57:05 [32minfo[39m: parts are coming back for worker
+2019-05-14 00:57:07 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:57:07 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:57:07 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:57:37 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:57:37 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:57:37 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:59:08 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:59:09 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:59:09 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:59:22 [32minfo[39m: orders are coming back for worker
+2019-05-14 00:59:22 [32minfo[39m: parts are coming back for worker
+2019-05-14 00:59:23 [32minfo[39m: {find count undefined}
+2019-05-14 00:59:23 [32minfo[39m: orders are coming back for customer
+2019-05-14 00:59:23 [32minfo[39m: Shutter types came back from db
+2019-05-14 00:59:29 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:59:29 [32minfo[39m: orders are coming back for manager
+2019-05-14 00:59:29 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:59:48 [32minfo[39m: getting one order at a time
+2019-05-14 00:59:48 [34mdebug[39m: [object Object]
+2019-05-14 00:59:48 [32minfo[39m: customers are coming back for manager
+2019-05-14 00:59:48 [32minfo[39m: getting one customer at a time
+2019-05-14 00:59:48 [34mdebug[39m: [object Object]
+2019-05-14 01:00:05 [32minfo[39m: getting one order at a time
+2019-05-14 01:00:05 [34mdebug[39m: [object Object]
+2019-05-14 01:00:05 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:00:05 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:00:05 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:00:05 [32minfo[39m: getting one customer at a time
+2019-05-14 01:00:05 [34mdebug[39m: [object Object]
+2019-05-14 01:00:16 [32minfo[39m: getting one order at a time
+2019-05-14 01:00:16 [34mdebug[39m: [object Object]
+2019-05-14 01:00:16 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:00:16 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:00:16 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:00:16 [32minfo[39m: getting one customer at a time
+2019-05-14 01:00:16 [34mdebug[39m: [object Object]
+2019-05-14 01:00:20 [32minfo[39m: getting one order at a time
+2019-05-14 01:00:20 [34mdebug[39m: [object Object]
+2019-05-14 01:00:20 [32minfo[39m: getting one customer at a time
+2019-05-14 01:00:20 [34mdebug[39m: [object Object]
+2019-05-14 01:00:20 [32minfo[39m: getting  the shutters back
+2019-05-14 01:00:20 [34mdebug[39m: [object Object],[object Object],[object Object]
+2019-05-14 01:00:21 [32minfo[39m: updating was successful
+2019-05-14 01:00:21 [34mdebug[39m: [object Object]
+2019-05-14 01:00:35 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:00:44 [32minfo[39m: {find count undefined}
+2019-05-14 01:00:44 [32minfo[39m: Shutter types came back from db
+2019-05-14 01:00:44 [32minfo[39m: orders are coming back for customer
+2019-05-14 01:00:56 [32minfo[39m: {inserted count 1}
+2019-05-14 01:01:00 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:01:00 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:01:03 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:01:03 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:01:03 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:09:32 [32minfo[39m: server is running on port 9999
+2019-05-14 01:09:32 [32minfo[39m: successfully connected
+2019-05-14 01:09:38 [32minfo[39m: {find count undefined}
+2019-05-14 01:09:38 [32minfo[39m: Shutter types came back from db
+2019-05-14 01:09:38 [32minfo[39m: orders are coming back for customer
+2019-05-14 01:10:20 [32minfo[39m: {inserted count 1}
+2019-05-14 01:10:42 [32minfo[39m: {find count undefined}
+2019-05-14 01:10:42 [32minfo[39m: orders are coming back for customer
+2019-05-14 01:10:42 [32minfo[39m: Shutter types came back from db
+2019-05-14 01:10:52 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:10:52 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:10:57 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:10:57 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:10:57 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:11:00 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:00 [34mdebug[39m: [object Object]
+2019-05-14 01:11:00 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:11:00 [32minfo[39m: getting one customer at a time
+2019-05-14 01:11:00 [34mdebug[39m: [object Object]
+2019-05-14 01:11:10 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:10 [34mdebug[39m: [object Object]
+2019-05-14 01:11:10 [32minfo[39m: updating was successful
+2019-05-14 01:11:10 [34mdebug[39m: [object Object]
+2019-05-14 01:11:14 [32minfo[39m: updating was successful
+2019-05-14 01:11:14 [34mdebug[39m: [object Object]
+2019-05-14 01:11:14 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:14 [34mdebug[39m: [object Object]
+2019-05-14 01:11:18 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:11:21 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:11:21 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:11:24 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:24 [34mdebug[39m: [object Object]
+2019-05-14 01:11:24 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:11:30 [32minfo[39m: updating was successful
+2019-05-14 01:11:30 [34mdebug[39m: [object Object]
+2019-05-14 01:11:30 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:30 [34mdebug[39m: [object Object]
+2019-05-14 01:11:30 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:11:31 [32minfo[39m: updating was successful
+2019-05-14 01:11:31 [34mdebug[39m: [object Object]
+2019-05-14 01:11:31 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:11:31 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:31 [34mdebug[39m: [object Object]
+2019-05-14 01:11:38 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:11:38 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:11:38 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:11:52 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:52 [34mdebug[39m: [object Object]
+2019-05-14 01:11:52 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:11:52 [32minfo[39m: getting one customer at a time
+2019-05-14 01:11:52 [34mdebug[39m: [object Object]
+2019-05-14 01:11:54 [32minfo[39m: updating was successful
+2019-05-14 01:11:54 [34mdebug[39m: [object Object]
+2019-05-14 01:11:54 [32minfo[39m: getting one order at a time
+2019-05-14 01:11:54 [34mdebug[39m: [object Object]
+2019-05-14 01:11:56 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:12:47 [32minfo[39m: server is running on port 9999
+2019-05-14 01:12:47 [32minfo[39m: successfully connected
+2019-05-14 01:12:55 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:12:55 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:12:55 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:13:08 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:13:08 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:13:15 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:13:15 [32minfo[39m: customers are coming back for manager
+2019-05-14 01:13:15 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:13:22 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:13:22 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:13:31 [32minfo[39m: getting one order at a time
+2019-05-14 01:13:31 [34mdebug[39m: [object Object]
+2019-05-14 01:13:31 [32minfo[39m: parts are coming back for worker
+2019-05-14 01:13:35 [32minfo[39m: updating was successful
+2019-05-14 01:13:35 [34mdebug[39m: [object Object]
+2019-05-14 01:13:35 [32minfo[39m: getting one order at a time
+2019-05-14 01:13:35 [34mdebug[39m: [object Object]
+2019-05-14 01:13:35 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:13:37 [32minfo[39m: updating was successful
+2019-05-14 01:13:37 [34mdebug[39m: [object Object]
+2019-05-14 01:13:37 [32minfo[39m: getting one order at a time
+2019-05-14 01:13:37 [34mdebug[39m: [object Object]
+2019-05-14 01:13:37 [32minfo[39m: orders are coming back for worker
+2019-05-14 01:13:39 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:13:39 [32minfo[39m: orders are coming back for manager
+2019-05-14 01:13:39 [32minfo[39m: customers are coming back for manager

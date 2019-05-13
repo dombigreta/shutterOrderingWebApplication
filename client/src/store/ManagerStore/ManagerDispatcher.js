@@ -86,12 +86,11 @@ dispatcher.register((data) => {
     ManagerStore.emitChange();
 })
 
-
+// -- creatingInvoce
 dispatcher.register((data) => {
     if(data.action.type !== MANAGER_STORE_ACTIONS.CREATE_INVOICE
         || isNullOrUndefined(data.action.orderId)
-        || isNullOrUndefined(data.action.customerId)
-        || isNullOrUndefined(data.action.shutterId)){
+        || isNullOrUndefined(data.action.customerId)){
         return;
     }
 
@@ -99,12 +98,22 @@ dispatcher.register((data) => {
         'Accept': 'application/json',
         'Content-Type': 'application/json' },
         body:JSON.stringify({orderId: data.action.orderId, 
-                            customerId: data.action.customerId,
-                            shutterId: data.action.shutterId})})
+                            customerId: data.action.customerId})})
         .then((response) => response.json())
         .then((data) => console.log(data))
         .then(() => ManagerStore.emitChange());
     
 });
+
+// --- getStatistics
+dispatcher.register((data) => {
+    if(data.action.type !== MANAGER_STORE_ACTIONS.GET_STATISTICS){
+        return;
+    }
+    fetch('/manager/getStatistics')
+    .then((response) => response.json())
+    .then((data) => ManagerStore._statistics = data)
+    .then(() => ManagerStore.emitChange());
+})
 
 export default dispatcher;
