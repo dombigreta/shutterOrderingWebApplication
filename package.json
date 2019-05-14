@@ -4,9 +4,8 @@
   "description": "simple app for managing shutter orders",
   "main": "app.js",
   "scripts": {
-    "start": "",
     "test": "mocha",
-    "dev": "concurrently \"cd app && nodemon app.js\" \"cd client && npm start\""
+    "start": "concurrently \"cd app && nodemon app.js\" \"cd client && npm start\""
   },
   "keywords": [
     "shutter",
