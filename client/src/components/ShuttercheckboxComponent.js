@@ -25,11 +25,11 @@ class ShutterCheckBoxComponent extends React.Component{
     }
 
     render(){
-        if(isNullOrUndefined(this.props.ShutterTypes)) return <React.Fragment></React.Fragment>
+        if(isNullOrUndefined(this.props.shutterTypes)) return <React.Fragment></React.Fragment>
    
        return( 
         <React.Fragment>
-        {this.props.ShutterTypes.map(shutter => this.createShutterCheckBox(shutter))}
+        {this.props.shutterTypes.map(shutter => this.createShutterCheckBox(shutter))}
         </React.Fragment>
        )
     }

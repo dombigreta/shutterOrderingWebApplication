@@ -4,7 +4,6 @@ import WorkerStore from '../store/WorkerStore/WorkerStore';
 import * as VIEWS from './ViewConstants';
 
 import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
-import WorkerOrderCardComponent from '../components/WorkerOrderCardComponent';
 import { isNullOrUndefined } from 'util';
 
 

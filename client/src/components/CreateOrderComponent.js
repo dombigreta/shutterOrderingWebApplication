@@ -3,16 +3,27 @@ import  * as CustomerActions from '../store/CustomerStore/CustomerActions';
 import CustomerStore from '../store/CustomerStore/CustomerStore';
 import { isNullOrUndefined } from 'util';
 import ShutterCheckBoxComponent from '../components/ShuttercheckboxComponent';
+import ValidationObject from '../utils/validationObject';
+import WindowDetailsComponent from './WindowDetailsComponent';
+import { ErrorMessageComponent } from './MessageComponents';
 
 class CreateOrderComponent extends React.Component{
-    state = {
-        shutterTypes: CustomerStore._shutterTypes,
-        customerData: CustomerStore._customerData,
-        windowsDetails:[],
-        currency:'HUF',
-        basePrice:0
-    }
+    
+    constructor(){
+        super();
 
+        this.state = {
+            shutterTypes: CustomerStore._shutterTypes,
+            customerData: CustomerStore._customerData,
+            windowsDetails:[],
+            currency:'HUF',
+            basePrice:0,
+            isSubmitted:false,
+            isSubmissionSuccessful:false,
+        }
+
+    }
+    
     componentDidMount(){
         CustomerStore.addChangeListener(this.onChange)
         CustomerActions.getShutterTypes();
@@ -57,97 +68,111 @@ class CreateOrderComponent extends React.Component{
 
     handleSubmit = (e) => {
         e.preventDefault();
+        this.setState({isSubmitted:true});
+        if(!this.validateOrder()){
+            return;
+        }
         let order = {
             customerId:this.state.customerData._id,
             dueDateOfAssembling : null,
             dateOfSubmittingOrder: new Date(),
-            isInProgress : false,
-            isDone:false,
-            isPayed : false,
             price: this.state.basePrice,
             currency:"HUF",
-            windows: this.state.windowsDetails,
+            windows: this.state.windowsDetails.map(x =>({height:x.height, width:x.width, shutter:x.shutter})),
             workerId:null,
             parts:[ ]
         }
-
         CustomerActions.createOrder(order);
-        
+        this.setState({isSubmissionSuccessful:true})
+    }
+
+    validateOrder = () => {
+        let isValid = true;
+        if(this.state.windowsDetails.length == 0) {
+            isValid = false;
+        }
+         this.state.windowsDetails.forEach((window,index) => {
+           if(!this.validateWindowDetails(index)){
+               isValid = false;
+           }
+         });
+
+
+       return isValid;
+    }
+
+    validateWindowDetails = (index) => {
+        let window = this.state.windowsDetails[index];
+        let indexOf = this.state.windowsDetails.indexOf(window);
+        if(indexOf !== -1){
+            const validation = window.validator.validate(window);
+            window.validation = validation;
+            let newDetails = this.state.windowsDetails.splice(indexOf,1,window);
+            this.setState({windowDetails:newDetails});
+        }
+
+        return window.validation.isValid;
     }
 
     handleWindowDetailsChange = (e, index) => {
-
-        let name = e.target.name;
-        let value = e.target.value;
-
         let window = this.state.windowsDetails[index];
-        window[name] = parseInt(value) || 0;
-        this.setState({
-            windowDetails:[...this.state.windowsDetails, 
-                window]
-        });
-
-        this.calculateBasePriceByWindowDetails()
-    }
-
-    handleAddingNewWindow = () => {
-        this.setState({
-            windowsDetails: [...this.state.windowsDetails, {height:0,width:0,shutter:this.state.shutterTypes[0]._id}]
-        })
+        let indexOf = this.state.windowsDetails.indexOf(window);
+        if(indexOf !== -1){
+            let name = e.target.name;
+            let value = e.target.value
+            window[name] = parseInt(value) || 0;
+            let newDetails = this.state.windowsDetails.splice(indexOf,1,window);
+            this.setState({ windowDetails:newDetails},() => {
+                this.calculateBasePriceByWindowDetails()
+                if(this.state.isSubmitted){
+                    this.validateWindowDetails(index);
+                }
+            });
+        }
     }
 
     handleShutterTypeChange(shutterId,index){
-       let window = this.state.windowsDetails[index];
-       let indexOf = this.state.windowsDetails.indexOf(window);
-       if(indexOf !== -1){
-           window.shutter = shutterId
-           let newDetails = this.state.windowsDetails.splice(indexOf,1,window);
-           this.setState({
-               windowDetails:newDetails
-           }, () => this.calculateBasePriceByWindowDetails());
-       }
+        let window = this.state.windowsDetails[index];
+        let indexOf = this.state.windowsDetails.indexOf(window);
+        if(indexOf !== -1){
+            window.shutter = shutterId
+            let newDetails = this.state.windowsDetails.splice(indexOf,1,window);
+            this.setState({
+                windowDetails:newDetails
+            }, () => this.calculateBasePriceByWindowDetails());
+        }
+     }
+ 
+
+    handleAddingNewWindow = () => {
+        let validationObj = new ValidationObject([
+                    {
+                    field: 'width', 
+                    method: this.isGreaterThanZero, 
+                    validWhen: false, 
+                    message: 'Width must be greater than zero' 
+                    },
+                    {
+                        field: 'height', 
+                        method: this.isGreaterThanZero, 
+                        validWhen: false, 
+                        message: 'Height must be greater than zero' 
+                    }]);
+
+        this.setState({
+            windowsDetails: [...this.state.windowsDetails, {height:0,width:0,shutter:this.state.shutterTypes[0]._id, validator:validationObj, validation:validationObj.valid()}]
+        })
     }
+
+    isGreaterThanZero = (input) => input > 0;
+
 
     createWindowDetailsRow = (window,index) => {
        return (
-        <div key={index}>
-                <div className="d-flex row">
-            <div className="form-group col-6">
-                <label className="font-weight-bold">height</label>
-                <div className="input-group input-group-sm">
-                <input type="text"  className="form-control form-control-sm" 
-                                    value={window.height} 
-                                    name="height" 
-                                    placeholder="height"
-                                    onChange={(e) => this.handleWindowDetailsChange(e,index)}
-                                    required/>
-                <div className="input-group-append">
-                    <span className="input-group-text">cm</span>
-                </div>
-                </div>
-            </div>
-            <div className="form-group col-6">
-                <label className="font-weight-bold">width</label>
-                <div className="input-group input-group-sm">
-                <input type="text"  className="form-control form-control-sm" 
-                                    value={window.width}
-                                    name="width"  
-                                    placeholder="width"
-                                    onChange={(e) => this.handleWindowDetailsChange(e,index)}
-                                    required/>
-                    <div className="input-group-append">
-                        <span className="input-group-text">cm</span>
-                    </div>
-                </div>
-            </div>
-            </div>
-        {/** shutters */}
-        <div className="mb-5">
-        <h5>Choose a shutter</h5>
-            <ShutterCheckBoxComponent ShutterTypes={this.state.shutterTypes} window={window} index={index}
-            handleShutterTypeChange={(shutterId, index) => this.handleShutterTypeChange(shutterId, index)}/>
-        </div>
-        </div>
+      <WindowDetailsComponent key={index} isDisabled={this.state.isSubmissionSuccessful} window={window} index={index} handleWindowDetailsChange={this.handleWindowDetailsChange}>
+             <ShutterCheckBoxComponent shutterTypes={this.state.shutterTypes} window={window} index={index}
+                handleShutterTypeChange={(shutterId, index) => this.handleShutterTypeChange(shutterId, index)}/>
+      </WindowDetailsComponent>
        )
     }
 
@@ -191,11 +216,12 @@ class CreateOrderComponent extends React.Component{
          {this.state.windowsDetails.map((window,index) => this.createWindowDetailsRow(window,index))}
            <button onClick={this.handleAddingNewWindow} className="btn btn-sm btn-danger">Add new window</button>
          </div>
+         {this.state.isSubmitted && this.state.windowsDetails.length == 0 && <ErrorMessageComponent message={'You must at least add one window!'}/>}
          <label className="font-weight-bold">Net price</label> : {this.state.basePrice + ' HUF'}
          <div>
 
         </div>
-        <button onClick={this.handleSubmit} className="btn btn-primary btn-sm">Submit your order</button>
+        <button onClick={this.handleSubmit} disabled={this.state.isSubmissionSuccessful} className="btn btn-primary btn-sm">Submit your order</button>
     </div>)
     }
 }

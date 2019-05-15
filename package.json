@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "dev": "concurrently \"cd app && nodemon app.js\" \"cd client && npm start\"",
-    "start":"cd client && npm run-script build && cd .. && node ./app/app.js" 
+    "start": "cd client && npm run-script build && cd .. && node ./app/app.js"
   },
   "keywords": [
     "shutter",
@@ -31,6 +31,7 @@
     "mongodb": "^3.2.3",
     "nodemon": "^1.19.0",
     "pdf-invoice-hu": "^1.0.2",
+    "validator": "^10.11.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {

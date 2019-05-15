@@ -1,5 +1,5 @@
 import React from 'react';
-import * as ORDER_STATES from '../stateoforderconstants';
+import * as ORDER_STATES from '../utils/stateOfOrderConstants';
 import * as ViewActions from '../store/ViewStore/ViewActions';
 import Card from 'react-bootstrap/Card';
 
