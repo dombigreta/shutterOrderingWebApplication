@@ -2,7 +2,7 @@ import React from 'react';
 import  * as CustomerActions from '../store/CustomerStore/CustomerActions';
 import CustomerStore from '../store/CustomerStore/CustomerStore';
 import { isNullOrUndefined } from 'util';
-import ShutterCheckBoxComponent from '../components/shuttercheckboxComponent';
+import ShutterCheckBoxComponent from '../components/ShuttercheckboxComponent';
 
 class CreateOrderComponent extends React.Component{
     state = {

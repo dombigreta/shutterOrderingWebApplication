@@ -7,7 +7,7 @@ const ObjectId = require('mongodb').ObjectID;
 function getAllOrders(callback){
     const db = connection.getDatabase();
     const collection = db.collection('orders');
-    collection.find({$or :[{"isDone":true },{"workerId":null}]}).toArray((err, data) => {
+    collection.find({$or :[{'stateOfOrder': 2 },{"workerId":null}]}).toArray((err, data) => {
         test.strictEqual(null, err);
         logger.info('orders are coming back for manager');
         callback(data);

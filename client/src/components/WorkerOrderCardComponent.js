@@ -32,7 +32,7 @@ class WorkerOrderCardComponent extends React.Component{
     }
 
     backToOrders = () => {
-       this.props.history.goBack();
+       
        WorkerActions.setEditingOrderUndefined();
     }
 

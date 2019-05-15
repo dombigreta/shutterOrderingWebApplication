@@ -1776,3 +1776,349 @@
 2019-05-14 06:38:48 [32minfo[39m: customers are coming back for manager
 2019-05-14 06:38:48 [32minfo[39m: orders are coming back for manager
 2019-05-14 06:38:48 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:05:01 [32minfo[39m: successfully connected
+2019-05-14 17:05:14 [32minfo[39m: successfully connected
+2019-05-14 17:05:46 [32minfo[39m: Shutter types came back from db
+2019-05-14 17:05:46 [32minfo[39m: orders are coming back for customer
+2019-05-14 17:05:46 [32minfo[39m: {find count undefined}
+2019-05-14 17:05:52 [32minfo[39m: orders are coming back for worker
+2019-05-14 17:05:52 [32minfo[39m: parts are coming back for worker
+2019-05-14 17:05:57 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:05:57 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:05:57 [32minfo[39m: customers are coming back for manager
+2019-05-14 17:06:02 [32minfo[39m: getting one order at a time
+2019-05-14 17:06:02 [34mdebug[39m: [object Object]
+2019-05-14 17:06:02 [32minfo[39m: customers are coming back for manager
+2019-05-14 17:06:02 [32minfo[39m: getting one customer at a time
+2019-05-14 17:06:02 [34mdebug[39m: [object Object]
+2019-05-14 17:06:03 [32minfo[39m: Shutter types came back from db
+2019-05-14 17:06:03 [32minfo[39m: {find count undefined}
+2019-05-14 17:06:03 [32minfo[39m: orders are coming back for customer
+2019-05-14 17:06:21 [32minfo[39m: successfully connected
+2019-05-14 17:07:03 [32minfo[39m: {inserted count 1}
+2019-05-14 17:07:24 [32minfo[39m: Shutter types came back from db
+2019-05-14 17:07:24 [32minfo[39m: orders are coming back for customer
+2019-05-14 17:07:24 [32minfo[39m: {find count undefined}
+2019-05-14 17:07:25 [32minfo[39m: orders are coming back for worker
+2019-05-14 17:07:25 [32minfo[39m: parts are coming back for worker
+2019-05-14 17:07:25 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:25 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:25 [32minfo[39m: customers are coming back for manager
+2019-05-14 17:07:27 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:30 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:35 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:36 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:40 [32minfo[39m: orders are coming back for worker
+2019-05-14 17:07:40 [32minfo[39m: parts are coming back for worker
+2019-05-14 17:07:41 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:41 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:07:41 [32minfo[39m: customers are coming back for manager
+2019-05-14 17:07:42 [32minfo[39m: Shutter types came back from db
+2019-05-14 17:07:42 [32minfo[39m: {find count undefined}
+2019-05-14 17:07:42 [32minfo[39m: orders are coming back for customer
+2019-05-14 17:08:10 [32minfo[39m: orders are coming back for worker
+2019-05-14 17:08:10 [32minfo[39m: parts are coming back for worker
+2019-05-14 17:10:19 [32minfo[39m: {find count undefined}
+2019-05-14 17:10:19 [32minfo[39m: Shutter types came back from db
+2019-05-14 17:10:19 [32minfo[39m: orders are coming back for customer
+2019-05-14 17:10:20 [32minfo[39m: orders are coming back for worker
+2019-05-14 17:10:20 [32minfo[39m: parts are coming back for worker
+2019-05-14 17:10:20 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:10:20 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:10:20 [32minfo[39m: customers are coming back for manager
+2019-05-14 17:10:22 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:10:30 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:10:31 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:01 [32minfo[39m: successfully connected
+2019-05-14 17:11:29 [32minfo[39m: successfully connected
+2019-05-14 17:11:33 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:34 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:36 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:36 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:39 [32minfo[39m: orders are coming back for worker
+2019-05-14 17:11:39 [32minfo[39m: parts are coming back for worker
+2019-05-14 17:11:40 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:40 [32minfo[39m: orders are coming back for manager
+2019-05-14 17:11:40 [32minfo[39m: customers are coming back for manager
+2019-05-14 17:11:41 [32minfo[39m: orders are coming back for manager
+2019-05-14 18:17:42 [32minfo[39m: {app listents on 9999
+2019-05-14 18:17:42 [32minfo[39m: successfully connected
+2019-05-14 18:18:02 [32minfo[39m: orders are coming back for worker
+2019-05-14 18:18:02 [32minfo[39m: parts are coming back for worker
+2019-05-14 18:18:24 [32minfo[39m: orders are coming back for manager
+2019-05-14 18:18:24 [32minfo[39m: orders are coming back for manager
+2019-05-14 18:18:24 [32minfo[39m: customers are coming back for manager
+2019-05-14 18:18:25 [32minfo[39m: orders are coming back for worker
+2019-05-14 18:18:25 [32minfo[39m: parts are coming back for worker
+2019-05-15 05:53:14 [32minfo[39m: app listents on 9999
+2019-05-15 07:12:00 [32minfo[39m: app listents on 9999
+2019-05-15 07:12:00 [32minfo[39m: successfully connected
+2019-05-15 07:12:09 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:12:09 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:14:28 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:14:28 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:17:21 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:17:21 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:18:17 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:18:17 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:18:17 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:18:17 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:18:17 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:20:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:20:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:20:16 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:20:16 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:20:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:20:38 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:20:38 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:20:38 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:20:41 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:20:41 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:20:42 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:20:42 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:20:42 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:21:41 [32minfo[39m: app listents on 9999
+2019-05-15 07:21:41 [32minfo[39m: successfully connected
+2019-05-15 07:21:49 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:21:49 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:22:09 [32minfo[39m: app listents on 9999
+2019-05-15 07:22:09 [32minfo[39m: successfully connected
+2019-05-15 07:22:12 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:22:12 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:22:36 [32minfo[39m: app listents on 9999
+2019-05-15 07:22:36 [32minfo[39m: successfully connected
+2019-05-15 07:22:44 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:22:44 [32minfo[39m: {find data null}
+2019-05-15 07:22:44 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:22:55 [32minfo[39m: app listents on 9999
+2019-05-15 07:22:55 [32minfo[39m: successfully connected
+2019-05-15 07:23:02 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:23:02 [32minfo[39m: {find data null}
+2019-05-15 07:23:02 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:23:33 [32minfo[39m: app listents on 9999
+2019-05-15 07:23:33 [32minfo[39m: successfully connected
+2019-05-15 07:23:38 [32minfo[39m: {find data null}
+2019-05-15 07:23:38 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:23:38 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:23:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:23:57 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:23:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:23:58 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:23:59 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:24:00 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:24:00 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:24:00 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:24:12 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:24:12 [32minfo[39m: {find data null}
+2019-05-15 07:24:12 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:26:22 [32minfo[39m: app listents on 9999
+2019-05-15 07:26:22 [32minfo[39m: successfully connected
+2019-05-15 07:26:26 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:26:26 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:26:26 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:26:32 [32minfo[39m: {find data null}
+2019-05-15 07:26:32 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:26:32 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:31:14 [32minfo[39m: app listents on 9999
+2019-05-15 07:31:14 [32minfo[39m: successfully connected
+2019-05-15 07:31:21 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:31:21 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:31:21 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:31:38 [32minfo[39m: {inserted count 1}
+2019-05-15 07:31:45 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:31:45 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:31:45 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:31:48 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:31:48 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:31:48 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:34:17 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:34:17 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:34:17 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:34:21 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:34:21 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:34:21 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:34:46 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:34:46 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:34:46 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:34:48 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:34:48 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:34:49 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:34:49 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:34:49 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:34:52 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:34:52 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:34:52 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:35:02 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:35:02 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:35:02 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:35:05 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:35:05 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:35:05 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:35:09 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:35:09 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:35:34 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:35:34 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:35:35 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:35:35 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:35:35 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:35:44 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:35:44 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:35:44 [32minfo[39m: orders are coming back for customer
+2019-05-15 07:42:16 [32minfo[39m: orders are coming back for worker
+2019-05-15 07:42:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 07:42:18 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:42:18 [32minfo[39m: orders are coming back for manager
+2019-05-15 07:42:18 [32minfo[39m: customers are coming back for manager
+2019-05-15 07:42:30 [32minfo[39m: Shutter types came back from db
+2019-05-15 07:42:30 [32minfo[39m: {find data [object Object]}
+2019-05-15 07:42:30 [32minfo[39m: orders are coming back for customer
+2019-05-15 08:09:47 [32minfo[39m: orders are coming back for worker
+2019-05-15 08:09:47 [32minfo[39m: parts are coming back for worker
+2019-05-15 08:09:48 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:09:48 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:09:48 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:46:29 [32minfo[39m: orders are coming back for worker
+2019-05-15 08:46:29 [32minfo[39m: parts are coming back for worker
+2019-05-15 08:46:30 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:46:30 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:46:30 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:46:35 [32minfo[39m: {find data [object Object]}
+2019-05-15 08:46:35 [32minfo[39m: orders are coming back for customer
+2019-05-15 08:46:35 [32minfo[39m: Shutter types came back from db
+2019-05-15 08:46:37 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:46:37 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:46:37 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:47:55 [32minfo[39m: orders are coming back for worker
+2019-05-15 08:47:55 [32minfo[39m: parts are coming back for worker
+2019-05-15 08:47:56 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:47:56 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:47:56 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:48:23 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:48:23 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:48:23 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:50:58 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:50:58 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:50:58 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:50:59 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:50:59 [32minfo[39m: getting one order at a time
+2019-05-15 08:50:59 [34mdebug[39m: [object Object]
+2019-05-15 08:50:59 [32minfo[39m: getting one customer at a time
+2019-05-15 08:50:59 [34mdebug[39m: [object Object]
+2019-05-15 08:51:09 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:51:09 [32minfo[39m: orders are coming back for manager
+2019-05-15 08:51:09 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:51:18 [32minfo[39m: getting one order at a time
+2019-05-15 08:51:18 [34mdebug[39m: [object Object]
+2019-05-15 08:51:18 [32minfo[39m: customers are coming back for manager
+2019-05-15 08:51:18 [32minfo[39m: getting one customer at a time
+2019-05-15 08:51:18 [34mdebug[39m: [object Object]
+2019-05-15 09:17:04 [32minfo[39m: orders are coming back for worker
+2019-05-15 09:17:04 [32minfo[39m: parts are coming back for worker
+2019-05-15 09:17:05 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:17:05 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:17:05 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:17:06 [32minfo[39m: getting one order at a time
+2019-05-15 09:17:06 [34mdebug[39m: [object Object]
+2019-05-15 09:17:06 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:17:06 [32minfo[39m: getting one customer at a time
+2019-05-15 09:17:06 [34mdebug[39m: [object Object]
+2019-05-15 09:18:08 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:18:08 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:18:08 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:18:09 [32minfo[39m: getting one order at a time
+2019-05-15 09:18:09 [34mdebug[39m: [object Object]
+2019-05-15 09:18:09 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:18:09 [32minfo[39m: getting one customer at a time
+2019-05-15 09:18:09 [34mdebug[39m: [object Object]
+2019-05-15 09:28:24 [32minfo[39m: orders are coming back for worker
+2019-05-15 09:28:24 [32minfo[39m: parts are coming back for worker
+2019-05-15 09:28:25 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:25 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:25 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:26 [32minfo[39m: getting one order at a time
+2019-05-15 09:28:26 [34mdebug[39m: [object Object]
+2019-05-15 09:28:26 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:26 [32minfo[39m: getting one customer at a time
+2019-05-15 09:28:26 [34mdebug[39m: [object Object]
+2019-05-15 09:28:28 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:29 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:29 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:30 [32minfo[39m: getting one order at a time
+2019-05-15 09:28:30 [34mdebug[39m: [object Object]
+2019-05-15 09:28:30 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:30 [32minfo[39m: getting one customer at a time
+2019-05-15 09:28:30 [34mdebug[39m: [object Object]
+2019-05-15 09:28:31 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:31 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:31 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:32 [32minfo[39m: getting one order at a time
+2019-05-15 09:28:32 [34mdebug[39m: [object Object]
+2019-05-15 09:28:32 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:32 [32minfo[39m: getting one customer at a time
+2019-05-15 09:28:32 [34mdebug[39m: [object Object]
+2019-05-15 09:28:34 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:34 [32minfo[39m: orders are coming back for manager
+2019-05-15 09:28:34 [32minfo[39m: customers are coming back for manager
+2019-05-15 09:28:35 [32minfo[39m: orders are coming back for worker
+2019-05-15 09:28:35 [32minfo[39m: parts are coming back for worker
+2019-05-15 10:15:22 [32minfo[39m: app listents on 9999
+2019-05-15 10:15:22 [32minfo[39m: successfully connected
+2019-05-15 10:16:04 [32minfo[39m: orders are coming back for worker
+2019-05-15 10:16:04 [32minfo[39m: parts are coming back for worker
+2019-05-15 10:16:05 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:05 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:05 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:16:11 [32minfo[39m: {find data [object Object]}
+2019-05-15 10:16:11 [32minfo[39m: orders are coming back for customer
+2019-05-15 10:16:11 [32minfo[39m: Shutter types came back from db
+2019-05-15 10:16:26 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:26 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:26 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:16:27 [32minfo[39m: getting one order at a time
+2019-05-15 10:16:27 [34mdebug[39m: [object Object]
+2019-05-15 10:16:27 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:16:27 [32minfo[39m: getting one customer at a time
+2019-05-15 10:16:27 [34mdebug[39m: [object Object]
+2019-05-15 10:16:29 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:29 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:29 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:16:36 [32minfo[39m: getting one order at a time
+2019-05-15 10:16:36 [34mdebug[39m: [object Object]
+2019-05-15 10:16:36 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:16:36 [32minfo[39m: getting one customer at a time
+2019-05-15 10:16:36 [34mdebug[39m: [object Object]
+2019-05-15 10:16:37 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:37 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:16:37 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:16:38 [32minfo[39m: orders are coming back for worker
+2019-05-15 10:16:38 [32minfo[39m: parts are coming back for worker
+2019-05-15 10:16:38 [32minfo[39m: {find data [object Object]}
+2019-05-15 10:16:38 [32minfo[39m: orders are coming back for customer
+2019-05-15 10:16:38 [32minfo[39m: Shutter types came back from db
+2019-05-15 10:23:05 [32minfo[39m: app listents on 9999
+2019-05-15 10:23:05 [32minfo[39m: successfully connected
+2019-05-15 10:25:16 [32minfo[39m: orders are coming back for worker
+2019-05-15 10:25:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 10:25:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:25:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:25:17 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:25:46 [32minfo[39m: orders are coming back for worker
+2019-05-15 10:25:46 [32minfo[39m: parts are coming back for worker
+2019-05-15 10:25:47 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:25:47 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:25:47 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:26:33 [32minfo[39m: orders are coming back for worker
+2019-05-15 10:26:33 [32minfo[39m: parts are coming back for worker
+2019-05-15 10:26:33 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:26:33 [32minfo[39m: customers are coming back for manager
+2019-05-15 10:26:33 [32minfo[39m: orders are coming back for manager
+2019-05-15 10:26:39 [32minfo[39m: Shutter types came back from db
+2019-05-15 10:26:39 [32minfo[39m: orders are coming back for customer
+2019-05-15 10:26:39 [32minfo[39m: {find data [object Object]}
+2019-05-15 10:28:17 [32minfo[39m: Shutter types came back from db
+2019-05-15 10:28:17 [32minfo[39m: {find data [object Object]}
+2019-05-15 10:28:17 [32minfo[39m: orders are coming back for customer
+2019-05-15 10:28:28 [32minfo[39m: {inserted count 1}
+2019-05-15 10:28:32 [32minfo[39m: Shutter types came back from db
+2019-05-15 10:28:32 [32minfo[39m: {find data [object Object]}
+2019-05-15 10:28:32 [32minfo[39m: orders are coming back for customer

@@ -21,9 +21,7 @@ function createOrder(order,callback){
     "customerId":  ObjectId(order.customerId),
     "dueDateOfAssembling" : order.dateOfSubmittingOrder == null ? null : new Date(order.dueDateOfAssembling),
     "dateOfSubmittingOrder": new Date(order.dateOfSubmittingOrder),
-    "isInProgress" : order.isInProgress,
-    "isDone":order.isDone,
-    "isPayed" : order.isPayed,
+    "stateOfOrder":1,
     "price" : order.price,
     "currency":order.currency,
     "windows": order.windows.map(window => ({"height": window.height, "width":window.width, "shutter":ObjectId(window.shutter)})),
@@ -47,11 +45,12 @@ function getShutterTypes(callback){
 }
 
 function getCustomerDataByCustomerId(customerId, callback){
+    console.log(customerId);
     const db = connection.getDatabase();
     const collection = db.collection('customers');
     collection.findOne({'_id': ObjectId(customerId)},(err, data) => {
         test.strictEqual(null, err);
-        logger.info(`{find count ${data.insertedCount}}`);
+        logger.info(`{find data ${data}}`);
         callback(data);
     })
 }

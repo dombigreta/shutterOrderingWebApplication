@@ -1,7 +1,6 @@
 import React from 'react';
 import * as WorkerActions from '../store/WorkerStore/WorkerActions';
 import WorkerStore from '../store/WorkerStore/WorkerStore';
-import {Switch, Route} from 'react-router-dom';
 import * as VIEWS from './ViewConstants';
 
 import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
@@ -55,22 +54,13 @@ class WorkerView extends React.Component{
     }
 
     render(){
-        return(
-            <Switch>
-                 <Route exact path='/worker' render={(props) =>(
-                    <OrderCardContainerComponent 
+        return(     <OrderCardContainerComponent 
                         orders={this.state.orders}
                         setEditingOrder={(orderId) => this.handleOrderSelection(orderId)} 
                         isFullViewRequired={true}
                         title={`All orders`}
-                        currentView={VIEWS.WORKER_VIEW}
-                        {...props} />
-
-                 )}/>
-                 <Route path='/worker/order/:number' render={(props) => (
-                  <WorkerOrderCardComponent  {...props}/>  
-                 )}/>
-            </Switch>)
+                        currentView={VIEWS.WORKER_VIEW}/>
+            )
     }
 }
 

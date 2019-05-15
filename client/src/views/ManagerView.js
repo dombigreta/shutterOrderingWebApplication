@@ -1,11 +1,11 @@
 import React from 'react';
 import ManagerStore from '../store/ManagerStore/ManagerStore';
 import * as ManagerActions from '../store/ManagerStore/ManagerActions'
-import {Switch, Route} from 'react-router-dom';
+
 import * as VIEWS from './ViewConstants';
 
+
 import OrderCardContainerComponent from '../components/OrderCardContainerComponent';
-import ManagerOrderCardComponent from '../components/ManagerOrderCardComponent';
 import StatisticsComponent from '../components/StatisticsComponent';
 
 class ManagerView extends React.Component{
@@ -34,10 +34,7 @@ class ManagerView extends React.Component{
     }
 
     render(){
-
         return(
-            <Switch>
-                <Route exact path='/manager' render={(props) => (
                 <React.Fragment>
                     <StatisticsComponent/>
                     <OrderCardContainerComponent
@@ -45,14 +42,8 @@ class ManagerView extends React.Component{
                             isFullViewRequired={true}
                             title={`Orders to handle`}
                             currentView={VIEWS.MANAGER_VIEW}
-                            {...props}/>
-
+                            />
                 </React.Fragment>
-                )}/>
-                <Route path='/manager/order/:number' render={(props) => (
-                     <ManagerOrderCardComponent {...props}/>
-                 )}/>
-            </Switch>
         )
     }
 }

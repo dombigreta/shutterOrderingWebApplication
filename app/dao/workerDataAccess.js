@@ -21,7 +21,7 @@ function getOrderById(orderId, callback){
     collection.findOne({"_id":ObjectId(orderId)},(err, data) => {
             test.strictEqual(null,err);
             logger.info('getting one order at a time');
-            logger.debug(data);
+            logger.debug(JSON.stringify(data));
             callback(data);
         })   
 }
@@ -49,7 +49,7 @@ function startAssemblingOrder(order,callback){
     .then((data) => {
         test.notEqual(null, data);
         logger.info('updating was successful');
-        logger.debug(data);
+        logger.debug(JSON.stringify(data));
         callback(data);
     }).catch((err) => logger.debug(err));
 }
@@ -57,11 +57,11 @@ function startAssemblingOrder(order,callback){
 function finishOrder(orderId,callback){
     const db = connection.getDatabase();
     const collection = db.collection('orders');
-    collection.updateOne({"_id":ObjectId(orderId)},{$set:{"isDone":true}})
+    collection.updateOne({"_id":ObjectId(orderId)},{$set:{'stateOfOrder':3}})
     .then((data) => {
         test.notEqual(null, data);
         logger.info('updating was successful');
-        logger.debug(data);
+        logger.debug(JSON.stringify(data));
         callback(data);
     }).catch((err) => logger.debug(err));
 }

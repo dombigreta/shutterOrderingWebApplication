@@ -2,6 +2,8 @@ const express = require('express');
 const expressValidator = require('express-validator');
 const bodyParser = require('body-parser');
 const mongoConnection  = require('./mongo.connection');
+const appRoot = require('app-root-path');
+const path = require('path');
 
 const customerCtrl = require('./controllers/customerCtrl');
 const workerCtrl = require('./controllers/workerCtrl');
@@ -19,10 +21,11 @@ mongoConnection.connectToServer((err) => {
         logger.info('successfully connected');
     }
 })
-let port = 9999;
+
 app.use('/customer', customerCtrl);
 app.use('/worker', workerCtrl);
 app.use('/manager', managerCtrl);
 
-app.listen(port,() => logger.info(`server is running on port ${port}`));
-module.exports = app;
+app.use(express.static(path.join(appRoot.path,'client/build'), {index:'index.html'}));
+let port = 9999;
+app.listen(port, () => logger.info(`app listents on ${port}`));

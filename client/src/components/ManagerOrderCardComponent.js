@@ -1,7 +1,8 @@
 import React from 'react';
 import { isNullOrUndefined } from 'util';
 import OrganiseInstallationComponent from './OrganiseInstallationComponent';
-import * as ManagerActions from '../store/ManagerStore/ManagerActions'
+import * as ManagerActions from '../store/ManagerStore/ManagerActions';
+import * as ViewActions from '../store/ViewStore/ViewActions';
 import ManagerStore from '../store/ManagerStore/ManagerStore';
 
 
@@ -14,9 +15,8 @@ class ManagerOrderCardComponent extends React.Component{
     }
 
     componentDidMount(){
-        let orderId = this.props.match.params.number;
         ManagerStore.addChangeListener(this.handleChange);
-        ManagerActions.getOrderById(orderId);
+        ManagerActions.getOrderById(this.props.orderId);
         ManagerActions.getWorkersDataForInstallation();      
     }
 
@@ -41,7 +41,7 @@ class ManagerOrderCardComponent extends React.Component{
     }
 
     backToOrders = () => {
-       this.props.history.goBack();
+       ViewActions.navigateBack();
        ManagerActions.setEditingOrderUndefined();
     }
 
