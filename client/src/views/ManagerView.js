@@ -39,10 +39,9 @@ class ManagerView extends React.Component{
                     <StatisticsComponent/>
                     <OrderCardContainerComponent
                             orders={this.state.orders}
-                            isFullViewRequired={true}
+                            isFullViewRequired={false || this.state.orders.length == 1}
                             title={`Orders to handle`}
-                            currentView={VIEWS.MANAGER_VIEW}
-                            />
+                            currentView={VIEWS.MANAGER_VIEW}/>
                 </React.Fragment>
         )
     }

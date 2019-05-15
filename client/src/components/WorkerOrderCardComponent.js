@@ -4,6 +4,9 @@ import AddPartsComponent from './AddPartsComponent';
 
 import * as WorkerActions from '../store/WorkerStore/WorkerActions';
 import WorkerStore from '../store/WorkerStore/WorkerStore';
+import OrderCardComponent from './OrderCardComponent';
+
+import { NoOrdersToShowComponent } from './MessageComponents';
 
 class WorkerOrderCardComponent extends React.Component{
 
@@ -12,9 +15,8 @@ class WorkerOrderCardComponent extends React.Component{
     }
 
     componentDidMount(){
-        let orderId = this.props.match.params.number;
         WorkerStore.addChangeListener(this.handleChange);
-        WorkerActions.getOrderById(orderId);        
+        WorkerActions.getOrderById(this.props.orderId);        
     }
 
     componentWillUnmount(){
@@ -25,57 +27,19 @@ class WorkerOrderCardComponent extends React.Component{
         this.setState({order:WorkerStore._editingOrder});
     }
 
-    formatDate = (date) => {
-        let options = { year: 'numeric', month: 'long', day: 'numeric' };
-        let formattedDate = new Date(date);
-        return formattedDate.toLocaleDateString('en-US', options);
-    }
-
     backToOrders = () => {
        
        WorkerActions.setEditingOrderUndefined();
     }
 
-    getStateOfOrder(){
-        if(this.state.order.isDone){
-            return 'Done';
-        }
-        else if (this.state.order.isInProgress){
-            return 'Is in progress';
-        }
-        else{
-            return 'Not yet being assembled';
-        }
-    }
-
-    createWindowParameterCell = (window,index) => {
-        return (
-            <div key={index} className="p-3 mb-2 bg-info text-white">
-                      <h6 className="font-weight-bold">{`${index}. Window parameters:`}</h6>
-                        <div className="d-flex">
-                        <div className="m-1"><label className="font-weight-bold">height </label> {window.height} cm</div>
-                        <div className="m-1"><label className="font-weight-bold">width: </label> {window.height} cm</div>
-                        </div>
-                </div>
-        )
-    }
-    
-    
     render(){
-        if(isNullOrUndefined(this.state.order)) return <React.Fragment></React.Fragment>
-        console.log(this.props);
+        if(isNullOrUndefined(this.state.order)) return <NoOrdersToShowComponent/>
         return (
             <React.Fragment>
                     <button onClick={this.backToOrders} className="btn btn-sm btn-info mb-3">back to orders</button>
-            <div key={this.state.order._id}  className="col-12 card mb-2 fancy-font-size">
-                <div className="card-body">
-                   <div><label className="font-weight-bold">Date of ordering: </label> {this.formatDate(this.state.order.dateOfSubmittingOrder)}</div>
-                   <div><label className="font-weight-bold">Has been paid: </label> {this.state.order.isPaid ? 'yes' : 'no'}</div>
-                   <div><label className="font-weight-bold">State of order:</label> {this.getStateOfOrder()}</div>
-                   <div><label className="font-weight-bold">Price:</label> {this.state.order.price} {this.state.order.currency}</div>
-                   {this.state.order.windows.map((window,index)  => this.createWindowParameterCell(window, index +1 ))}
-                 </div>
-            </div>
+                    <OrderCardComponent order={this.state.order} 
+                                    isIndexingNeeded={false} 
+                                    isFullViewRequired={true}/>
             <AddPartsComponent order={this.state.order}/>
             </React.Fragment>
         )

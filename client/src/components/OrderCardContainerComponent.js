@@ -20,7 +20,8 @@ class OrderCardContainerComponent extends React.Component{
                     <div className={`${this.props.isFullViewRequired ? 'worker-container-style' : 'customer-container-style'}`}>
                         {this.props.orders.map((order,index) => (
                         <OrderCardComponent order={order} 
-                                            index={index + 1} 
+                                            index={index + 1}
+                                            isIndexingNeeded={true} 
                                             isFullViewRequired={this.props.isFullViewRequired || this.props.orders.length === 1}/>))
                     }
                     </div>

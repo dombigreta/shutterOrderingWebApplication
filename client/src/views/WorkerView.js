@@ -57,7 +57,7 @@ class WorkerView extends React.Component{
         return(     <OrderCardContainerComponent 
                         orders={this.state.orders}
                         setEditingOrder={(orderId) => this.handleOrderSelection(orderId)} 
-                        isFullViewRequired={true}
+                        isFullViewRequired={false || this.state.orders.length == 0}
                         title={`All orders`}
                         currentView={VIEWS.WORKER_VIEW}/>
             )
