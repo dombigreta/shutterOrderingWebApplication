@@ -2,6 +2,7 @@ const invoicePdf = require('pdf-invoice-hu');
 const fs = require('fs');
 const path = require('path');
 const appRoot = require('app-root-path');
+const statesOfOrder = require('../../client/src/utils/stateOfOrderConstants');
 
 
 function ManagerService(dataAccess){
@@ -134,6 +135,33 @@ ManagerService.prototype.getStatistics = function(callback){
 
 ManagerService.prototype.getShuttersDataForStatistics = function(callback){
     this.dao.getShuttersDataForStatistics((data) => callback(data));
+}
+
+ManagerService.prototype.getOrderDataForStatistics = function(callback){
+    let statistics = {
+        submittedOrders: 0,
+        assignedOrders:0,
+        startedAssembledOrders:0,
+        doneOrders:0,
+        payedOrders:0
+    }
+    this.dao.getAllOrders((data) => {
+        data.forEach((data) => {
+            switch(data.statesOfOrder){
+                case statesOfOrder.SUBMITTED: statistics.submittedOrders++;
+                break;
+                case statesOfOrder.ASSIGNED_TO_WORKER: statistics.assignedOrders++;
+                break;
+                case statesOfOrder.STARTED_ASSEMBLING: statistics.startedAssembledOrders++;
+                break;
+                case statesOfOrder.DONE: statistics.doneOrders++;
+                break;
+                case statesOfOrder.PAYED:statistics.payedOrders;
+            }
+        });
+    });
+
+    return statistics;
 }
 
 module.exports = ManagerService;

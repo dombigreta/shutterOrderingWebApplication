@@ -3,6 +3,7 @@ import * as ManagerActions from '../store/ManagerStore/ManagerActions'
 import ManagerStore from '../store/ManagerStore/ManagerStore';
 import { isNullOrUndefined } from 'util';
 import * as ORDER_STATES from '../utils/stateOfOrderConstants';
+import Card from 'react-bootstrap/Card';
 
 
 class OrganiseInstallationComponent extends React.Component{
@@ -38,10 +39,10 @@ class OrganiseInstallationComponent extends React.Component{
     renderCustomerInformationCard = () => {
         if(isNullOrUndefined(this.state.customerData)) return <React.Fragment></React.Fragment>
         return (
-           <React.Fragment>
-                <div key={this.state.customerData._id}  className="col-12 card mb-2 fancy-font-size">
-            <div className="card-body">
-               <div><label className="font-weight-bold mr-3">Name:</label> {this.state.customerData.lastName} {this.state.customerData.firstName}</div>
+            <div className="p-3">
+            <Card className="p-3 mb-3">
+            <Card.Title>Customer information</Card.Title>
+            <div><label className="font-weight-bold mr-3">Name:</label> {this.state.customerData.lastName} {this.state.customerData.firstName}</div>
                <div><label className="font-weight-bold mr-3">Email:</label>{this.state.customerData.email}</div>
                <div className="p-3 mb-2 bg-info text-white">
                   <h6 className="font-weight-bold">Shipping details</h6>
@@ -50,10 +51,9 @@ class OrganiseInstallationComponent extends React.Component{
                     <div className="m-1"><label className="font-weight-bold">Address: </label> {this.state.customerData.address}</div>
                     </div>
                </div>
-             </div>
-        </div>
         <button className="btn btn-sm btn-danger mb-3" onClick={this.handleCreatingInvocie}>create invoce</button>
-               </React.Fragment>
+        </Card>
+        </div>
         )
     }
 
@@ -76,6 +76,7 @@ class OrganiseInstallationComponent extends React.Component{
             return;
         }
         ManagerActions.createInvoice(orderId,customerId,shutterId);
+        ManagerActions.getOrderById(orderId);
     }
 
     renderWorkerDropDown = () =>{

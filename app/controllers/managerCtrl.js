@@ -53,7 +53,7 @@ router.post('/createInvoice',(req,res) => {
       if(!fs.existsSync(file)){
         res.send({error:'the file is not found', level:'error'});
       }
-      res.send({message:'the invoice was created', level:'info'}); 
+      res.send({message:'The invoice was created in the invoices folder and the order is closed'}); 
     })
 })
 
