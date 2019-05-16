@@ -3463,3 +3463,5 @@
 2019-05-16 06:05:59 [34mdebug[39m: {"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T04:05:51.355Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":3,"price":646920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}
 2019-05-16 07:05:37 [32minfo[39m: orders are coming back for worker
 2019-05-16 07:05:38 [32minfo[39m: parts are coming back for worker
+2019-05-16 10:00:02 [32minfo[39m: app listents on 9999
+2019-05-16 13:05:05 [32minfo[39m: app listents on 9999

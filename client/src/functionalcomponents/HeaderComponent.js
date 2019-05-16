@@ -10,8 +10,9 @@ class HeaderComponent extends React.Component{
 
     state = {
         links: [{displayName:'customer', actionName:VIEW_CONSTANTS.SHOW_CUSTOMER_VIEW},
-                {displayName:'worker', actionName:VIEW_CONSTANTS.SHOW_WORKER_VIEW},
-                {displayName:'manager', actionName:VIEW_CONSTANTS.SHOW_MANAGER_VIEW}]
+                {displayName:'manager', actionName:VIEW_CONSTANTS.SHOW_MANAGER_VIEW},
+                {displayName:'worker', actionName:VIEW_CONSTANTS.SHOW_WORKER_VIEW}
+                ]
     }
 
     createLinks = (link, index) =>{

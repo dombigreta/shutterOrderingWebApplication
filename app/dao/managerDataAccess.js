@@ -20,7 +20,8 @@ function getAllOrdersOfTheCompany(callback){
     const collection = db.collection('orders');
     collection.find().toArray((err, data) => {
         test.strictEqual(null, err);
-        logger.info('orders are coming back for manager');
+        logger.info(' are coming back fororders manager');
+        logger.debug(`data: ${JSON.stringify(data)}`);
         callback(data);
     })
 }
@@ -32,7 +33,7 @@ function getOrderById(orderId, callback){
     collection.findOne({"_id":ObjectId(orderId)},(err, data) => {
             test.strictEqual(null,err);
             logger.info('getting one order at a time');
-            logger.debug(data);
+            logger.debug(`data: ${JSON.stringify(data)}`);
             callback(data);
 
         })   
@@ -44,7 +45,7 @@ function getCustomerDataByCustomerId(customerId, callback){
     collection.findOne({"_id":ObjectId(customerId)},(err, data) => {
         test.strictEqual(null,err);
         logger.info('getting one customer at a time');
-        logger.debug(data);
+        logger.debug(`data: ${JSON.stringify(data)}`);
         callback(data);
     })
 }
@@ -54,7 +55,8 @@ function getWorkersDataForInstallation(callback){
     const collection = db.collection('workers');
     collection.find({}).toArray((err, data) => {
         test.strictEqual(null, err);
-        logger.info('customers are coming back for manager');
+        logger.info('workers are coming back for manager');
+        logger.debug(`data: ${JSON.stringify(data)}`);
         callback(data);
     })
 }
@@ -89,8 +91,7 @@ function closeOrder(orderId, callback){
 function getShutterDataByIds(windows,callback){
     const db = connection.getDatabase();
     const collection = db.collection('shutters');
-    collection.find({"_id":
-                            {"$in" :windows.map(x => ObjectId(x.shutter))}
+    collection.find({"_id":{"$in" :windows.map(x => ObjectId(x.shutter))}
                     }).toArray((err, data) => {
         test.strictEqual(null,err);
         logger.info('getting  the shutters back');

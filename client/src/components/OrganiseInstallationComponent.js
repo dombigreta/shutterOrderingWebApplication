@@ -2,6 +2,7 @@ import React from 'react';
 import * as ManagerActions from '../store/ManagerStore/ManagerActions'
 import ManagerStore from '../store/ManagerStore/ManagerStore';
 import { isNullOrUndefined } from 'util';
+import * as ORDER_STATES from '../utils/stateOfOrderConstants';
 
 
 class OrganiseInstallationComponent extends React.Component{
@@ -95,13 +96,21 @@ class OrganiseInstallationComponent extends React.Component{
           </div>
             );
     }
+
+    handleDisplayingField = (state) =>{
+        switch(state){
+            case ORDER_STATES.DONE: return this.renderCustomerInformationCard();
+            break;
+            case ORDER_STATES.SUBMITTED:return this.renderWorkerDropDown();
+            break;
+        }
+    }
  
     render(){
 
         return (
             <React.Fragment>
-            {this.state.editingOrder.isDone  && this.renderCustomerInformationCard()}
-            {isNullOrUndefined(this.state.editingOrder.workerId) && this.renderWorkerDropDown()}
+            {this.handleDisplayingField(this.state.editingOrder.stateOfOrder)}
             </React.Fragment>
         )
     }

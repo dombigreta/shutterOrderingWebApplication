@@ -2,6 +2,7 @@ const connection = require('../mongo.connection');
 const test = require('assert');
 const logger = require('../winston.config');
 const ObjectId = require('mongodb').ObjectID;
+const statesOfOrder = require('../../client/src/utils/stateOfOrderConstants');
 
 
 function viewOwnOrders(customerId, callback){
@@ -21,7 +22,7 @@ function createOrder(order,callback){
     "customerId":  ObjectId(order.customerId),
     "dueDateOfAssembling" : order.dateOfSubmittingOrder == null ? null : new Date(order.dueDateOfAssembling),
     "dateOfSubmittingOrder": new Date(order.dateOfSubmittingOrder),
-    "stateOfOrder":1,
+    "stateOfOrder":statesOfOrder.SUBMITTED,
     "price" : order.price,
     "currency":order.currency,
     "windows": order.windows.map(window => ({"height": window.height, "width":window.width, "shutter":ObjectId(window.shutter)})),
