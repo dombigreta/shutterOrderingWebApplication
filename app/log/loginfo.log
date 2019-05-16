@@ -3392,3 +3392,74 @@
 2019-05-16 06:01:21 [32minfo[39m: customers are coming back for manager
 2019-05-16 06:01:21 [32minfo[39m: getting the shutter data back
 2019-05-16 06:01:21 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:02:24 [32minfo[39m: getting one order at a time
+2019-05-16 06:02:24 [34mdebug[39m: [object Object]
+2019-05-16 06:02:24 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:02:24 [32minfo[39m: getting one customer at a time
+2019-05-16 06:02:24 [34mdebug[39m: [object Object]
+2019-05-16 06:02:26 [32minfo[39m: updating was successful
+2019-05-16 06:02:26 [34mdebug[39m: data:{"n":1,"nModified":1,"ok":1}
+2019-05-16 06:02:26 [32minfo[39m: getting one order at a time
+2019-05-16 06:02:26 [34mdebug[39m: [object Object]
+2019-05-16 06:02:32 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:02:32 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:03:13 [32minfo[39m: getting one order at a time
+2019-05-16 06:03:13 [34mdebug[39m: {"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-16 06:03:13 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:03:18 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:03:18 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}]
+2019-05-16 06:03:18 [32minfo[39m: getting the shutter data back
+2019-05-16 06:03:18 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:03:24 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:03:24 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:03:29 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:03:29 [32minfo[39m: getting one order at a time
+2019-05-16 06:03:29 [34mdebug[39m: {"_id":"5cdcdbe92a36256b0c63a997","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T03:42:03.158Z","dateOfSubmittingOrder":"2019-05-16T03:41:29.014Z","stateOfOrder":3,"price":199345,"currency":"HUF","windows":[{"height":1010,"width":123,"shutter":"5cd40e717a661d8c631792f3"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-16 06:03:31 [32minfo[39m: updating was successful
+2019-05-16 06:03:31 [34mdebug[39m: {"n":1,"nModified":0,"ok":1}
+2019-05-16 06:03:31 [32minfo[39m: getting one order at a time
+2019-05-16 06:03:31 [34mdebug[39m: {"_id":"5cdcdbe92a36256b0c63a997","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T03:42:03.158Z","dateOfSubmittingOrder":"2019-05-16T03:41:29.014Z","stateOfOrder":3,"price":199345,"currency":"HUF","windows":[{"height":1010,"width":123,"shutter":"5cd40e717a661d8c631792f3"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-16 06:03:31 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:03:42 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}]
+2019-05-16 06:03:42 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:03:42 [32minfo[39m: getting the shutter data back
+2019-05-16 06:03:42 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:03:45 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:03:45 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:04:49 [32minfo[39m: app listents on 9999
+2019-05-16 06:04:49 [32minfo[39m: successfully connected
+2019-05-16 06:05:04 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:05:04 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:05:07 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}]
+2019-05-16 06:05:07 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:05:07 [32minfo[39m: getting the shutter data back
+2019-05-16 06:05:07 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:05:09 [32minfo[39m: getting one order at a time
+2019-05-16 06:05:09 [34mdebug[39m: [object Object]
+2019-05-16 06:05:09 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:05:09 [32minfo[39m: getting one customer at a time
+2019-05-16 06:05:09 [34mdebug[39m: [object Object]
+2019-05-16 06:05:36 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-16 06:05:36 [32minfo[39m: orders are coming back for customer
+2019-05-16 06:05:36 [32minfo[39m: shutter info [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:05:44 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:05:44 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:05:47 [32minfo[39m: getting one order at a time
+2019-05-16 06:05:47 [34mdebug[39m: {"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-16 06:05:47 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:05:51 [32minfo[39m: updating was successful
+2019-05-16 06:05:51 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-16 06:05:51 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:05:51 [32minfo[39m: getting one order at a time
+2019-05-16 06:05:51 [34mdebug[39m: {"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T04:05:51.355Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":3,"price":646920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-16 06:05:54 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]}]
+2019-05-16 06:05:54 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:05:54 [32minfo[39m: getting the shutter data back
+2019-05-16 06:05:54 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:05:57 [32minfo[39m: orders are coming back for worker
+2019-05-16 06:05:57 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:05:59 [32minfo[39m: parts are coming back for worker
+2019-05-16 06:05:59 [32minfo[39m: getting one order at a time
+2019-05-16 06:05:59 [34mdebug[39m: {"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T04:05:51.355Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":3,"price":646920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-16 07:05:37 [32minfo[39m: orders are coming back for worker
+2019-05-16 07:05:38 [32minfo[39m: parts are coming back for worker

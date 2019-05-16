@@ -2,6 +2,8 @@ const connection = require('../mongo.connection');
 const test = require('assert');
 const logger = require('../winston.config');
 const ObjectId = require('mongodb').ObjectID;
+const statesOfOrder = require('../../client/src/utils/stateOfOrderConstants');
+
 
 
 
@@ -43,7 +45,7 @@ function startAssemblingOrder(order,callback){
     collection.updateOne({"_id":ObjectId(order._id)},{$set:{ 
     "dueDateOfAssembling" : new Date(),
     "dateOfSubmittingOrder": new Date(order.dateOfSubmittingOrder),
-    "isInProgress" : true,
+    "stateOfOrder":statesOfOrder.STARTED_ASSEMBLING,
     "price":order.price,
     "parts":order.parts.map(part => ObjectId(part))}})
     .then((data) => {
@@ -57,7 +59,7 @@ function startAssemblingOrder(order,callback){
 function finishOrder(orderId,callback){
     const db = connection.getDatabase();
     const collection = db.collection('orders');
-    collection.updateOne({"_id":ObjectId(orderId)},{$set:{'stateOfOrder':3}})
+    collection.updateOne({"_id":ObjectId(orderId)},{$set:{'stateOfOrder':statesOfOrder.DONE}})
     .then((data) => {
         test.notEqual(null, data);
         logger.info('updating was successful');
