@@ -17,8 +17,8 @@ class HeaderComponent extends React.Component{
 
     createLinks = (link, index) =>{
         return (
-            <Nav.Item>
-            <Nav.Link eventKey={link.actionName} key={index}>
+            <Nav.Item key={index}>
+            <Nav.Link eventKey={link.actionName} >
                 {link.displayName}
                 </Nav.Link>
             </Nav.Item>

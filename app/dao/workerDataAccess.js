@@ -40,18 +40,19 @@ function getAllParts(callback){
 }
 
 function startAssemblingOrder(order,callback){
+    console.log(order.parts);
     const db = connection.getDatabase();
     const collection = db.collection('orders');
-    collection.updateOne({"_id":ObjectId(order._id)},{$set:{ 
-    "dueDateOfAssembling" : new Date(),
-    "dateOfSubmittingOrder": new Date(order.dateOfSubmittingOrder),
-    "stateOfOrder":statesOfOrder.STARTED_ASSEMBLING,
+    collection.updateOne({"_id":ObjectId(order._id)},
+    {$set:{ 
+    "stateOfOrder":order.stateOfOrder,
     "price":order.price,
-    "parts":order.parts.map(part => ObjectId(part))}})
+    "parts":order.parts.map(part => ObjectId(part))}
+    })
     .then((data) => {
         test.notEqual(null, data);
         logger.info('updating was successful');
-        logger.debug(JSON.stringify(data));
+        logger.debug(`data - startassemblingOrder ${JSON.stringify(data)}`);
         callback(data);
     }).catch((err) => logger.debug(err));
 }

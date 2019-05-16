@@ -53,13 +53,13 @@ dispatcher.register((data) => {
 
 // --- startAssemblingOrder
 dispatcher.register((data) => {
-    if(data.action.type !== WORKER_STORE_ACTIONS.START_ASSEMBLING_ORDER || isNullOrUndefined(data.action.payload)){
+    if(data.action.type !== WORKER_STORE_ACTIONS.START_ASSEMBLING_ORDER || isNullOrUndefined(data.action.order)){
         return;
     }
     fetch('/worker/startAssemblingOrder',{method:'POST', 
     headers:{ 'Accept': 'application/json',
             'Content-Type': 'application/json'},
-    body:JSON.stringify({order: data.action.payload})})
+    body:JSON.stringify(data.action.order)})
     .then((response) => response.json())
     .then((data) => console.log(data))
     .then(() => WorkerStore.emitChange())

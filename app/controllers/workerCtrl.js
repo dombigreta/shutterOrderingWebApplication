@@ -34,7 +34,7 @@ router.post('/finishOrder',(req,res) => {
 router.post('/startAssemblingOrder',(req,res) => {
     let order = req.body.order;
     service.startAssemblingOrder(order,(data) => {
-        res.send({message:'The order is being assebled', level:'info'});
+    
     });
 });
 

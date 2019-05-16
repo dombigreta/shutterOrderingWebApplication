@@ -25,7 +25,7 @@ export function getAllParts(){
 export function startAssemblingOrder(order){
     WorkerDispatcher.handleActions({
         type:WORKER_STORE_ACTIONS.START_ASSEMBLING_ORDER,
-        payload:order
+        order:order
     });
 }
 

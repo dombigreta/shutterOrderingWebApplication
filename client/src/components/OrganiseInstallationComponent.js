@@ -97,8 +97,9 @@ class OrganiseInstallationComponent extends React.Component{
             );
     }
 
-    handleDisplayingField = (state) =>{
-        switch(state){
+    handleRenderingByOrderState = () =>{
+        let state = this.state.editingOrder.stateOfOrder;
+        switch(state) {
             case ORDER_STATES.DONE: return this.renderCustomerInformationCard();
             break;
             case ORDER_STATES.SUBMITTED:return this.renderWorkerDropDown();
@@ -110,7 +111,7 @@ class OrganiseInstallationComponent extends React.Component{
 
         return (
             <React.Fragment>
-            {this.handleDisplayingField(this.state.editingOrder.stateOfOrder)}
+            {this.handleRenderingByOrderState()}
             </React.Fragment>
         )
     }

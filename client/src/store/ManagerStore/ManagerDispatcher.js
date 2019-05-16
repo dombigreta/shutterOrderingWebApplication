@@ -95,7 +95,6 @@ dispatcher.register((data) => {
     }
 
     fetch('/manager/createInvoice',{method:'POST', headers:{
-        'Accept': 'application/json',
         'Content-Type': 'application/json' },
         body:JSON.stringify({orderId: data.action.orderId, 
                             customerId: data.action.customerId})})

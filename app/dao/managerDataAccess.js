@@ -62,14 +62,17 @@ function getWorkersDataForInstallation(callback){
 }
 
 function organiseInstallation(orderId, workerId, callback){
+    console.log(orderId);
+    console.log(workerId);
     const db = connection.getDatabase();
     const collection = db.collection('orders');
     collection.updateOne({"_id":ObjectId(orderId)},{
-        $set:{'workerId':ObjectId(workerId), 'statetOfOrder': statesOfOrder.ASSIGNED_TO_WORKER}
+                $set:{'workerId':ObjectId(workerId), 
+                'stateOfOrder': statesOfOrder.ASSIGNED_TO_WORKER}
     }).then(data => {
-        test.notEqual(null,data);
+            test.notEqual(null,data);
             logger.info('updating was successful');
-            logger.debug(`data:${JSON.stringify(data)}`);
+            logger.debug(`data - organiseInstallation :${JSON.stringify(data)}`);
             callback(data);
     }).catch(err => logger.debug(err));
 }
