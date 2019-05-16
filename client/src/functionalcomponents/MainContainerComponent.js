@@ -10,7 +10,7 @@ class MainContainerComponent extends React.Component{
             <HeaderComponent/>
             <div className="container">
                 <div className="row">
-                    <div id="container" className="col-8 mx-auto">
+                    <div id="container" className="col-lg-9 col-sm-12 mx-auto">
                         {/**for rendering react content */}
                     </div>
                 </div>

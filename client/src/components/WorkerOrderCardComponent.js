@@ -1,12 +1,10 @@
 import React from 'react';
 import { isNullOrUndefined } from 'util';
 import AddPartsComponent from './AddPartsComponent';
-
+import * as ViewActions from '../store/ViewStore/ViewActions';
 import * as WorkerActions from '../store/WorkerStore/WorkerActions';
 import WorkerStore from '../store/WorkerStore/WorkerStore';
 import OrderCardComponent from './OrderCardComponent';
-
-import { NoOrdersToShowComponent } from './MessageComponents';
 
 class WorkerOrderCardComponent extends React.Component{
 
@@ -28,12 +26,12 @@ class WorkerOrderCardComponent extends React.Component{
     }
 
     backToOrders = () => {
-       
+       ViewActions.navigateBack();
        WorkerActions.setEditingOrderUndefined();
     }
 
     render(){
-        if(isNullOrUndefined(this.state.order)) return <NoOrdersToShowComponent/>
+        if(isNullOrUndefined(this.state.order)) return <React.Fragment></React.Fragment>
         return (
             <React.Fragment>
                     <button onClick={this.backToOrders} className="btn btn-sm btn-info mb-3">back to orders</button>

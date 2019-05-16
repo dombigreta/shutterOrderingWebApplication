@@ -49,19 +49,20 @@ class OrderCardComponent extends React.Component{
     render(){
         let {order, index} = this.props;
         return(
-            <Card key={order._id} onClick={() => this.navigateToOrder(order._id)} border="light" className={`${this.props.isFullViewRequired ? 'col-12': 'col-6'} fancy-font-size`}>
+        <div  className={`${this.props.isFullViewRequired ? 'col-12': 'col-6'} fancy-font-size mb-3`}>
+            <Card style={{padding:'none'}}
+            key={order._id} onClick={() => this.navigateToOrder(order._id)} >
             <Card.Header>{this.props.isIndexingNeeded ? index + '#' : ''} Order</Card.Header>
-            <Card.Body>
-              <Card.Title>Order's details</Card.Title>
-              <Card.Text>
+            <div className="p-3">
+            <Card.Title>Order's details</Card.Title>
                     <div><label className="font-weight-bold">Date of ordering: </label> {this.formatDate(order.dateOfSubmittingOrder)}</div>
                     <div><label className="font-weight-bold">State of order:</label> {this.getStateOfOrder(order.stateOfOrder)}</div>
                     <div><label className="font-weight-bold">Price:</label> {order.price} {order.currency}</div>
                    {order.windows.map((window,index) => this.createWindowParameterCell(window,index+1))}
                    {this.props.children}
-              </Card.Text>
-            </Card.Body>
+                </div>
           </Card>
+          </div>
         )
     }
 }

@@ -15,6 +15,7 @@ class ShutterCheckBoxComponent extends React.Component{
                                     className="form-check-input"
                                     name="selectedShutterOption" 
                                     value={shutter._id}
+                                    disabled={this.props.isDisabled}
                                     onChange={this.handleChange}/>
             <label className="form-check-label font-weight-bold" htmlFor={shutter.shutterName}>
               Name: {shutter.name}

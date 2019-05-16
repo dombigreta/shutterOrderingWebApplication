@@ -10,9 +10,7 @@ import { isNullOrUndefined } from 'util';
 class WorkerView extends React.Component{
     state = {
         orders:WorkerStore._orders,
-        parts:WorkerStore._parts,
-        editingOrder:null,
-        addtionalPrice:0
+        parts:WorkerStore._parts
     }
     
     componentDidMount(){
@@ -30,33 +28,27 @@ class WorkerView extends React.Component{
         this.setState({orders:WorkerStore._orders, parts:WorkerStore._parts});
     }
 
-    handleOrderSelection = (orderId) => {
-        let order = this.state.orders.filter(order => order._id === orderId)[0];
-        this.setState({editingOrder:order});
-    }
 
-  
-    handleFinishingOrder = () => {
-        if(isNullOrUndefined(this.state.editingOrder)){
-            return;
-        }
-        let orderId = this.state.editingOrder._id;
-        WorkerActions.finishOrder(orderId);
-    }
+    // handleFinishingOrder = () => {
+    //     if(isNullOrUndefined(this.state.editingOrder)){
+    //         return;
+    //     }
+    //     let orderId = this.state.editingOrder._id;
+    //     WorkerActions.finishOrder(orderId);
+    // }
 
-    handleAssemblingOrder = () => {
-        if(isNullOrUndefined(this.state.editingOrder)){
-            return;
-        }
-        let orderId = this.state.editingOrder._id;
-        WorkerActions.startAssemblingOrder(orderId);
-    }
+    // handleAssemblingOrder = () => {
+    //     if(isNullOrUndefined(this.state.editingOrder)){
+    //         return;
+    //     }
+    //     let orderId = this.state.editingOrder._id;
+    //     WorkerActions.startAssemblingOrder(orderId);
+    // }
 
     render(){
         return(     <OrderCardContainerComponent 
                         orders={this.state.orders}
-                        setEditingOrder={(orderId) => this.handleOrderSelection(orderId)} 
-                        isFullViewRequired={false || this.state.orders.length == 0}
+                        isFullViewRequired={false || this.state.orders.length == 1}
                         title={`All orders`}
                         currentView={VIEWS.WORKER_VIEW}/>
             )

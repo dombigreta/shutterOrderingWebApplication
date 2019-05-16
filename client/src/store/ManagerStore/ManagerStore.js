@@ -3,6 +3,7 @@ import EventEmitter from 'events';
 class ManagerStore extends EventEmitter{
     _orders = [];
     _workers = [];
+    _shutterData = [];
     _editingOrder = null;
     _customerData = null;
     _statistics = null;

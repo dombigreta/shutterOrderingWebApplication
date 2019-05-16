@@ -61,6 +61,12 @@ router.get('/getStatistics', (req,res) => {
     service.getStatistics((data) => {
         res.send(data);
     })
+});
+
+router.get('/getShuttersDataForStatistics', (req,res) => {
+    service.getShuttersDataForStatistics((data) => {
+        res.send(data);
+    })
 })
 
 module.exports = router;

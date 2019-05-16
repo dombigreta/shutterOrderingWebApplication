@@ -3,7 +3,8 @@
     "_id" : ObjectId("5cd45b94ae12367da257f98f"),
     "name":"Stile",
     "price":"5000",
-    "currency":"HUF"
+    "currency":"HUF",
+    "orderCount":1
 }
 
 

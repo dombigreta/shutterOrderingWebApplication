@@ -82,8 +82,8 @@ class OrganiseInstallationComponent extends React.Component{
                 <h4 className="mb-3 mt-3">Select a worker to finish the job</h4>
              <div className="d-flex">
              <div className="dropdown mr-3">
-                <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
-                    {(!isNullOrUndefined(this.state.selectedWorker) && (this.state.selectedWorker.firstName +' '+ this.state.selectedWorker.lastName))
+                <button className="btn btn-secondary dropdown-toggle btn-sm" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                    {(!isNullOrUndefined(this.state.selectedWorker) && (this.state.selectedWorker.lastName +' '+ this.state.selectedWorker.firstName))
                      || 'select a worker' }
                 </button>
             <div className="dropdown-menu" id="dropdown" aria-labelledby="dropdownMenuButton">

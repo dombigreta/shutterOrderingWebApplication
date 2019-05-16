@@ -2,7 +2,7 @@ import React from 'react';
 import  * as CustomerActions from '../store/CustomerStore/CustomerActions';
 import CustomerStore from '../store/CustomerStore/CustomerStore';
 import { isNullOrUndefined } from 'util';
-import ShutterCheckBoxComponent from '../components/ShuttercheckboxComponent';
+import ShutterCheckBoxComponent from './ShutterCheckboxComponent';
 import ValidationObject from '../utils/validationObject';
 import WindowDetailsComponent from './WindowDetailsComponent';
 import { ErrorMessageComponent } from './MessageComponents';
@@ -170,7 +170,7 @@ class CreateOrderComponent extends React.Component{
     createWindowDetailsRow = (window,index) => {
        return (
       <WindowDetailsComponent key={index} isDisabled={this.state.isSubmissionSuccessful} window={window} index={index} handleWindowDetailsChange={this.handleWindowDetailsChange}>
-             <ShutterCheckBoxComponent shutterTypes={this.state.shutterTypes} window={window} index={index}
+             <ShutterCheckBoxComponent isDisabled={this.state.isSubmissionSuccessful} shutterTypes={this.state.shutterTypes} window={window} index={index}
                 handleShutterTypeChange={(shutterId, index) => this.handleShutterTypeChange(shutterId, index)}/>
       </WindowDetailsComponent>
        )
@@ -214,7 +214,7 @@ class CreateOrderComponent extends React.Component{
         <div className="mb-3">
          <h5>Window's parameters</h5>
          {this.state.windowsDetails.map((window,index) => this.createWindowDetailsRow(window,index))}
-           <button onClick={this.handleAddingNewWindow} className="btn btn-sm btn-danger">Add new window</button>
+           <button onClick={this.handleAddingNewWindow} disabled={this.state.isSubmissionSuccessful} className="btn btn-sm btn-danger">Add new window</button>
          </div>
          {this.state.isSubmitted && this.state.windowsDetails.length == 0 && <ErrorMessageComponent message={'You must at least add one window!'}/>}
          <label className="font-weight-bold">Net price</label> : {this.state.basePrice + ' HUF'}

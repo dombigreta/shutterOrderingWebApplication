@@ -2574,3 +2574,821 @@
 2019-05-15 15:18:28 [32minfo[39m: orders are coming back for manager
 2019-05-15 15:18:28 [32minfo[39m: orders are coming back for manager
 2019-05-15 15:18:28 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:27:46 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:27:46 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:27:47 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:27:47 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:27:47 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:27:48 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:27:48 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:27:48 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:27:49 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:27:49 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:27:49 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:27:57 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:27:57 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:27:57 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:28:23 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:28:23 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:28:23 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:28:32 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:28:32 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:28:33 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:28:33 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:28:33 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:29:53 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:29:53 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:29:53 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:30:18 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:30:18 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:30:20 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:30:20 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:30:20 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:30:51 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:30:51 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:30:52 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:30:52 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:30:52 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:30:56 [32minfo[39m: getting one order at a time
+2019-05-15 15:30:56 [34mdebug[39m: [object Object]
+2019-05-15 15:30:56 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:30:56 [32minfo[39m: getting one customer at a time
+2019-05-15 15:30:56 [34mdebug[39m: [object Object]
+2019-05-15 15:30:58 [32minfo[39m: updating was successful
+2019-05-15 15:30:58 [34mdebug[39m: [object Object]
+2019-05-15 15:30:58 [32minfo[39m: getting one order at a time
+2019-05-15 15:30:58 [34mdebug[39m: [object Object]
+2019-05-15 15:31:00 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:31:00 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:31:01 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:31:01 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:31:01 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:31:12 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:31:12 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:31:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:31:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:31:16 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:34:27 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:34:27 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:34:28 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:34:28 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:34:28 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:35:04 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:35:04 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:35:04 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:35:07 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:35:07 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:35:07 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:35:08 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:35:08 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:35:24 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:35:24 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:35:26 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:35:26 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:35:26 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:35:55 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:35:55 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:35:55 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:36:42 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:36:42 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:36:42 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:36:42 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:36:42 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:36:43 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:36:43 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:36:43 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:37:02 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:37:02 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:37:02 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:37:03 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:37:03 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:37:04 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:37:04 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:37:04 [32minfo[39m: orders are coming back for customer
+2019-05-15 15:40:20 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:40:20 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:40:21 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:40:21 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:40:21 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:41:29 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:41:29 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:41:30 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:41:30 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:41:30 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:41:56 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:41:56 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:41:58 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:41:58 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:41:58 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:42:16 [32minfo[39m: orders are coming back for worker
+2019-05-15 15:42:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 15:42:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:42:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 15:42:16 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:42:20 [32minfo[39m: getting one order at a time
+2019-05-15 15:42:20 [34mdebug[39m: [object Object]
+2019-05-15 15:42:20 [32minfo[39m: customers are coming back for manager
+2019-05-15 15:42:20 [32minfo[39m: getting one customer at a time
+2019-05-15 15:42:20 [34mdebug[39m: [object Object]
+2019-05-15 15:42:24 [32minfo[39m: Shutter types came back from db
+2019-05-15 15:42:24 [32minfo[39m: {find data [object Object]}
+2019-05-15 15:42:24 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:16:59 [32minfo[39m: app listents on 9999
+2019-05-15 16:17:00 [32minfo[39m: successfully connected
+2019-05-15 16:17:16 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:17:16 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:17:16 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:17:26 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:17:26 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:17:27 [32minfo[39m: orders are coming back for manager
+2019-05-15 16:17:27 [32minfo[39m: orders are coming back for manager
+2019-05-15 16:17:27 [32minfo[39m: customers are coming back for manager
+2019-05-15 16:17:30 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:17:30 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:17:30 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:18:02 [32minfo[39m: app listents on 9999
+2019-05-15 16:18:02 [32minfo[39m: successfully connected
+2019-05-15 16:20:40 [32minfo[39m: app listents on 9999
+2019-05-15 16:20:40 [32minfo[39m: successfully connected
+2019-05-15 16:20:53 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:20:53 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:20:54 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:20:54 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:20:54 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:21:13 [32minfo[39m: {inserted count 1}
+2019-05-15 16:21:13 [32minfo[39m: updating shutter order count
+2019-05-15 16:22:34 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:22:34 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:22:34 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:22:54 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:22:54 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:22:55 [32minfo[39m: customers are coming back for manager
+2019-05-15 16:22:55 [32minfo[39m: orders are coming back for manager
+2019-05-15 16:22:55 [32minfo[39m: orders are coming back for manager
+2019-05-15 16:22:55 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:22:55 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:22:55 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:22:56 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:22:56 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:22:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 16:22:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 16:22:57 [32minfo[39m: customers are coming back for manager
+2019-05-15 16:22:59 [32minfo[39m: getting one order at a time
+2019-05-15 16:22:59 [34mdebug[39m: [object Object]
+2019-05-15 16:22:59 [32minfo[39m: customers are coming back for manager
+2019-05-15 16:22:59 [32minfo[39m: getting one customer at a time
+2019-05-15 16:22:59 [34mdebug[39m: [object Object]
+2019-05-15 16:23:01 [32minfo[39m: updating was successful
+2019-05-15 16:23:01 [34mdebug[39m: [object Object]
+2019-05-15 16:23:01 [32minfo[39m: getting one order at a time
+2019-05-15 16:23:01 [34mdebug[39m: [object Object]
+2019-05-15 16:23:06 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:23:06 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:23:07 [32minfo[39m: getting one order at a time
+2019-05-15 16:23:07 [34mdebug[39m: {"_id":"5cdc20592e860815a79f023c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-15T14:21:13.502Z","stateOfOrder":1,"price":33200,"currency":"HUF","windows":[{"height":100,"width":332,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":[],"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-15 16:23:07 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:23:13 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:23:13 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:23:16 [32minfo[39m: getting one order at a time
+2019-05-15 16:23:16 [34mdebug[39m: {"_id":"5cdc20592e860815a79f023c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-15T14:21:13.502Z","stateOfOrder":1,"price":33200,"currency":"HUF","windows":[{"height":100,"width":332,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":[],"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-15 16:23:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:23:20 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:23:20 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:23:21 [32minfo[39m: getting one order at a time
+2019-05-15 16:23:21 [34mdebug[39m: {"_id":"5cdc20592e860815a79f023c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-15T14:21:13.502Z","stateOfOrder":1,"price":33200,"currency":"HUF","windows":[{"height":100,"width":332,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":[],"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-15 16:23:21 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:23:26 [32minfo[39m: updating was successful
+2019-05-15 16:23:26 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 16:23:26 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:23:26 [32minfo[39m: getting one order at a time
+2019-05-15 16:23:26 [34mdebug[39m: {"_id":"5cdc20592e860815a79f023c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T14:23:26.725Z","dateOfSubmittingOrder":"2019-05-15T14:21:13.502Z","stateOfOrder":1,"price":41200,"currency":"HUF","windows":[{"height":100,"width":332,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9e7a4c016ed6e4fce9"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 16:23:27 [32minfo[39m: updating was successful
+2019-05-15 16:23:27 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 16:23:27 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:23:27 [32minfo[39m: getting one order at a time
+2019-05-15 16:23:27 [34mdebug[39m: {"_id":"5cdc20592e860815a79f023c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T14:23:26.725Z","dateOfSubmittingOrder":"2019-05-15T14:21:13.502Z","stateOfOrder":3,"price":41200,"currency":"HUF","windows":[{"height":100,"width":332,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9e7a4c016ed6e4fce9"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 16:28:18 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:28:18 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:28:18 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:28:26 [32minfo[39m: {inserted count 1}
+2019-05-15 16:28:26 [32minfo[39m: updating shutter order count
+2019-05-15 16:34:11 [32minfo[39m: app listents on 9999
+2019-05-15 16:34:11 [32minfo[39m: successfully connected
+2019-05-15 16:34:24 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:34:24 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:34:24 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:34:36 [32minfo[39m: {inserted count 1}
+2019-05-15 16:34:36 [32minfo[39m: updating shutter order count
+2019-05-15 16:35:40 [32minfo[39m: app listents on 9999
+2019-05-15 16:35:40 [32minfo[39m: successfully connected
+2019-05-15 16:35:46 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:35:46 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:35:46 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:35:54 [32minfo[39m: {inserted count 1}
+2019-05-15 16:40:31 [32minfo[39m: app listents on 9999
+2019-05-15 16:40:31 [32minfo[39m: successfully connected
+2019-05-15 16:40:59 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:40:59 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:40:59 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:41:07 [32minfo[39m: {inserted count 1}
+2019-05-15 16:41:07 [32minfo[39m: updating shutter order count
+2019-05-15 16:44:49 [32minfo[39m: app listents on 9999
+2019-05-15 16:44:49 [32minfo[39m: successfully connected
+2019-05-15 16:44:54 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:44:54 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:44:54 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:45:01 [32minfo[39m: {inserted count 1}
+2019-05-15 16:45:01 [32minfo[39m: updating shutter order count
+2019-05-15 16:47:00 [32minfo[39m: app listents on 9999
+2019-05-15 16:47:00 [32minfo[39m: successfully connected
+2019-05-15 16:47:12 [32minfo[39m: orders are coming back for worker
+2019-05-15 16:47:12 [32minfo[39m: parts are coming back for worker
+2019-05-15 16:47:13 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:47:13 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:47:13 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:47:21 [32minfo[39m: {inserted count 1}
+2019-05-15 16:47:21 [32minfo[39m: updating shutter order count
+2019-05-15 16:49:43 [32minfo[39m: app listents on 9999
+2019-05-15 16:49:43 [32minfo[39m: successfully connected
+2019-05-15 16:50:29 [32minfo[39m: app listents on 9999
+2019-05-15 16:50:29 [32minfo[39m: successfully connected
+2019-05-15 16:50:35 [32minfo[39m: app listents on 9999
+2019-05-15 16:50:35 [32minfo[39m: successfully connected
+2019-05-15 16:50:42 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:50:42 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:50:42 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:50:50 [32minfo[39m: {inserted count 1}
+2019-05-15 16:50:50 [32minfo[39m: updating shutter order count
+2019-05-15 16:50:50 [34mdebug[39m: Expected values to be strictly equal:
++ actual - expected ... Lines skipped
+
++ null
+...
+- CommandResult {
+-   connection: Connection {
+-     _events: [Object: null prototype] {
+-       close: [Function],
+-       error: [Function],
+-       message: [Function],
+-       parseError: [Function],
+-       timeout: [Function]
+-     },
+-     _eventsCount: 5,
+-     _maxListeners: undefined,
+-     bson: BSON {},
+-     buffer: null,
+-     bytesRead: 0,
+-     connectionTimeout: 30000,
+-     destroyed: false,
+-     flushing: false,
+-     hashedName: 'c67eec8ebdda522158d9e86ca7e0edf0c5fde9c5',
+-     host: '172.21.0.10',
+-     id: 0,
+...
+2019-05-15 16:51:38 [32minfo[39m: app listents on 9999
+2019-05-15 16:51:38 [32minfo[39m: successfully connected
+2019-05-15 16:51:43 [32minfo[39m: app listents on 9999
+2019-05-15 16:51:43 [32minfo[39m: successfully connected
+2019-05-15 16:51:50 [32minfo[39m: app listents on 9999
+2019-05-15 16:51:50 [32minfo[39m: successfully connected
+2019-05-15 16:52:18 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:52:18 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:52:18 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:52:26 [32minfo[39m: {inserted count 1}
+2019-05-15 16:52:26 [32minfo[39m: updating shutter order count
+2019-05-15 16:52:26 [34mdebug[39m: [object Object]
+2019-05-15 16:52:53 [32minfo[39m: app listents on 9999
+2019-05-15 16:52:53 [32minfo[39m: successfully connected
+2019-05-15 16:52:56 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:52:56 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:52:56 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:53:04 [32minfo[39m: {inserted count 1}
+2019-05-15 16:53:04 [32minfo[39m: updating shutter order count
+2019-05-15 16:53:04 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 16:53:36 [32minfo[39m: app listents on 9999
+2019-05-15 16:53:36 [32minfo[39m: successfully connected
+2019-05-15 16:53:40 [32minfo[39m: Shutter types came back from db
+2019-05-15 16:53:40 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:53:40 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:54:23 [32minfo[39m: app listents on 9999
+2019-05-15 16:54:23 [32minfo[39m: successfully connected
+2019-05-15 16:54:27 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":5},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 16:54:27 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:54:27 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:54:35 [32minfo[39m: {inserted count 1}
+2019-05-15 16:54:35 [32minfo[39m: updating shutter order count
+2019-05-15 16:56:27 [32minfo[39m: app listents on 9999
+2019-05-15 16:56:27 [32minfo[39m: successfully connected
+2019-05-15 16:56:32 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":6},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 16:56:32 [32minfo[39m: orders are coming back for customer
+2019-05-15 16:56:32 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 16:56:39 [32minfo[39m: {inserted count 1}
+2019-05-15 16:56:39 [32minfo[39m: updating shutter order count
+2019-05-15 16:56:39 [32minfo[39m: err obj undefined data obj {"n":1,"nModified":1,"ok":1}
+2019-05-15 16:56:39 [32minfo[39m: update oder count
+2019-05-15 16:57:14 [32minfo[39m: app listents on 9999
+2019-05-15 16:57:15 [32minfo[39m: successfully connected
+2019-05-15 17:00:22 [32minfo[39m: app listents on 9999
+2019-05-15 17:00:22 [32minfo[39m: successfully connected
+2019-05-15 17:03:56 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:03:56 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:03:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:03:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:03:57 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:04:02 [32minfo[39m: getting one order at a time
+2019-05-15 17:04:02 [34mdebug[39m: [object Object]
+2019-05-15 17:04:02 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:04:02 [32minfo[39m: getting one customer at a time
+2019-05-15 17:04:02 [34mdebug[39m: [object Object]
+2019-05-15 17:04:39 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":7},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:04:39 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:04:39 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:04:59 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:04:59 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:04:59 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:05:01 [32minfo[39m: getting one customer at a time
+2019-05-15 17:05:01 [34mdebug[39m: [object Object]
+2019-05-15 17:05:01 [32minfo[39m: getting one order at a time
+2019-05-15 17:05:01 [34mdebug[39m: [object Object]
+2019-05-15 17:05:01 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:05:02 [32minfo[39m: updating was successful
+2019-05-15 17:05:02 [34mdebug[39m: [object Object]
+2019-05-15 17:05:02 [32minfo[39m: getting one order at a time
+2019-05-15 17:05:02 [34mdebug[39m: [object Object]
+2019-05-15 17:05:03 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:05:03 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:05:03 [32minfo[39m: getting one order at a time
+2019-05-15 17:05:03 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":1,"price":1010000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":[],"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-15 17:05:03 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:05:08 [32minfo[39m: updating was successful
+2019-05-15 17:05:08 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:05:08 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:05:08 [32minfo[39m: getting one order at a time
+2019-05-15 17:05:08 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":1,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:05:09 [32minfo[39m: updating was successful
+2019-05-15 17:05:09 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:05:09 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:05:09 [32minfo[39m: getting one order at a time
+2019-05-15 17:05:09 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:05:11 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:05:11 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:05:11 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:05:13 [32minfo[39m: getting one customer at a time
+2019-05-15 17:05:13 [34mdebug[39m: [object Object]
+2019-05-15 17:05:13 [32minfo[39m: getting one order at a time
+2019-05-15 17:05:13 [34mdebug[39m: [object Object]
+2019-05-15 17:05:13 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:05:15 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:05:15 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:05:15 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:08:51 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:08:51 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:08:51 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":7},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:08:52 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:08:52 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:08:52 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:08:52 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:08:52 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:08:53 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:08:53 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:08:53 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":7},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:10:13 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:10:13 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:10:16 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:10:16 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:10:17 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:10:17 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:18 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:18 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:10:18 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:19 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:10:19 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:10:19 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:10:21 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:21 [34mdebug[39m: [object Object]
+2019-05-15 17:10:21 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:10:21 [32minfo[39m: getting one customer at a time
+2019-05-15 17:10:21 [34mdebug[39m: [object Object]
+2019-05-15 17:10:22 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:10:22 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:22 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:22 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:22 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:10:23 [32minfo[39m: updating was successful
+2019-05-15 17:10:23 [34mdebug[39m: {"n":1,"nModified":0,"ok":1}
+2019-05-15 17:10:23 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:10:23 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:23 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:10:37 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:10:37 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:10:37 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:10:46 [32minfo[39m: getting one customer at a time
+2019-05-15 17:10:46 [34mdebug[39m: [object Object]
+2019-05-15 17:10:46 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:46 [34mdebug[39m: [object Object]
+2019-05-15 17:10:46 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:10:48 [32minfo[39m: updating was successful
+2019-05-15 17:10:48 [34mdebug[39m: [object Object]
+2019-05-15 17:10:48 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:48 [34mdebug[39m: [object Object]
+2019-05-15 17:10:50 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:10:50 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:52 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:52 [34mdebug[39m: {"_id":"5cdc25ed6c23df23def93894","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-15T14:45:01.055Z","stateOfOrder":1,"price":8881220,"currency":"HUF","windows":[{"height":989,"width":8980,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":[],"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-15 17:10:52 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:10:56 [32minfo[39m: updating was successful
+2019-05-15 17:10:56 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:10:56 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:10:56 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:56 [34mdebug[39m: {"_id":"5cdc25ed6c23df23def93894","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:10:56.303Z","dateOfSubmittingOrder":"2019-05-15T14:45:01.055Z","stateOfOrder":1,"price":8896220,"currency":"HUF","windows":[{"height":989,"width":8980,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b9970fe3a3daf8cc82a"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:10:59 [32minfo[39m: updating was successful
+2019-05-15 17:10:59 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:10:59 [32minfo[39m: getting one order at a time
+2019-05-15 17:10:59 [34mdebug[39m: {"_id":"5cdc25ed6c23df23def93894","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:10:56.303Z","dateOfSubmittingOrder":"2019-05-15T14:45:01.055Z","stateOfOrder":3,"price":8896220,"currency":"HUF","windows":[{"height":989,"width":8980,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b9970fe3a3daf8cc82a"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:10:59 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:11:04 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:11:04 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:11:04 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:11:07 [32minfo[39m: getting one customer at a time
+2019-05-15 17:11:07 [34mdebug[39m: [object Object]
+2019-05-15 17:11:07 [32minfo[39m: getting one order at a time
+2019-05-15 17:11:07 [34mdebug[39m: [object Object]
+2019-05-15 17:11:07 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:11:10 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:11:10 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:11:41 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:11:41 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":7},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:11:41 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:12:21 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":7},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:12:21 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:12:21 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:12:29 [32minfo[39m: {inserted count 1}
+2019-05-15 17:12:29 [32minfo[39m: updating shutter order count
+2019-05-15 17:12:29 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:12:29 [32minfo[39m: update oder count
+2019-05-15 17:13:48 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":8},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:13:48 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:13:48 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:13:55 [32minfo[39m: {inserted count 1}
+2019-05-15 17:13:55 [32minfo[39m: updating shutter order count
+2019-05-15 17:13:55 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:13:55 [32minfo[39m: update oder count
+2019-05-15 17:14:13 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":9},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:14:13 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:14:13 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:14:36 [32minfo[39m: {inserted count 1}
+2019-05-15 17:14:36 [32minfo[39m: updating shutter order count
+2019-05-15 17:14:36 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:14:36 [32minfo[39m: update oder count
+2019-05-15 17:14:47 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":10},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:14:47 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:14:47 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:14:56 [32minfo[39m: {inserted count 1}
+2019-05-15 17:14:56 [32minfo[39m: updating shutter order count
+2019-05-15 17:14:56 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:14:56 [32minfo[39m: update oder count
+2019-05-15 17:15:05 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":10},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":2},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:15:05 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:15:05 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:15:22 [32minfo[39m: {inserted count 1}
+2019-05-15 17:15:22 [32minfo[39m: updating shutter order count
+2019-05-15 17:15:22 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-15 17:15:22 [32minfo[39m: update oder count
+2019-05-15 17:18:56 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:18:56 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:18:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:18:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:18:57 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:18:58 [32minfo[39m: getting one order at a time
+2019-05-15 17:18:58 [34mdebug[39m: [object Object]
+2019-05-15 17:18:58 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:18:58 [32minfo[39m: getting one customer at a time
+2019-05-15 17:18:58 [34mdebug[39m: [object Object]
+2019-05-15 17:19:41 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:19:41 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:19:41 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:19:41 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:19:41 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:19:41 [32minfo[39m: getting one order at a time
+2019-05-15 17:19:41 [34mdebug[39m: [object Object]
+2019-05-15 17:19:41 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:19:41 [32minfo[39m: getting one customer at a time
+2019-05-15 17:19:41 [34mdebug[39m: [object Object]
+2019-05-15 17:21:56 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":10},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":2},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:21:56 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:21:56 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:22:03 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:22:03 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:22:03 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:22:05 [32minfo[39m: getting one order at a time
+2019-05-15 17:22:05 [34mdebug[39m: [object Object]
+2019-05-15 17:22:05 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:22:05 [32minfo[39m: getting one customer at a time
+2019-05-15 17:22:05 [34mdebug[39m: [object Object]
+2019-05-15 17:22:42 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:22:42 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:22:42 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:22:43 [32minfo[39m: getting one order at a time
+2019-05-15 17:22:43 [34mdebug[39m: [object Object]
+2019-05-15 17:22:43 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:22:43 [32minfo[39m: getting one customer at a time
+2019-05-15 17:22:43 [34mdebug[39m: [object Object]
+2019-05-15 17:22:50 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:22:50 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:22:50 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:22:53 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:22:53 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:22:55 [32minfo[39m: getting one order at a time
+2019-05-15 17:22:55 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:22:55 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:27:06 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:27:06 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:27:07 [32minfo[39m: getting one order at a time
+2019-05-15 17:27:07 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:27:07 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:27:09 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:27:09 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:27:09 [32minfo[39m: getting one order at a time
+2019-05-15 17:27:09 [34mdebug[39m: {"_id":"5cdc25ed6c23df23def93894","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:10:56.303Z","dateOfSubmittingOrder":"2019-05-15T14:45:01.055Z","stateOfOrder":3,"price":8896220,"currency":"HUF","windows":[{"height":989,"width":8980,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b9970fe3a3daf8cc82a"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:27:09 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:27:12 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:27:12 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:27:12 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:27:13 [32minfo[39m: getting one order at a time
+2019-05-15 17:27:13 [34mdebug[39m: [object Object]
+2019-05-15 17:27:13 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:27:13 [32minfo[39m: getting one customer at a time
+2019-05-15 17:27:13 [34mdebug[39m: [object Object]
+2019-05-15 17:27:15 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:27:15 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:27:15 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:27:16 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:27:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:27:16 [32minfo[39m: getting one order at a time
+2019-05-15 17:27:16 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:27:16 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:34:23 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:34:23 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:34:24 [32minfo[39m: getting one order at a time
+2019-05-15 17:34:24 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:34:24 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:37:09 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:37:09 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:37:12 [32minfo[39m: getting one order at a time
+2019-05-15 17:37:12 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:37:12 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:46 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:38:46 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:47 [32minfo[39m: getting one order at a time
+2019-05-15 17:38:47 [34mdebug[39m: {"_id":"5cdc25ed6c23df23def93894","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:10:56.303Z","dateOfSubmittingOrder":"2019-05-15T14:45:01.055Z","stateOfOrder":3,"price":8896220,"currency":"HUF","windows":[{"height":989,"width":8980,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b9970fe3a3daf8cc82a"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:38:47 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:49 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:38:49 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:52 [32minfo[39m: getting one order at a time
+2019-05-15 17:38:52 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:38:52 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:38:57 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:38:57 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:38:58 [32minfo[39m: getting one order at a time
+2019-05-15 17:38:58 [34mdebug[39m: [object Object]
+2019-05-15 17:38:58 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:38:58 [32minfo[39m: getting one customer at a time
+2019-05-15 17:38:58 [34mdebug[39m: [object Object]
+2019-05-15 17:38:59 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:38:59 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:59 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:38:59 [32minfo[39m: getting one order at a time
+2019-05-15 17:38:59 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:39:01 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:39:01 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:02 [32minfo[39m: getting one order at a time
+2019-05-15 17:39:02 [34mdebug[39m: {"_id":"5cdc25ed6c23df23def93894","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:10:56.303Z","dateOfSubmittingOrder":"2019-05-15T14:45:01.055Z","stateOfOrder":3,"price":8896220,"currency":"HUF","windows":[{"height":989,"width":8980,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b9970fe3a3daf8cc82a"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:39:02 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:25 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:39:25 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:26 [32minfo[39m: getting one order at a time
+2019-05-15 17:39:26 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:39:26 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:27 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:39:27 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:29 [32minfo[39m: getting one order at a time
+2019-05-15 17:39:29 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:39:29 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:31 [32minfo[39m: updating was successful
+2019-05-15 17:39:31 [34mdebug[39m: {"n":1,"nModified":0,"ok":1}
+2019-05-15 17:39:31 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:39:31 [32minfo[39m: getting one order at a time
+2019-05-15 17:39:31 [34mdebug[39m: {"_id":"5cdc250314294b21d490bc9f","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-15T15:05:08.439Z","dateOfSubmittingOrder":"2019-05-15T14:41:07.939Z","stateOfOrder":3,"price":1023000,"currency":"HUF","windows":[{"height":1000,"width":1010,"shutter":"5cd40e54e61b4462dfbf361c"}],"parts":["5cd45b9e7a4c016ed6e4fce9","5cd45b94ae12367da257f98f","5cd45ba39ee9fe4647d08855"],"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-15 17:39:34 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:39:34 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:39 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:39:39 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:39:39 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:39:46 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":10},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":2},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-15 17:39:46 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:39:46 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:39:47 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:39:47 [32minfo[39m: orders are coming back for manager
+2019-05-15 17:39:47 [32minfo[39m: customers are coming back for manager
+2019-05-15 17:39:49 [32minfo[39m: orders are coming back for worker
+2019-05-15 17:39:49 [32minfo[39m: parts are coming back for worker
+2019-05-15 17:39:49 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-15 17:39:49 [32minfo[39m: orders are coming back for customer
+2019-05-15 17:39:49 [32minfo[39m: shutter info [{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":10},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":2},{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 04:11:22 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:11:22 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:22:56 [32minfo[39m: app listents on 9999
+2019-05-16 04:22:56 [32minfo[39m: successfully connected
+2019-05-16 04:24:46 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:24:46 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:24:48 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:24:48 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:24:51 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:24:51 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:24:52 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:24:52 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:24:53 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:24:53 [32minfo[39m: getting one order at a time
+2019-05-16 04:24:53 [34mdebug[39m: [object Object]
+2019-05-16 04:24:53 [32minfo[39m: getting one customer at a time
+2019-05-16 04:24:53 [34mdebug[39m: [object Object]
+2019-05-16 04:24:55 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:24:55 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:24:56 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:24:56 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:24:57 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:24:57 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:25:43 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:25:43 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:25:44 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:25:44 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:27:20 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:27:20 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:27:55 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:27:55 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:27:59 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:27:59 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:28:00 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:28:00 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:28:01 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-16 04:28:01 [32minfo[39m: orders are coming back for customer
+2019-05-16 04:28:01 [32minfo[39m: shutter info [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 04:28:47 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:28:47 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:06 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:29:06 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:09 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:29:09 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:29:10 [32minfo[39m: shutter info [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":1},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 04:29:10 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-16 04:29:10 [32minfo[39m: orders are coming back for customer
+2019-05-16 04:29:19 [32minfo[39m: {inserted count 1}
+2019-05-16 04:29:19 [32minfo[39m: updating shutter order count
+2019-05-16 04:29:19 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-16 04:29:19 [32minfo[39m: update oder count
+2019-05-16 04:29:21 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:29:21 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:24 [32minfo[39m: getting one order at a time
+2019-05-16 04:29:24 [34mdebug[39m: [object Object]
+2019-05-16 04:29:24 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:24 [32minfo[39m: getting one customer at a time
+2019-05-16 04:29:24 [34mdebug[39m: [object Object]
+2019-05-16 04:29:26 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:29:26 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:27 [32minfo[39m: getting one order at a time
+2019-05-16 04:29:27 [34mdebug[39m: [object Object]
+2019-05-16 04:29:27 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:27 [32minfo[39m: getting one customer at a time
+2019-05-16 04:29:27 [34mdebug[39m: [object Object]
+2019-05-16 04:29:30 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:29:30 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:31 [32minfo[39m: getting one order at a time
+2019-05-16 04:29:31 [34mdebug[39m: [object Object]
+2019-05-16 04:29:31 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:29:31 [32minfo[39m: getting one customer at a time
+2019-05-16 04:29:31 [34mdebug[39m: [object Object]
+2019-05-16 04:29:31 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:29:31 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:30:25 [32minfo[39m: orders are coming back for worker
+2019-05-16 04:30:25 [32minfo[39m: parts are coming back for worker
+2019-05-16 04:30:26 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:30:26 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:31:03 [32minfo[39m: orders are coming back for manager
+2019-05-16 04:31:03 [32minfo[39m: customers are coming back for manager
+2019-05-16 04:37:40 [32minfo[39m: app listents on 9999
+2019-05-16 04:37:40 [32minfo[39m: successfully connected
+2019-05-16 04:41:21 [32minfo[39m: app listents on 9999
+2019-05-16 04:41:21 [32minfo[39m: successfully connected
+2019-05-16 04:51:03 [32minfo[39m: app listents on 9999
+2019-05-16 04:51:03 [32minfo[39m: successfully connected
+2019-05-16 04:51:11 [32minfo[39m: app listents on 9999
+2019-05-16 04:51:11 [32minfo[39m: successfully connected
+2019-05-16 04:51:26 [32minfo[39m: app listents on 9999
+2019-05-16 04:51:26 [32minfo[39m: successfully connected
+2019-05-16 04:52:30 [32minfo[39m: app listents on 9999
+2019-05-16 04:52:30 [32minfo[39m: successfully connected
+2019-05-16 04:53:09 [32minfo[39m: app listents on 9999
+2019-05-16 04:53:09 [32minfo[39m: successfully connected
+2019-05-16 04:54:07 [32minfo[39m: getting the shutter data back
+2019-05-16 04:54:07 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:01:50 [32minfo[39m: orders are coming back for worker
+2019-05-16 05:01:50 [32minfo[39m: parts are coming back for worker
+2019-05-16 05:01:51 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:01:51 [32minfo[39m: getting the shutter data back
+2019-05-16 05:01:51 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:01:51 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:17:28 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:17:28 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:17:28 [32minfo[39m: getting the shutter data back
+2019-05-16 05:17:28 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:18:34 [32minfo[39m: orders are coming back for worker
+2019-05-16 05:18:34 [32minfo[39m: parts are coming back for worker
+2019-05-16 05:18:35 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:18:35 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:18:35 [32minfo[39m: getting the shutter data back
+2019-05-16 05:18:35 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:19:29 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:19:29 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:19:29 [32minfo[39m: getting the shutter data back
+2019-05-16 05:19:29 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:21:07 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:21:07 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:21:07 [32minfo[39m: getting the shutter data back
+2019-05-16 05:21:07 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:26:21 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:26:21 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:26:21 [32minfo[39m: getting the shutter data back
+2019-05-16 05:26:21 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:30:19 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:30:19 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:30:19 [32minfo[39m: getting the shutter data back
+2019-05-16 05:30:19 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:32:28 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:32:28 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:32:28 [32minfo[39m: getting the shutter data back
+2019-05-16 05:32:28 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:41:17 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-16 05:41:17 [32minfo[39m: orders are coming back for customer
+2019-05-16 05:41:17 [32minfo[39m: shutter info [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":0}]
+2019-05-16 05:41:29 [32minfo[39m: {inserted count 1}
+2019-05-16 05:41:29 [32minfo[39m: updating shutter order count
+2019-05-16 05:41:29 [32minfo[39m: data obj {"n":1,"nModified":1,"ok":1}
+2019-05-16 05:41:29 [32minfo[39m: update oder count
+2019-05-16 05:41:31 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]},{"_id":"5cdcdbe92a36256b0c63a997","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T03:41:29.014Z","stateOfOrder":1,"price":186345,"currency":"HUF","windows":[{"height":1010,"width":123,"shutter":"5cd40e717a661d8c631792f3"}],"parts":[]}]
+2019-05-16 05:41:31 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:41:31 [32minfo[39m: getting the shutter data back
+2019-05-16 05:41:31 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 05:41:52 [32minfo[39m: getting one order at a time
+2019-05-16 05:41:52 [34mdebug[39m: [object Object]
+2019-05-16 05:41:52 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:41:52 [32minfo[39m: getting one customer at a time
+2019-05-16 05:41:52 [34mdebug[39m: [object Object]
+2019-05-16 05:41:54 [32minfo[39m: updating was successful
+2019-05-16 05:41:54 [34mdebug[39m: data:{"n":1,"nModified":1,"ok":1}
+2019-05-16 05:41:54 [32minfo[39m: getting one order at a time
+2019-05-16 05:41:54 [34mdebug[39m: [object Object]
+2019-05-16 05:41:58 [32minfo[39m: orders are coming back for worker
+2019-05-16 05:41:58 [32minfo[39m: parts are coming back for worker
+2019-05-16 05:41:59 [32minfo[39m: getting one order at a time
+2019-05-16 05:41:59 [34mdebug[39m: {"_id":"5cdcdbe92a36256b0c63a997","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T03:41:29.014Z","stateOfOrder":1,"price":186345,"currency":"HUF","windows":[{"height":1010,"width":123,"shutter":"5cd40e717a661d8c631792f3"}],"parts":[],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12"}
+2019-05-16 05:41:59 [32minfo[39m: parts are coming back for worker
+2019-05-16 05:42:03 [32minfo[39m: updating was successful
+2019-05-16 05:42:03 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-16 05:42:03 [32minfo[39m: orders are coming back for worker
+2019-05-16 05:42:03 [32minfo[39m: getting one order at a time
+2019-05-16 05:42:03 [34mdebug[39m: {"_id":"5cdcdbe92a36256b0c63a997","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T03:42:03.158Z","dateOfSubmittingOrder":"2019-05-16T03:41:29.014Z","stateOfOrder":1,"price":199345,"currency":"HUF","windows":[{"height":1010,"width":123,"shutter":"5cd40e717a661d8c631792f3"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-16 05:42:04 [32minfo[39m: updating was successful
+2019-05-16 05:42:04 [34mdebug[39m: {"n":1,"nModified":1,"ok":1}
+2019-05-16 05:42:04 [32minfo[39m: orders are coming back for worker
+2019-05-16 05:42:04 [32minfo[39m: getting one order at a time
+2019-05-16 05:42:04 [34mdebug[39m: {"_id":"5cdcdbe92a36256b0c63a997","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-16T03:42:03.158Z","dateOfSubmittingOrder":"2019-05-16T03:41:29.014Z","stateOfOrder":3,"price":199345,"currency":"HUF","windows":[{"height":1010,"width":123,"shutter":"5cd40e717a661d8c631792f3"}],"parts":["5cd45ba39ee9fe4647d08855","5cd45b9970fe3a3daf8cc82a"],"statetOfOrder":2,"workerId":"5cd67c69e83d2bde68bbdc12","isInProgress":true}
+2019-05-16 05:42:05 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:42:05 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:42:05 [32minfo[39m: getting the shutter data back
+2019-05-16 05:42:05 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 05:42:09 [32minfo[39m: getting one customer at a time
+2019-05-16 05:42:09 [34mdebug[39m: [object Object]
+2019-05-16 05:42:09 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:42:09 [32minfo[39m: getting one order at a time
+2019-05-16 05:42:09 [34mdebug[39m: [object Object]
+2019-05-16 05:42:11 [32minfo[39m: orders are coming back for worker
+2019-05-16 05:42:11 [32minfo[39m: parts are coming back for worker
+2019-05-16 05:42:12 [32minfo[39m: {find data {"_id":"5ccf084196f89468f458cfbf","firstName":"Zsuzsanna","lastName":"Vas","email":"vaszsuzs@gmail.com","city":"Miskolc","address":"Kaptar u.34"}}
+2019-05-16 05:42:12 [32minfo[39m: orders are coming back for customer
+2019-05-16 05:42:12 [32minfo[39m: shutter info [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 05:42:12 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 05:42:12 [32minfo[39m: customers are coming back for manager
+2019-05-16 05:42:12 [32minfo[39m: getting the shutter data back
+2019-05-16 05:42:12 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 05:46:04 [32minfo[39m: app listents on 9999
+2019-05-16 05:46:04 [32minfo[39m: successfully connected
+2019-05-16 06:00:42 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:00:42 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 06:00:42 [32minfo[39m: getting the shutter data back
+2019-05-16 06:00:42 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]
+2019-05-16 06:01:21 [32minfo[39m: data:[{"_id":"5cd408ea629a211e6637116c","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"2019-05-31T00:00:00.000Z","dateOfSubmittingOrder":"2019-04-20T00:00:00.000Z","stateOfOrder":1,"price":12240,"currency":"HUF","windows":[{"height":100,"width":300,"shutter":"5cd40e54e61b4462dfbf361c"},{"height":200,"width":400,"shutter":"5cd40e64e78471307617d1bb"},{"height":700,"width":500,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"workerId":null,"parts":[]},{"_id":"5cdccaff0b6a07653756ef69","customerId":"5ccf084196f89468f458cfbf","dueDateOfAssembling":"1970-01-01T00:00:00.000Z","dateOfSubmittingOrder":"2019-05-16T02:29:19.071Z","stateOfOrder":1,"price":633920,"currency":"HUF","windows":[{"height":560,"width":566,"shutter":"5cd40e6a70a76d64fa5eccdb"}],"parts":[]}]
+2019-05-16 06:01:21 [32minfo[39m: customers are coming back for manager
+2019-05-16 06:01:21 [32minfo[39m: getting the shutter data back
+2019-05-16 06:01:21 [34mdebug[39m: data: [{"_id":"5cd40e6a70a76d64fa5eccdb","name":"Bay Window Shutter","basePrice":20000,"currency":"HUF","orderCount":2},{"_id":"5cd40e64e78471307617d1bb","name":"Conservatory Shutter","basePrice":30000,"currency":"HUF","orderCount":1},{"_id":"5cd40e54e61b4462dfbf361c","name":"Waterproof Shutter","basePrice":10000,"currency":"HUF","orderCount":1},{"_id":"5cd40e717a661d8c631792f3","name":"Solid Shutter","basePrice":15000,"currency":"HUF","orderCount":1}]

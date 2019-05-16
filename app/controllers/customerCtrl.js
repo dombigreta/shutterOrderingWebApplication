@@ -21,27 +21,26 @@ router.get('/getShutterTypes',(req,res) => {
 
 router.post('/getCustomerData', (req,res) => {
     let customerId = req.body.customerId;
-
     service.getCustomerDataByCustomerId(customerId, (data) => {
         res.send(data);
     })
 });
 
 router.post('/createOrder',[
-    check('customerId').isString(),
-    check('dueDateOfAssembling').exists(),
-    check('isInProgress').exists(),
-    check('isDone').exists(),
+    check('customerId').isMongoId(),
     check('parts').isArray(),
     check('windows').isArray(),
+    check('price').isNumeric(),
+    check('currency').isCurrency()
 ], (req,res) => {
     let errors = validationResult(req);
     if(!errors.isEmpty){
-        res.send(errors);
+        res.status(400).send(errors);
     }
+
     let order = req.body;
     service.createOrder(order,(result) => {
-            res.send({message:'the order was created', level:'info'});
+            res.status(200).send({message:'the order was created', level:'info'});
 
     })
 });

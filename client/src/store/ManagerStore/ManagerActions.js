@@ -55,3 +55,9 @@ export function getStatistics(){
         type:MANAGER_STORE_ACTIONS.GET_STATISTICS
     });
 }
+
+export function getShuttersDataForStatistics(){
+    ManagerDispatcher.handleAction({
+        type:MANAGER_STORE_ACTIONS.GET_SHUTTER_DATA_FOR_STATISTICS
+    })
+}

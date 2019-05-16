@@ -114,6 +114,18 @@ dispatcher.register((data) => {
     .then((response) => response.json())
     .then((data) => ManagerStore._statistics = data)
     .then(() => ManagerStore.emitChange());
+});
+
+// --- getShuttersDataForStatistics
+dispatcher.register((data) => {
+    if(data.action.type !== MANAGER_STORE_ACTIONS.GET_SHUTTER_DATA_FOR_STATISTICS){
+        return;
+    }
+
+    fetch('/manager/getShuttersDataForStatistics')
+    .then((response) => response.json())
+    .then((data) => ManagerStore._shutterData = data)
+    .then(() => ManagerStore.emitChange());
 })
 
 export default dispatcher;

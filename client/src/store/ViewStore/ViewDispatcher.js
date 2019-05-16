@@ -69,7 +69,7 @@ dispatcher.register((data) => {
     }
 
     let props = {orderId:data.action.orderId};
-
+    console.log(ViewStore._currentView);
     switch(ViewStore._currentView){
         case VIEWS.WORKER_VIEW:{
             ReactDOM.render(
@@ -93,6 +93,8 @@ dispatcher.register((data) => {
     if(data.action.type !== VIEW_STORE_ACTIONS.BACK_TO){
         return;
     }
+
+    console.log(ViewStore._currentView);
     switch(ViewStore._currentView){
         case VIEWS.WORKER_VIEW:{
             dispatcher.handleAction({type:VIEW_STORE_ACTIONS.SHOW_WORKER_VIEW});

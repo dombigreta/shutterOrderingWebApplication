@@ -30,6 +30,12 @@ function createOrder(order,callback){
          test.strictEqual(null, err);
          test.strictEqual(1, data.insertedCount)
          logger.info(`{inserted count ${data.insertedCount}}`);
+         logger.info(`updating shutter order count`);
+         order.windows.forEach(window => updateShutterStatistics(window.shutter),(err) => {
+             if(err !== undefined){
+                 callback('something must have happened');
+             }
+         });
          callback(data);
      })
 }
@@ -39,20 +45,44 @@ function getShutterTypes(callback){
     const collection = db.collection('shutters');
     collection.find({}).toArray((err, data) => {
        test.strictEqual(null,err);
-       logger.info('Shutter types came back from db');
+       logger.info(`shutter info ${JSON.stringify(data)}`);
         callback(data);
     })
 }
 
 function getCustomerDataByCustomerId(customerId, callback){
-    console.log(customerId);
     const db = connection.getDatabase();
     const collection = db.collection('customers');
     collection.findOne({'_id': ObjectId(customerId)},(err, data) => {
         test.strictEqual(null, err);
-        logger.info(`{find data ${data}}`);
+        logger.info(`{find data ${JSON.stringify(data)}}`);
         callback(data);
     })
+}
+
+function getShutterById(shutterId, callback){
+    const db = connection.getDatabase();
+    const collection = db.collection('shutters');
+    collection.findOne({'_id':ObjectId(shutterId)},(err, data) =>{
+        test.strictEqual(null,err);
+        logger.info(`Shutter info: ${JSON.stringify(data)}`);
+        callback(data);
+    })
+}
+
+function updateShutterStatistics(shutterId, callback){
+    const db = connection.getDatabase();
+    const collection = db.collection('shutters');
+    collection.updateOne(   {'_id':ObjectId(shutterId)},
+                               {$inc:{'orderCount':1}})
+    .then((data, err) => {
+        if(err !== undefined){
+            callback(err);
+        }
+        test.strictEqual(undefined,err);
+        logger.info(`data obj ${JSON.stringify(data)}`)
+        logger.info('update oder count');
+    });
 }
 
 

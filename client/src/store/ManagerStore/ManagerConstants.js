@@ -6,5 +6,6 @@ module.exports = {
     ORGANISE_INSTALLATION:'organiseInstallation',
     SET_EDITING_ORDER_UNDEFINED:'setEditingOrderUndefined',
     CREATE_INVOICE:'createInvoice',
-    GET_STATISTICS:'getstatistics'
+    GET_STATISTICS:'getstatistics',
+    GET_SHUTTER_DATA_FOR_STATISTICS: 'getShuttersDataForStatistics'
 }

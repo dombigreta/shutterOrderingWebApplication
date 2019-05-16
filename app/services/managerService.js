@@ -131,4 +131,9 @@ ManagerService.prototype.getStatistics = function(callback){
         callback(stat);
     })
 }
+
+ManagerService.prototype.getShuttersDataForStatistics = function(callback){
+    this.dao.getShuttersDataForStatistics((data) => callback(data));
+}
+
 module.exports = ManagerService;
