@@ -99,7 +99,11 @@ dispatcher.register((data) => {
         body:JSON.stringify({orderId: data.action.orderId, 
                             customerId: data.action.customerId})})
         .then((response) => response.json())
-        .then((data) => console.log(data))
+        .then((data) => {
+          
+            ManagerStore._message = data.message;
+            ManagerStore._isInvoicecreated = data.isInvoicecreated;
+        })
         .then(() => ManagerStore.emitChange());
     
 });

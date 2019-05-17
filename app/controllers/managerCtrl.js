@@ -38,7 +38,7 @@ router.post('/organiseInstallation',(req,res) => {
     let orderId = req.body.orderId;
     let workerId = req.body.workerId;
     service.organiseInstallation(orderId, workerId, (result) => {
-        res.send({message:'the invoice was created', level:'info'});
+        res.send({message:'The job was assigned to a worker'});
     })
 });
 
@@ -53,7 +53,7 @@ router.post('/createInvoice',(req,res) => {
       if(!fs.existsSync(file)){
         res.send({error:'the file is not found', level:'error'});
       }
-      res.send({message:'The invoice was created in the invoices folder and the order is closed'}); 
+      res.send({message:'The invoice was created in the invoices folder and the order is closed',  isInvoicecreated:true}); 
     })
 })
 

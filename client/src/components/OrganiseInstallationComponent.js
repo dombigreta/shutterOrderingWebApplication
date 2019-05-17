@@ -12,7 +12,9 @@ class OrganiseInstallationComponent extends React.Component{
         editingOrder: ManagerStore._editingOrder,
         customerData: ManagerStore.customerData,
         workers: ManagerStore._workers,
-        selectedWorker:null
+        selectedWorker:null,
+        isInvoicecreated:ManagerStore._inInvoiceCreated,
+        message:ManagerStore._message,
     }
 
     componentDidMount(){
@@ -29,11 +31,25 @@ class OrganiseInstallationComponent extends React.Component{
     handleChange = () => {
         this.setState({editingOrder:ManagerStore._editingOrder, 
                         customerData: ManagerStore._customerData,
-                        workers:ManagerStore._workers}, () => {
+                        workers:ManagerStore._workers,
+                        isInvoicecreated:ManagerStore._isInvoicecreated,
+                        message:ManagerStore._message
+                    }, () => {
                             if(this.state.workers.length !== 0){
                                 this.setState({selectedWorker: ManagerStore._workers[0]});
                             }
                         });
+    }
+
+    renderOrderIsFinishedCard = () =>{
+        return (
+                    <div className="p-3">
+                    <Card className="p-3 mb-3">
+                    <Card.Title>Information</Card.Title>
+                    <Card.Body>The order has been paid and invoice was created</Card.Body>
+                </Card>
+                </div>
+        )
     }
     
     renderCustomerInformationCard = () => {
@@ -51,7 +67,9 @@ class OrganiseInstallationComponent extends React.Component{
                     <div className="m-1"><label className="font-weight-bold">Address: </label> {this.state.customerData.address}</div>
                     </div>
                </div>
-        <button className="btn btn-sm btn-danger mb-3" onClick={this.handleCreatingInvocie}>create invoce</button>
+        <button className="btn btn-sm btn-danger mb-3"
+             disabled={this.state.editingOrder.isInvoicecreated} 
+            onClick={this.handleCreatingInvocie}>create invoce</button>
         </Card>
         </div>
         )
@@ -76,6 +94,7 @@ class OrganiseInstallationComponent extends React.Component{
             return;
         }
         ManagerActions.createInvoice(orderId,customerId,shutterId);
+
         ManagerActions.getOrderById(orderId);
     }
 
@@ -92,7 +111,8 @@ class OrganiseInstallationComponent extends React.Component{
                 {this.state.workers.map((worker) => <span key={worker._id} onClick={() => this.selectWorker(worker)} className="dropdown-item">{worker.lastName} {worker.firstName}</span>)}
             </div>
             </div>
-            <button className="btn btn-sm btn-info" onClick={this.handleOrganisingJob}>Start organising job</button>
+            <button className="btn btn-sm btn-info"
+            onClick={this.handleOrganisingJob}>Start organising job</button>
              </div>
           </div>
             );
@@ -100,16 +120,21 @@ class OrganiseInstallationComponent extends React.Component{
 
     handleRenderingByOrderState = () =>{
         let state = this.state.editingOrder.stateOfOrder;
-        switch(state) {
-            case ORDER_STATES.DONE: return this.renderCustomerInformationCard();
-            break;
-            case ORDER_STATES.SUBMITTED:return this.renderWorkerDropDown();
-            break;
+        if(this.state.isInvoicecreated || state == ORDER_STATES.PAYED){
+            return this.renderOrderIsFinishedCard();
+        }
+        else if (state == ORDER_STATES.SUBMITTED){
+            return this.renderWorkerDropDown();
+        }
+        else if (state == ORDER_STATES.DONE){
+            return this.renderCustomerInformationCard();
+        }
+        else{
+            return (<React.Fragment></React.Fragment>)
         }
     }
  
     render(){
-
         return (
             <React.Fragment>
             {this.handleRenderingByOrderState()}

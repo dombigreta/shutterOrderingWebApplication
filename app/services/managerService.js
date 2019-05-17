@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const appRoot = require('app-root-path');
 const statesOfOrder = require('../../client/src/utils/stateOfOrderConstants');
+const logger = require('../winston.config');
 
 
 function ManagerService(dataAccess){
@@ -91,7 +92,8 @@ ManagerService.prototype.createInvoice = function(orderId, customerId, callback)
     
             pdf.pdfkitDoc.pipe(fs.createWriteStream(path.join(appRoot.path,'app', 'invoices',fileName)));
             this.dao.closeOrder(order._id, (data) =>{
-                
+                logger.info('the order should be closed');
+                logger.debug(`data for closing order ${data}`);
             });
             callback(fileName);
 })}

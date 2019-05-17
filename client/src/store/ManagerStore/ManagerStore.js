@@ -7,6 +7,8 @@ class ManagerStore extends EventEmitter{
     _editingOrder = null;
     _customerData = null;
     _statistics = null;
+    _message = '';
+    _isInvoicecreated = false;
     
     emitChange(){
         this.emit('change');
